@@ -7,6 +7,8 @@ import logging.config
 import os
 import json
 
+
+
 #dump printing
 import pprint
 
@@ -70,9 +72,20 @@ class GetModuleList:
         if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
                   
             logger.info('accessing /getModuleList')
-            pyDict = {'one':1,'two':2}
+
+            #logger.info(os.listdir("/home/roshan/"))
+            from os import walk
+
+            f = []
+            for (dirpath, dirnames, filenames) in walk("/etc/puppet/modules/"):
+                f.extend(dirnames)
+                break
+
+            logger.debug(f)                
+            
+            
             web.header('Content-Type', 'application/json')
-            return json.dumps(pyDict)
+            return json.dumps(f)
             
             #return [name for name in os.listdir(dir)
             #if os.path.isdir(os.path.join(dir, name))]
