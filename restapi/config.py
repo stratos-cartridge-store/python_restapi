@@ -3,7 +3,8 @@ import web
 #Routing
 urls = (
     '/','Index',
-    '/login','Login'
+    '/login','Login',
+    '/getModuleList','GetModuleList'
 )
 
 #allowed Users

@@ -4,6 +4,12 @@ import base64
 from xml.dom import minidom
 import logging
 import logging.config
+import os
+import json
+
+#dump printing
+import pprint
+
 #import config.py ;)
 import config
 
@@ -26,17 +32,10 @@ CherryPyWSGIServer.ssl_private_key = "/home/roshan/workspace/key/ssl-cert-snakeo
 class Index:
     def GET(self):
         if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
-            #read xml
-            xmldoc = minidom.parse('items.xml')
-
-            itemlist = xmldoc.getElementsByTagName('item')
-
-            #from pprint import pprint
-            #pprint (vars(your_object))
-            #logger.debug(itemlist)
-
-            #return item list
-            return len(itemlist)
+                  
+            logger.info('You are accessing /')
+            #return
+            return "Logged in!"
 
         else:
             #logger.info('Prompting http basic auth!')
@@ -55,7 +54,7 @@ class Login:
             username,password = base64.decodestring(auth).split(':')
             if (username,password) in config.allowed:
 
-                #logger.info('Successfully logged in')
+                logger.info('User Granted..')
 
                 raise web.seeother('/')
             else:
@@ -64,6 +63,24 @@ class Login:
             web.header('WWW-Authenticate','Basic realm="Auth example"')
             web.ctx.status = '401 Unauthorized'
             return
+
+#Read puppet master folders and return a xml
+class GetModuleList:
+    def GET(self):
+        if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
+                  
+            logger.info('accessing /getModuleList')
+            pyDict = {'one':1,'two':2}
+            web.header('Content-Type', 'application/json')
+            return json.dumps(pyDict)
+            
+            #return [name for name in os.listdir(dir)
+            #if os.path.isdir(os.path.join(dir, name))]
+
+        else:
+            #logger.info('Prompting http basic auth!')
+            raise web.seeother('/login')
+
 
 
 
