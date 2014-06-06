@@ -1,2 +1,0 @@
-2014-06-04 15:51:50,388 - restapi - INFO - accessing /getModuleList
-2014-06-04 15:51:50,388 - restapi - INFO - ['java', 'nodejs123', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'wordpress', 'php']
