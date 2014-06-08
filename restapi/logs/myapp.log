@@ -589,3 +589,9 @@
 2014-06-06 08:47:35,164 - restapi - DEBUG - Download URL is = http://atuwa/IBM/ibm-java-sdk-6.0-5.0-linux-x86_64.tgz
 2014-06-06 08:47:35,171 - restapi - INFO - ibm-java-sdk-6.0-5.0-linux-x86_64.tgzFile has started to download
 2014-06-06 08:47:56,788 - restapi - INFO - ibm-java-sdk-6.0-5.0-linux-x86_64.tgzFile download finished
+2014-06-08 05:34:11,633 - restapi - INFO - accessing /getModuleList
+2014-06-08 05:34:11,633 - restapi - DEBUG - ['java', 'nodejs123', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'wordpress', 'php']
+2014-06-08 12:59:56,159 - restapi - DEBUG - module is here
+2014-06-08 13:00:21,154 - restapi - DEBUG - module is here
+2014-06-08 13:00:29,752 - restapi - DEBUG - module is here
+2014-06-08 13:04:55,900 - restapi - INFO - module is already available abort download

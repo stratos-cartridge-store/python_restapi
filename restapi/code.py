@@ -30,8 +30,8 @@ logger = logging.getLogger('restapi')
 fileDownLoadLogger = logging.getLogger('filedownloader')
 
 #Private and cert keys
-CherryPyWSGIServer.ssl_certificate = "/home/roshan/workspace/key/ssl-cert-snakeoil.pem"
-CherryPyWSGIServer.ssl_private_key = "/home/roshan/workspace/key/ssl-cert-snakeoil.key"
+CherryPyWSGIServer.ssl_certificate = conf.config.ssl_certificate
+CherryPyWSGIServer.ssl_private_key = conf.config.ssl_privatekey
 
 
 
@@ -102,22 +102,35 @@ class GetModuleList:
 
 #install/download puppet module 
 class InstallPuppetModule:
-    def GET(self,url):
+    def GET(self,url,name):
 
         #puppet module URL
-        url = "http://atuwa/IBM/ibm-java-sdk-6.0-5.0-linux-x86_64.tgz"
+        #url = "https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1"
 
-        #start the subprocess sweet of python <3.
-        p = subprocess.Popen(['python', 'backendprocess.py' ,url])
+        #name = "mymodule"
 
+        #logger.info(os.listdir("/home/roshan/"))
+        from os import walk
+
+        f = []
+        for (dirpath, dirnames, filenames) in walk(conf.config.puppetMasterLocation):
+            f.extend(dirnames)
+            break
+
+        moduleNameInLowerCase = name.lower() 
         
         web.header('Content-Type', 'application/json')
 
-        return json.dumps("your moudle will be installed soon!! see progress feature will be  available soon!!")
+        if moduleNameInLowerCase in f:
+            logger.info("module is already available abort download")  
+            return json.dumps("Module is already available in puppet master")
+        else:
+            #start the subprocess sweet of python <3.
+            p = subprocess.Popen(['python', 'backendprocess.py' ,url,name])
+            return json.dumps("your moudle will be installed soon!! see progress feature will be  available soon!!")
 
             
-        
-       
+
 if __name__ == "__main__":
     app = web.application(conf.config.urls, globals())
     app.run() 
