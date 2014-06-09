@@ -129,6 +129,40 @@ class InstallPuppetModule:
             #logger.info('Prompting http basic auth!')
             raise web.seeother('/login')
 
+class GetModuleInstallationProgress:
+    #parameters module name
+    def GET(self,name):
+
+        if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
+
+            a=open('/home/roshan/workspace/webpy/restapi/logs/filedownload.log','rb')
+            lines = a.readlines()
+            
+            last_line = lines[-1]
+
+            return json.dumps("lastline"+last_line)
+
+        else:
+            #logger.info('Prompting http basic auth!')
+            raise web.seeother('/login')
+
+class IsModuleInstalled:
+    #parameter module name
+    def GET(self,name):
+        if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
+
+            a=open('/home/roshan/workspace/webpy/restapi/logs/filedownload.log','rb')
+            lines = a.readlines()
+            
+            last_line = lines[-1]
+            
+            return json.dumps(re.sub('[^A-Za-z]+', '', last_line))
+
+        else:
+            #logger.info('Prompting http basic auth!')
+            raise web.seeother('/login')
+
+
             
 
 if __name__ == "__main__":

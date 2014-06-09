@@ -5,7 +5,9 @@ urls = (
     '/','Index',
     '/login','Login',
     '/getModuleList','GetModuleList',
-    '/installPuppetModule/url/(.+)/name/(.+)', 'InstallPuppetModule'
+    '/installPuppetModule/url/(.+)/name/(.+)', 'InstallPuppetModule',
+    '/getModuleInstallationProgress/name/(.+)', 'GetModuleInstallationProgress',
+    '/isModuleInstalled/name/(.+)', 'IsModuleInstalled'
 )
 
 #allowed Users
