@@ -48,3 +48,17 @@ yes
 2014-06-09 11:25:13,332 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
 2014-06-09 11:25:13,333 - filedownloader - DEBUG -       1255  [100.00%]
 2014-06-09 11:25:13,762 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-09 11:45:19,030 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-09 11:45:19,030 - filedownloader - DEBUG - Module Name is = mynewmodule9
+2014-06-09 11:45:24,672 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-09 11:45:24,672 - filedownloader - DEBUG - download location/tmp/mynewmodule9
+2014-06-09 11:45:24,672 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-09 11:45:24,673 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-09 11:45:25,453 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-09 11:46:54,002 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-09 11:46:54,002 - filedownloader - DEBUG - Module Name is = mynewmodule9
+2014-06-09 11:46:56,541 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-09 11:46:56,542 - filedownloader - DEBUG - download location/tmp/mynewmodule9
+2014-06-09 11:46:56,542 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-09 11:46:56,543 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-09 11:46:56,858 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished

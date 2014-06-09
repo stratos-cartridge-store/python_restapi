@@ -69,7 +69,7 @@ try:
     file_size = int(meta.getheaders("Content-Length")[0])
 
     #open a log file 
-    file = open("logs/modules/"+moduleName+".log", "a")
+    file = open("logs/modules/"+moduleName+".log", "w")
 
     fileDownLoadLogger.debug("Downloading: %s Bytes: %s" % (file_name, file_size))
     file.write("Downloading: %s Bytes: %s" % (file_name, file_size) + '\n')
