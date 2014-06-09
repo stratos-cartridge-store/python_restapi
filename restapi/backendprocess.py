@@ -10,6 +10,7 @@ import sys
 import subprocess
 import urllib2
 import errno
+import tarfile
 
 #dump printing
 import pprint
@@ -94,12 +95,11 @@ try:
     	counter += 1
     f.close()
 
+    #remove folder if there is a already one
     os.system("sudo rm -rf" +" " +tmpExtractLocation)
-    import tarfile
+
     tar = tarfile.open(tmpExtractLocation+".tar.gz", "r:gz")
     
-    
-
     #we create our own folder to put extract things..becasue we don't no what is the foldername of targz yet
     tar.extractall(tmpExtractLocation)
 
@@ -117,14 +117,32 @@ try:
     #destination folder 
     dest = "/etc/puppet/modules/"
     
+
     try:
+
         os.system("sudo mv" +" "+src+" "+dest)
-        os.system("sudo chmod 775 -R "+" "+dest+"/"+moduleName)
+
+        #give permission for while in order to get write permission
+        os.system("sudo chmod 777 /etc/puppet/manifests/nodes.pp")
+
+        try:
+            with open("/etc/puppet/modules/"+moduleName+"/nodes.pp") as f:
+                with open("/etc/puppet/manifests/nodes.pp", "a") as f1:
+                    for line in f:
+                        f1.write(line)
+
+            os.system("sudo chmod 775 -R "+" "+dest+"/"+moduleName)
+            os.system("sudo rm "+" "+dest+"/"+moduleName+"/nodes.pp")
+            os.system("sudo chmod 775 /etc/puppet/manifests/nodes.pp")
+
+            fileDownLoadLogger.info(file_name + "File download finished")
+
+        except Exception as e:
+            fileDownLoadLogger.info('Error while appending to the nodes.pp abort the process: %s' % e)
+            os.system("sudo rm -rf "+" "+dest+"/"+moduleName)
+
     except OSError as e:
-        print('Directory not copied. Error: %s' % e)
-    
-    
-    fileDownLoadLogger.info(file_name + "File download finished")
+        fileDownLoadLogger.info('Directory not copied. Error: %s' % e)
 
     #web.header('Content-Type', 'application/json')
 
