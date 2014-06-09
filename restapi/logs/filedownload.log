@@ -6,3 +6,45 @@
 2014-06-09 08:41:14,650 - filedownloader - DEBUG -       1255  [100.00%]
 2014-06-09 08:41:15,634 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
 yes
+2014-06-09 09:53:22,658 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-09 09:53:22,658 - filedownloader - DEBUG - Module Name is = mynewmodule4
+2014-06-09 09:53:25,317 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-09 09:53:25,318 - filedownloader - DEBUG - download location/tmp/mynewmodule4
+2014-06-09 09:53:25,319 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-09 09:53:25,320 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-09 09:53:26,988 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-09 09:54:56,692 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-09 09:54:56,692 - filedownloader - DEBUG - Module Name is = mynewmodule5
+2014-06-09 09:55:03,951 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-09 09:55:03,952 - filedownloader - DEBUG - download location/tmp/mynewmodule5
+2014-06-09 09:55:03,952 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-09 09:55:03,952 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-09 09:55:04,274 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-09 09:58:15,231 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-09 09:58:15,231 - filedownloader - DEBUG - Module Name is = mynewmodule6
+2014-06-09 09:58:17,833 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-09 09:58:17,833 - filedownloader - DEBUG - download location/tmp/mynewmodule6
+2014-06-09 09:58:17,833 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-09 09:58:17,834 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-09 09:58:18,052 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-09 10:20:35,062 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-09 10:20:35,062 - filedownloader - DEBUG - Module Name is = mynewmodule7
+2014-06-09 10:20:37,695 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-09 10:20:37,696 - filedownloader - DEBUG - download location/tmp/mynewmodule7
+2014-06-09 10:20:37,696 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-09 10:20:37,696 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-09 10:20:39,167 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-09 11:23:50,293 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-09 11:23:50,293 - filedownloader - DEBUG - Module Name is = mynewmodule8
+2014-06-09 11:23:53,063 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-09 11:23:53,064 - filedownloader - DEBUG - download location/tmp/mynewmodule8
+2014-06-09 11:23:53,065 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-09 11:23:53,065 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-09 11:23:54,244 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-09 11:25:10,575 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-09 11:25:10,575 - filedownloader - DEBUG - Module Name is = mynewmodule9
+2014-06-09 11:25:13,331 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-09 11:25:13,332 - filedownloader - DEBUG - download location/tmp/mynewmodule9
+2014-06-09 11:25:13,332 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-09 11:25:13,333 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-09 11:25:13,762 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished

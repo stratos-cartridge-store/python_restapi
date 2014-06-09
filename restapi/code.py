@@ -135,13 +135,18 @@ class GetModuleInstallationProgress:
 
         if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
 
-            a=open('/home/roshan/workspace/webpy/restapi/logs/filedownload.log','rb')
-            lines = a.readlines()
+            #a=open('/home/roshan/workspace/webpy/restapi/logs/filedownload.log','rb')
+
             
-            last_line = lines[-1]
+            f = open("logs/modules/"+name+".log",'r')
+            myList = []
+            for line in f:
+                myList.append(line)
+           
 
-            return json.dumps("lastline"+last_line)
-
+            web.header('Content-Type', 'application/json')
+            return json.dumps(myList)
+            #return myList
         else:
             #logger.info('Prompting http basic auth!')
             raise web.seeother('/login')
@@ -151,11 +156,12 @@ class IsModuleInstalled:
     def GET(self,name):
         if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
 
-            a=open('/home/roshan/workspace/webpy/restapi/logs/filedownload.log','rb')
+            a = open("logs/modules/"+name+".log",'r')
             lines = a.readlines()
             
             last_line = lines[-1]
-            
+
+            web.header('Content-Type', 'application/json')
             return json.dumps(re.sub('[^A-Za-z]+', '', last_line))
 
         else:

@@ -68,7 +68,12 @@ try:
 
     file_size = int(meta.getheaders("Content-Length")[0])
 
+    #open a log file 
+    file = open("logs/modules/"+moduleName+".log", "a")
+
     fileDownLoadLogger.debug("Downloading: %s Bytes: %s" % (file_name, file_size))
+    file.write("Downloading: %s Bytes: %s" % (file_name, file_size) + '\n')
+
 
     file_size_dl = 0
     block_sz = 8192
@@ -76,6 +81,9 @@ try:
     #counter to controll number of logs line while reading file
     counter = 0
 
+    
+
+    #begins downloads
     while True:
 
         buffer = u.read(block_sz)
@@ -91,8 +99,10 @@ try:
             status = r"%10d  [%3.2f%%]" % (file_size_dl, file_size_dl * 100. / file_size)
             status = status + chr(8)*(len(status)+1)
             fileDownLoadLogger.debug(status)
+            file.write(status.strip() + '\n')
         
     	counter += 1
+
     f.close()
 
     #remove folder if there is a already one
@@ -136,6 +146,8 @@ try:
             os.system("sudo chmod 775 /etc/puppet/manifests/nodes.pp")
 
             fileDownLoadLogger.info(file_name + "File download finished")
+            file.write("Is file download complete??"+ '\n')
+            file.write("yes")
 
         except Exception as e:
             fileDownLoadLogger.info('Error while appending to the nodes.pp abort the process: %s' % e)
