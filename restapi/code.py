@@ -169,7 +169,47 @@ class IsModuleInstalled:
             raise web.seeother('/login')
 
 
-            
+class GetLockedModules:
+    #parameter module name
+    def GET(self):
+        if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
+
+            #python dictionary should return with list of installed modules and on progress modules
+
+            #installed module list
+            installedModuleList = []
+            for (dirpath, dirnames, filenames) in walk(conf.config.puppetMasterLocation):
+                installedModuleList.extend(dirnames)
+                break
+
+            #inprogress module lists
+            inProgressModuleList = []
+
+            import xml.etree.ElementTree as ET
+            tree = ET.parse('logs/progresslist.xml')
+            root = tree.getroot()
+            for module in root.findall('module'):
+                name = module.find('name').text
+                logger.info(name)
+                inProgressModuleList.append(name)
+
+
+            logger.info(inProgressModuleList)
+            #merge tow lists and make a python dictionary
+
+            rec = {
+                  'installed': installedModuleList,
+                  'inprogress': inProgressModuleList,
+                  }
+
+            web.header('Content-Type', 'application/json')
+            return json.dumps(rec)
+
+        else:
+            #logger.info('Prompting http basic auth!')
+            raise web.seeother('/login')
+
+
 
 if __name__ == "__main__":
     app = web.application(conf.config.urls, globals())

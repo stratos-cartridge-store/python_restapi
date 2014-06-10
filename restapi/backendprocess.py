@@ -54,6 +54,17 @@ req = urllib2.Request(url, headers=hdr)
 
 try:
 
+    #open a file to store inprogress module names
+    import xml.etree.ElementTree as ET
+    tree = ET.parse('logs/progresslist.xml')
+    root = tree.getroot()
+    a = ET.SubElement(root,'module')
+    b = ET.SubElement(a ,'name')
+    b.text=moduleName
+    fileDownLoadLogger.info("added to the progresslist xml "+moduleName)
+    tree.write('logs/progresslist.xml') 
+
+    #open request to download
     u = urllib2.urlopen(req)
 
     fileDownLoadLogger.debug(file_name + "File has opened")
@@ -80,8 +91,6 @@ try:
 
     #counter to controll number of logs line while reading file
     counter = 0
-
-    
 
     #begins downloads
     while True:
@@ -146,8 +155,27 @@ try:
             os.system("sudo chmod 775 /etc/puppet/manifests/nodes.pp")
 
             fileDownLoadLogger.info(file_name + "File download finished")
-            file.write("Is file download complete??"+ '\n')
-            file.write("yes")
+
+            try:
+                #removing from progresslist xml
+                import xml.etree.ElementTree as ET
+                tree = ET.parse('logs/progresslist.xml')
+                root = tree.getroot()
+                for module in root.findall('module'):
+                    name = module.find('name').text
+
+                    if name==moduleName:
+                        root.remove(module)
+                        fileDownLoadLogger.info("Removed from progresslist.xml "+name)                    
+                
+                tree.write('logs/progresslist.xml')
+
+                file.write("Is file download complete??"+ '\n')
+                file.write("yes")
+
+            except Exception as e:
+                fileDownLoadLogger.info('Error while removing module name from progresslist: %s' % e)
+                os.system("sudo rm -rf "+" "+dest+"/"+moduleName)
 
         except Exception as e:
             fileDownLoadLogger.info('Error while appending to the nodes.pp abort the process: %s' % e)
@@ -155,10 +183,6 @@ try:
 
     except OSError as e:
         fileDownLoadLogger.info('Directory not copied. Error: %s' % e)
-
-    #web.header('Content-Type', 'application/json')
-
-    #return json.dumps(url)
 
 except urllib2.HTTPError, e:
 

@@ -62,3 +62,64 @@ yes
 2014-06-09 11:46:56,542 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
 2014-06-09 11:46:56,543 - filedownloader - DEBUG -       1255  [100.00%]
 2014-06-09 11:46:56,858 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-10 08:28:39,068 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-10 08:28:39,068 - filedownloader - DEBUG - Module Name is = testmodule1
+2014-06-10 08:29:27,607 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-10 08:29:27,607 - filedownloader - DEBUG - Module Name is = testmodule1
+2014-06-10 08:35:20,871 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-10 08:35:20,871 - filedownloader - DEBUG - Module Name is = testmodule1
+2014-06-10 08:38:31,250 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-10 08:38:31,250 - filedownloader - DEBUG - Module Name is = testmodule1
+2014-06-10 08:38:53,216 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-10 08:38:53,216 - filedownloader - DEBUG - Module Name is = testmodule1
+2014-06-10 08:38:56,134 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-10 08:38:56,134 - filedownloader - DEBUG - download location/tmp/testmodule1
+2014-06-10 08:38:56,134 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-10 08:38:56,135 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-10 08:38:57,500 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-10 08:39:45,492 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-10 08:39:45,492 - filedownloader - DEBUG - Module Name is = testmodule2
+2014-06-10 08:39:50,239 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-10 08:39:50,240 - filedownloader - DEBUG - download location/tmp/testmodule2
+2014-06-10 08:39:50,240 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-10 08:39:50,241 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-10 08:39:52,478 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-10 08:51:48,164 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-10 08:51:48,165 - filedownloader - DEBUG - Module Name is = testmodule3
+2014-06-10 08:52:10,816 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-10 08:52:10,816 - filedownloader - DEBUG - Module Name is = testmodule3
+2014-06-10 08:52:10,818 - filedownloader - INFO - added to the progresslist xml testmodule3
+2014-06-10 08:52:15,471 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-10 08:52:15,471 - filedownloader - DEBUG - download location/tmp/testmodule3
+2014-06-10 08:52:15,471 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-10 08:52:15,472 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-10 08:52:15,968 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-10 08:52:15,969 - filedownloader - INFO - Error while appending to the nodes.pp abort the process: 'str' object has no attribute 'findall'
+2014-06-10 09:03:22,543 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-10 09:03:22,544 - filedownloader - DEBUG - Module Name is = testmodule4
+2014-06-10 09:03:22,545 - filedownloader - INFO - added to the progresslist xml testmodule4
+2014-06-10 09:03:25,200 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-10 09:03:25,200 - filedownloader - DEBUG - download location/tmp/testmodule4
+2014-06-10 09:03:25,200 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-10 09:03:25,200 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-10 09:03:26,002 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-10 09:03:26,003 - filedownloader - INFO - Error while appending to the nodes.pp abort the process: 'str' object has no attribute 'findall'
+2014-06-10 09:10:02,418 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-10 09:10:02,418 - filedownloader - DEBUG - Module Name is = testmodule4
+2014-06-10 09:10:02,420 - filedownloader - INFO - added to the progresslist xml testmodule4
+2014-06-10 09:10:05,313 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-10 09:10:05,314 - filedownloader - DEBUG - download location/tmp/testmodule4
+2014-06-10 09:10:05,314 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-10 09:10:05,315 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-10 09:10:05,392 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-10 09:10:05,393 - filedownloader - INFO - Removed from progresslist.xml testmodule4
+2014-06-10 09:10:05,393 - filedownloader - INFO - Removed from progresslist.xml testmodule4
+2014-06-10 09:11:01,797 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-10 09:11:01,797 - filedownloader - DEBUG - Module Name is = testmodule5
+2014-06-10 09:11:01,798 - filedownloader - INFO - added to the progresslist xml testmodule5
+2014-06-10 09:11:06,486 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-10 09:11:06,486 - filedownloader - DEBUG - download location/tmp/testmodule5
+2014-06-10 09:11:06,487 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-10 09:11:06,487 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-10 09:11:06,564 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-10 09:11:06,565 - filedownloader - INFO - Removed from progresslist.xml testmodule5
