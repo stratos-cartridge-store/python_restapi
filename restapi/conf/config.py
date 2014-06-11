@@ -7,7 +7,7 @@ urls = (
     '/getModuleList','GetModuleList',
     '/installPuppetModule/url/(.+)/name/(.+)', 'InstallPuppetModule',
     '/getModuleInstallationProgress/name/(.+)', 'GetModuleInstallationProgress',
-    '/isModuleInstalled/name/(.+)', 'IsModuleInstalled',
+    '/getModuleStatus/name/(.+)', 'GetModuleStatus',
     '/getLockedModules','GetLockedModules'
 )
 

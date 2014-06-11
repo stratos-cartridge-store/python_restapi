@@ -254,3 +254,81 @@ yes
 2014-06-11 07:46:30,626 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
 2014-06-11 07:46:30,627 - filedownloader - INFO - Removed from progresslist.xml test6
 2014-06-11 07:46:30,629 - filedownloader - INFO - writing to xml file is complete..test6
+2014-06-11 08:52:50,756 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-11 08:52:50,756 - filedownloader - DEBUG - Module Name is = test7
+2014-06-11 08:52:50,757 - filedownloader - INFO - writing to xml file is complete..test7
+2014-06-11 08:52:53,371 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-11 08:52:53,372 - filedownloader - DEBUG - download location/tmp/test7
+2014-06-11 08:52:53,372 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-11 08:52:53,373 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-11 08:52:54,297 - filedownloader - INFO - writing to xml file is complete..test7
+2014-06-11 08:52:54,298 - filedownloader - INFO - Error while appending to the nodes.pp abort the process: [Errno 2] No such file or directory: '/etc/puppet/modules/test7/nodes.pp'
+2014-06-11 08:53:43,497 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-11 08:53:43,497 - filedownloader - DEBUG - Module Name is = test7
+2014-06-11 08:53:43,498 - filedownloader - INFO - writing to xml file is complete..test7
+2014-06-11 08:53:46,117 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-11 08:53:46,118 - filedownloader - DEBUG - download location/tmp/test7
+2014-06-11 08:53:46,118 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-11 08:53:46,118 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-11 08:53:46,742 - filedownloader - INFO - writing to xml file is complete..test7
+2014-06-11 08:53:46,744 - filedownloader - INFO - Removed from progresslist.xml test7
+2014-06-11 08:53:46,744 - filedownloader - INFO - Removed from progresslist.xml test7
+2014-06-11 08:53:46,745 - filedownloader - INFO - Error while appending to the nodes.pp abort the process: [Errno 2] No such file or directory: '/etc/puppet/modules/test7/nodes.pp'
+2014-06-11 08:54:35,926 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjaddssdsdsDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-11 08:54:35,927 - filedownloader - DEBUG - Module Name is = test8
+2014-06-11 08:54:35,928 - filedownloader - INFO - writing to xml file is complete..test8
+2014-06-11 08:54:37,137 - filedownloader - INFO - writing to xml file is complete..test8
+2014-06-11 08:54:37,139 - filedownloader - INFO - Removed from progresslist.xml test8
+2014-06-11 08:54:37,139 - filedownloader - DEBUG - Fail to download file
+2014-06-11 08:54:37,140 - filedownloader - DEBUG - I/O error(None): None
+2014-06-11 08:54:57,475 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-11 08:54:57,475 - filedownloader - DEBUG - Module Name is = test9
+2014-06-11 08:54:57,477 - filedownloader - INFO - writing to xml file is complete..test9
+2014-06-11 08:54:59,995 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-11 08:54:59,995 - filedownloader - DEBUG - download location/tmp/test9
+2014-06-11 08:54:59,996 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-11 08:54:59,996 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-11 08:55:00,424 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-11 08:55:00,426 - filedownloader - INFO - Removed from progresslist.xml test9
+2014-06-11 08:55:00,427 - filedownloader - INFO - writing to xml file is complete..test9
+2014-06-11 08:57:47,408 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-11 08:57:47,408 - filedownloader - DEBUG - Module Name is = test10
+2014-06-11 08:57:47,410 - filedownloader - INFO - writing to xml file is complete..test10
+2014-06-11 08:57:50,158 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-11 08:57:50,159 - filedownloader - DEBUG - download location/tmp/test10
+2014-06-11 08:57:50,159 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-11 08:57:50,160 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-11 08:57:50,432 - filedownloader - INFO - writing to xml file is complete..test10
+2014-06-11 08:57:50,433 - filedownloader - INFO - Removed from progresslist.xml test10
+2014-06-11 08:57:50,433 - filedownloader - INFO - Error while appending to the nodes.pp abort the process: [Errno 2] No such file or directory: '/etc/puppet/modules/test10/nodes.pp'
+2014-06-11 08:58:17,202 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-11 08:58:17,202 - filedownloader - DEBUG - Module Name is = test10
+2014-06-11 08:58:17,203 - filedownloader - INFO - writing to xml file is complete..test10
+2014-06-11 08:58:17,204 - filedownloader - INFO - Removed from errorlist.xml test10
+2014-06-11 08:58:21,413 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-11 08:58:21,414 - filedownloader - DEBUG - download location/tmp/test10
+2014-06-11 08:58:21,417 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-11 08:58:21,417 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-11 08:58:22,580 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-11 08:58:22,580 - filedownloader - INFO - Removed from progresslist.xml test10
+2014-06-11 08:58:22,581 - filedownloader - INFO - writing to xml file is complete..test10
+2014-06-11 09:34:14,792 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-11 09:34:14,792 - filedownloader - DEBUG - Module Name is = test11
+2014-06-11 09:34:14,793 - filedownloader - INFO - writing to xml file is complete..test11
+2014-06-11 09:34:19,871 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-11 09:34:19,872 - filedownloader - DEBUG - download location/tmp/test11
+2014-06-11 09:34:19,872 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-11 09:34:19,872 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-11 09:34:21,810 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-11 09:34:21,811 - filedownloader - INFO - Removed from progresslist.xml test11
+2014-06-11 09:34:21,811 - filedownloader - INFO - writing to xml file is complete..test11
+2014-06-11 09:45:17,432 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-11 09:45:17,432 - filedownloader - DEBUG - Module Name is = test12
+2014-06-11 09:45:17,434 - filedownloader - INFO - writing to xml file is complete..test12
+2014-06-11 09:45:20,345 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-11 09:45:20,345 - filedownloader - DEBUG - download location/tmp/test12
+2014-06-11 09:45:20,345 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-11 09:45:20,346 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-11 09:45:21,267 - filedownloader - INFO - writing to xml file is complete..test12
+2014-06-11 09:45:21,268 - filedownloader - INFO - Removed from progresslist.xml test12
+2014-06-11 09:45:21,269 - filedownloader - INFO - Error while appending to the nodes.pp abort the process: [Errno 2] No such file or directory: '/etc/puppet/modules/test12/nodes.pp'

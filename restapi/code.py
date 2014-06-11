@@ -137,7 +137,6 @@ class GetModuleInstallationProgress:
 
             #a=open('/home/roshan/workspace/webpy/restapi/logs/filedownload.log','rb')
 
-            
             f = open("logs/modules/"+name+".log",'r')
             myList = []
             for line in f:
@@ -151,7 +150,7 @@ class GetModuleInstallationProgress:
             #logger.info('Prompting http basic auth!')
             raise web.seeother('/login')
 
-class IsModuleInstalled:
+class GetModuleStatus:
     #parameter module name
     def GET(self,name):
         if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
@@ -159,12 +158,29 @@ class IsModuleInstalled:
             web.header('Content-Type', 'application/json')
 
             import xml.etree.ElementTree as ET
+            tree = ET.parse('logs/errorlist.xml')
+            root = tree.getroot()
+            for module in root.findall('module'):
+                moduleName = module.find('name').text
+                if name==moduleName:
+                    return json.dumps("error")
+
+
+            import xml.etree.ElementTree as ET
             tree = ET.parse('logs/installedmodules.xml')
             root = tree.getroot()
             for module in root.findall('module'):
                 moduleName = module.find('name').text
                 if name==moduleName:
-                    return json.dumps("true")
+                    return json.dumps("installed")
+
+            import xml.etree.ElementTree as ET
+            tree = ET.parse('logs/progresslist.xml')
+            root = tree.getroot()
+            for module in root.findall('module'):
+                moduleName = module.find('name').text
+                if name==moduleName:
+                    return json.dumps("inprogress")
 
         else:
             #logger.info('Prompting http basic auth!')

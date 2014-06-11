@@ -54,7 +54,20 @@ def removeFromInProgressList(moduleName):
         if name==moduleName:
             root.remove(module)
             fileDownLoadLogger.info("Removed from progresslist.xml "+name) 
-    tree.write('logs/progresslist.xml')  
+    tree.write('logs/progresslist.xml')
+
+#Remove module name from progresslist.xml  file
+def removeFromErrorListFile(moduleName):
+    import xml.etree.ElementTree as ET
+    tree = ET.parse('logs/errorlist.xml')
+    root = tree.getroot()
+    for module in root.findall('module'):
+        name = module.find('name').text
+        if name==moduleName:
+            root.remove(module)
+            fileDownLoadLogger.info("Removed from errorlist.xml "+name) 
+    tree.write('logs/errorlist.xml')
+
 
 
 #heders to download file
@@ -72,6 +85,7 @@ req = urllib2.Request(url, headers=hdr)
 try:
 
     writeElemetToTheXML(moduleName,'logs/progresslist.xml')
+    removeFromErrorListFile(moduleName)
 
     #open request to download
     u = urllib2.urlopen(req)
@@ -141,7 +155,7 @@ try:
     src = tmpExtractLocation+"/"+moduleName
 
     #destination folder 
-    dest = "/etc/puppet/modules/"
+    dest = "/etc/puppet/moduless/"
     try:
         os.system("sudo mv" +" "+src+" "+dest)
         #give permission for while in order to get write permission
@@ -167,18 +181,26 @@ try:
                 writeElemetToTheXML(moduleName,'logs/installedmodules.xml')
 
             except Exception as e:
+                removeFromInProgressList(moduleName)
+                writeElemetToTheXML(moduleName,'logs/errorlist.xml')
                 fileDownLoadLogger.info('Error while removing module name from progresslist: %s' % e)
                 os.system("sudo rm -rf "+" "+dest+"/"+moduleName)
 
         except Exception as e:
+            writeElemetToTheXML(moduleName,'logs/errorlist.xml')
+            removeFromInProgressList(moduleName)
             fileDownLoadLogger.info('Error while appending to the nodes.pp abort the process: %s' % e)
             os.system("sudo rm -rf "+" "+dest+"/"+moduleName)
 
     except OSError as e:
+        writeElemetToTheXML(moduleName,'logs/errorlist.xml')
+        removeFromInProgressList(moduleName)
         fileDownLoadLogger.info('Directory not copied. Error: %s' % e)
 
 except urllib2.HTTPError, e:
-
+    
+    writeElemetToTheXML(moduleName,'logs/errorlist.xml')
+    removeFromInProgressList(moduleName)
     fileDownLoadLogger.debug("Fail to download file")
     fileDownLoadLogger.debug("I/O error({0}): {1}".format(e.errno, e.strerror))
 
