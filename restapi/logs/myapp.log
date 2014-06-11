@@ -36,3 +36,14 @@
 2014-06-11 07:47:51,699 - restapi - INFO - module nametest4
 2014-06-11 07:47:51,699 - restapi - INFO - module nametest5
 2014-06-11 07:47:51,699 - restapi - INFO - module nametest6
+2014-06-11 09:58:17,462 - restapi - INFO - []
+2014-06-11 09:58:17,462 - restapi - INFO - test12
+2014-06-11 09:58:17,462 - restapi - INFO - ['test12']
+2014-06-11 09:58:51,195 - restapi - INFO - []
+2014-06-11 09:58:51,196 - restapi - INFO - test12
+2014-06-11 09:58:51,196 - restapi - INFO - ['test12']
+2014-06-11 09:59:55,643 - restapi - INFO - []
+2014-06-11 09:59:55,644 - restapi - INFO - test12
+2014-06-11 09:59:55,644 - restapi - INFO - ['test12']
+2014-06-11 10:01:27,585 - restapi - INFO - test12
+2014-06-11 10:01:27,585 - restapi - INFO - {'inprogress': [], 'error': ['test12'], 'installed': ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'test4', 'test11', 'agent', 'nodejs', 'ruby', 'lb', 'test', 'test1', 'test3', 'test5', 'sdasdasda', 'test6', 'test10', 'wordpress', 'test9', 'php']}

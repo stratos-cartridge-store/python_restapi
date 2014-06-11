@@ -187,7 +187,7 @@ class GetModuleStatus:
             raise web.seeother('/login')
 
 
-class GetLockedModules:
+class GetAllModulesStatus:
     #parameter module name
     def GET(self):
         if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
@@ -211,14 +211,27 @@ class GetLockedModules:
                 logger.info(name)
                 inProgressModuleList.append(name)
 
+           
 
-            logger.info(inProgressModuleList)
-            #merge tow lists and make a python dictionary
+            #error module lists
+            errorModuleList = []
+            import xml.etree.ElementTree as ET
+            tree = ET.parse('logs/errorlist.xml')
+            root = tree.getroot()
+            for module in root.findall('module'):
+                name = module.find('name').text
+                logger.info(name)
+                errorModuleList.append(name)
 
+    
+            #merge tow lists and make a python dictionary]
             rec = {
                   'installed': installedModuleList,
                   'inprogress': inProgressModuleList,
+                  'error': errorModuleList
                   }
+
+            logger.debug(rec)
 
             web.header('Content-Type', 'application/json')
             return json.dumps(rec)
