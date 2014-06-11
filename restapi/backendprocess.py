@@ -11,16 +11,9 @@ import subprocess
 import urllib2
 import errno
 import tarfile
-
-#dump printing
 import pprint
-
-#import config.py ;)
 import conf.config
-
-#load cherryPyserver
 from web.wsgiserver import CherryPyWSGIServer
-
 #logging configs
 logging.config.fileConfig('conf/logging.conf')
 
@@ -33,14 +26,38 @@ fileDownLoadLogger = logging.getLogger('filedownloader')
 #download url
 url = urllib2.unquote(sys.argv[1])
 
-
 fileDownLoadLogger.debug("Download URL is = "+ url)
 
 #module name 
 moduleName = sys.argv[2]
 fileDownLoadLogger.debug("Module Name is = "+ moduleName)
 
+#This function will read module name as a xml element in to progresslist.xml
+def writeElemetToTheXML(moduleName,xmlFileName):
+    #open a file to store inprogress module names
+    import xml.etree.ElementTree as ET
+    tree = ET.parse(xmlFileName)
+    root = tree.getroot()
+    a = ET.SubElement(root,'module')
+    b = ET.SubElement(a ,'name')
+    b.text=moduleName
+    fileDownLoadLogger.info("writing to xml file is complete.."+moduleName)
+    tree.write(xmlFileName) 
 
+#Remove module name from progresslist.xml  file
+def removeFromInProgressList(moduleName):
+    import xml.etree.ElementTree as ET
+    tree = ET.parse('logs/progresslist.xml')
+    root = tree.getroot()
+    for module in root.findall('module'):
+        name = module.find('name').text
+        if name==moduleName:
+            root.remove(module)
+            fileDownLoadLogger.info("Removed from progresslist.xml "+name) 
+    tree.write('logs/progresslist.xml')  
+
+
+#heders to download file
 hdr = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
        'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
@@ -54,15 +71,7 @@ req = urllib2.Request(url, headers=hdr)
 
 try:
 
-    #open a file to store inprogress module names
-    import xml.etree.ElementTree as ET
-    tree = ET.parse('logs/progresslist.xml')
-    root = tree.getroot()
-    a = ET.SubElement(root,'module')
-    b = ET.SubElement(a ,'name')
-    b.text=moduleName
-    fileDownLoadLogger.info("added to the progresslist xml "+moduleName)
-    tree.write('logs/progresslist.xml') 
+    writeElemetToTheXML(moduleName,'logs/progresslist.xml')
 
     #open request to download
     u = urllib2.urlopen(req)
@@ -84,7 +93,6 @@ try:
 
     fileDownLoadLogger.debug("Downloading: %s Bytes: %s" % (file_name, file_size))
     file.write("Downloading: %s Bytes: %s" % (file_name, file_size) + '\n')
-
 
     file_size_dl = 0
     block_sz = 8192
@@ -129,49 +137,34 @@ try:
         for name in dirs:
             newname = moduleName
             os.rename(join(root,name),join(root,newname))
-
     #source folder
     src = tmpExtractLocation+"/"+moduleName
 
     #destination folder 
     dest = "/etc/puppet/modules/"
-    
-
     try:
-
         os.system("sudo mv" +" "+src+" "+dest)
-
         #give permission for while in order to get write permission
         os.system("sudo chmod 777 /etc/puppet/manifests/nodes.pp")
-
         try:
             with open("/etc/puppet/modules/"+moduleName+"/nodes.pp") as f:
                 with open("/etc/puppet/manifests/nodes.pp", "a") as f1:
                     for line in f:
                         f1.write(line)
-
+            #change puppet module to 755            
             os.system("sudo chmod 775 -R "+" "+dest+"/"+moduleName)
+            #remove nodes.pp file from puppet module
             os.system("sudo rm "+" "+dest+"/"+moduleName+"/nodes.pp")
+            #change the permission of manifest file
             os.system("sudo chmod 775 /etc/puppet/manifests/nodes.pp")
-
             fileDownLoadLogger.info(file_name + "File download finished")
 
-            try:
-                #removing from progresslist xml
-                import xml.etree.ElementTree as ET
-                tree = ET.parse('logs/progresslist.xml')
-                root = tree.getroot()
-                for module in root.findall('module'):
-                    name = module.find('name').text
-
-                    if name==moduleName:
-                        root.remove(module)
-                        fileDownLoadLogger.info("Removed from progresslist.xml "+name)                    
+            try:            
+                removeFromInProgressList(moduleName)
                 
-                tree.write('logs/progresslist.xml')
-
-                file.write("Is file download complete??"+ '\n')
-                file.write("yes")
+                file.write("File Download complete"+ '\n')
+                #write installed modules name to a xml file
+                writeElemetToTheXML(moduleName,'logs/installedmodules.xml')
 
             except Exception as e:
                 fileDownLoadLogger.info('Error while removing module name from progresslist: %s' % e)
@@ -188,3 +181,5 @@ except urllib2.HTTPError, e:
 
     fileDownLoadLogger.debug("Fail to download file")
     fileDownLoadLogger.debug("I/O error({0}): {1}".format(e.errno, e.strerror))
+
+

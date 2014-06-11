@@ -156,13 +156,15 @@ class IsModuleInstalled:
     def GET(self,name):
         if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
 
-            a = open("logs/modules/"+name+".log",'r')
-            lines = a.readlines()
-            
-            last_line = lines[-1]
-
             web.header('Content-Type', 'application/json')
-            return json.dumps(re.sub('[^A-Za-z]+', '', last_line))
+
+            import xml.etree.ElementTree as ET
+            tree = ET.parse('logs/installedmodules.xml')
+            root = tree.getroot()
+            for module in root.findall('module'):
+                moduleName = module.find('name').text
+                if name==moduleName:
+                    return json.dumps("true")
 
         else:
             #logger.info('Prompting http basic auth!')
