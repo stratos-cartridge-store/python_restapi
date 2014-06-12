@@ -332,3 +332,72 @@ yes
 2014-06-11 09:45:21,267 - filedownloader - INFO - writing to xml file is complete..test12
 2014-06-11 09:45:21,268 - filedownloader - INFO - Removed from progresslist.xml test12
 2014-06-11 09:45:21,269 - filedownloader - INFO - Error while appending to the nodes.pp abort the process: [Errno 2] No such file or directory: '/etc/puppet/modules/test12/nodes.pp'
+2014-06-11 10:09:10,498 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-11 10:09:10,498 - filedownloader - DEBUG - Module Name is = test13
+2014-06-11 10:09:10,500 - filedownloader - INFO - writing to xml file is complete..test13
+2014-06-11 10:09:13,943 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-11 10:09:13,943 - filedownloader - DEBUG - download location/tmp/test13
+2014-06-11 10:09:13,944 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-11 10:09:13,944 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-11 10:09:15,527 - filedownloader - INFO - writing to xml file is complete..test13
+2014-06-11 10:09:15,528 - filedownloader - INFO - Removed from progresslist.xml test13
+2014-06-11 10:09:15,528 - filedownloader - INFO - Error while appending to the nodes.pp abort the process: [Errno 2] No such file or directory: '/etc/puppet/modules/test13/nodes.pp'
+2014-06-11 10:10:06,305 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-11 10:10:06,306 - filedownloader - DEBUG - Module Name is = test13
+2014-06-11 10:10:06,307 - filedownloader - INFO - writing to xml file is complete..test13
+2014-06-11 10:10:06,307 - filedownloader - INFO - Removed from errorlist.xml test13
+2014-06-11 10:10:09,317 - filedownloader - DEBUG - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File has opened
+2014-06-11 10:10:09,317 - filedownloader - DEBUG - download location/tmp/test13
+2014-06-11 10:10:09,319 - filedownloader - DEBUG - Downloading: AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1 Bytes: 1255
+2014-06-11 10:10:09,320 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-11 10:10:10,094 - filedownloader - INFO - AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1File download finished
+2014-06-11 10:10:10,095 - filedownloader - INFO - Removed from progresslist.xml test13
+2014-06-11 10:10:10,097 - filedownloader - INFO - writing to xml file is complete..test13
+2014-06-12 09:55:14,762 - filedownloader - DEBUG - Download URL is = test14
+2014-06-12 09:55:14,762 - filedownloader - DEBUG - Module Name is = https:%2F%2Fwww.dropbox.com%2Fmeta_dl%2FeyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ%2FAAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-12 09:55:14,764 - filedownloader - INFO - writing to xml file is complete..https:%2F%2Fwww.dropbox.com%2Fmeta_dl%2FeyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ%2FAAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-12 09:57:32,196 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjadDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-12 09:57:32,196 - filedownloader - DEBUG - Module Name is = test14
+2014-06-12 09:57:32,197 - filedownloader - INFO - writing to xml file is complete..test14
+2014-06-12 09:57:33,669 - filedownloader - INFO - writing to xml file is complete..test14
+2014-06-12 09:57:33,670 - filedownloader - INFO - Removed from progresslist.xml test14
+2014-06-12 09:57:33,671 - filedownloader - DEBUG - Fail to download file
+2014-06-12 09:57:33,671 - filedownloader - DEBUG - I/O error(None): None
+2014-06-12 09:59:43,080 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjaddssdsdsDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-12 09:59:43,081 - filedownloader - DEBUG - Module Name is = test14
+2014-06-12 09:59:43,082 - filedownloader - INFO - writing to xml file is complete..test14
+2014-06-12 09:59:43,082 - filedownloader - INFO - Removed from errorlist.xml test14
+2014-06-12 09:59:44,751 - filedownloader - INFO - writing to xml file is complete..test14
+2014-06-12 09:59:44,752 - filedownloader - INFO - Removed from progresslist.xml test14
+2014-06-12 09:59:44,753 - filedownloader - DEBUG - Fail to download file
+2014-06-12 09:59:44,753 - filedownloader - DEBUG - I/O error(None): None
+2014-06-12 10:02:59,625 - filedownloader - DEBUG - Download URL is = test14
+2014-06-12 10:02:59,625 - filedownloader - DEBUG - Module Name is = https:%2F%2Fwww.dropbox.com%2Fmeta_dl%2FeyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ%2FAAM1sXjaddssdsdsDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-12 10:02:59,627 - filedownloader - INFO - writing to xml file is complete..https:%2F%2Fwww.dropbox.com%2Fmeta_dl%2FeyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ%2FAAM1sXjaddssdsdsDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-12 10:07:06,051 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/meta_dl/eyJzdWJfcGF0aCI6ICIiLCAidGVzdF9saW5rIjogZmFsc2UsICJzZXJ2ZXIiOiAiZGwuZHJvcGJveHVzZXJjb250ZW50LmNvbSIsICJpdGVtX2lkIjogbnVsbCwgImlzX2RpciI6IGZhbHNlLCAidGtleSI6ICI5eWM2NXA3YjJoa3c5dDMifQ/AAM1sXjaddssdsdsDd1s42Ez83xcC8mQSd9U7IFrfdIRl-JqWp07g?dl=1
+2014-06-12 10:07:06,051 - filedownloader - DEBUG - Module Name is = test14
+2014-06-12 10:07:06,053 - filedownloader - INFO - writing to xml file is complete..test14
+2014-06-12 10:07:06,053 - filedownloader - INFO - Removed from errorlist.xml test14
+2014-06-12 10:07:07,688 - filedownloader - INFO - writing to xml file is complete..test14
+2014-06-12 10:07:07,690 - filedownloader - INFO - Removed from progresslist.xml test14
+2014-06-12 10:07:07,691 - filedownloader - DEBUG - Fail to download file
+2014-06-12 10:07:07,691 - filedownloader - DEBUG - I/O error(None): None
+2014-06-12 10:22:41,192 - filedownloader - DEBUG - Download URL is = http://w3schools.com/my test.asp?name=ståle&car=saab
+2014-06-12 10:22:41,192 - filedownloader - DEBUG - Module Name is = test14
+2014-06-12 10:22:41,194 - filedownloader - INFO - writing to xml file is complete..test14
+2014-06-12 10:22:41,194 - filedownloader - INFO - Removed from errorlist.xml test14
+2014-06-12 10:22:42,610 - filedownloader - INFO - writing to xml file is complete..test14
+2014-06-12 10:22:42,612 - filedownloader - INFO - Removed from progresslist.xml test14
+2014-06-12 10:22:42,613 - filedownloader - DEBUG - Fail to download file
+2014-06-12 10:22:42,614 - filedownloader - DEBUG - I/O error(None): None
+2014-06-12 10:23:30,842 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-12 10:23:30,842 - filedownloader - DEBUG - Module Name is = test14
+2014-06-12 10:23:30,843 - filedownloader - INFO - writing to xml file is complete..test14
+2014-06-12 10:23:30,844 - filedownloader - INFO - Removed from errorlist.xml test14
+2014-06-12 10:23:34,461 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-12 10:23:34,462 - filedownloader - DEBUG - download location/tmp/test14
+2014-06-12 10:23:34,462 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1255
+2014-06-12 10:23:34,462 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-12 10:23:34,993 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
+2014-06-12 10:23:34,993 - filedownloader - INFO - Removed from progresslist.xml test14
+2014-06-12 10:23:34,993 - filedownloader - INFO - writing to xml file is complete..test14

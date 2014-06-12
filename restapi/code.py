@@ -104,10 +104,11 @@ class GetModuleList:
 
 #install/download puppet module 
 class InstallPuppetModule:
-    def GET(self,url,name):
+   
+    def POST(self,name,url):
 
         if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
-            
+
             f = []
             for (dirpath, dirnames, filenames) in walk(conf.config.puppetMasterLocation):
                 f.extend(dirnames)
@@ -123,11 +124,12 @@ class InstallPuppetModule:
             else:
                 #start the subprocess sweet of python <3.
                 p = subprocess.Popen(['python', 'backendprocess.py' ,url,name])
-                return json.dumps("your moudle will be installed soon!! see progress feature will be  available soon!!")
+                return json.dumps("your moudle will be installed soon!!")
 
         else:
             #logger.info('Prompting http basic auth!')
             raise web.seeother('/login')
+
 
 class GetModuleInstallationProgress:
     #parameters module name
@@ -149,6 +151,8 @@ class GetModuleInstallationProgress:
         else:
             #logger.info('Prompting http basic auth!')
             raise web.seeother('/login')
+
+
 
 class GetModuleStatus:
     #parameter module name

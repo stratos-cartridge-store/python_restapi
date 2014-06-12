@@ -155,7 +155,7 @@ try:
     src = tmpExtractLocation+"/"+moduleName
 
     #destination folder 
-    dest = "/etc/puppet/moduless/"
+    dest = "/etc/puppet/modules/"
     try:
         os.system("sudo mv" +" "+src+" "+dest)
         #give permission for while in order to get write permission

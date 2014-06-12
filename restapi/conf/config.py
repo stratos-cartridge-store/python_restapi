@@ -4,11 +4,11 @@ import web
 urls = (
     '/','Index',
     '/login','Login',
-    '/getModuleList','GetModuleList',
-    '/installPuppetModule/url/(.+)/name/(.+)', 'InstallPuppetModule',
-    '/getModuleInstallationProgress/name/(.+)', 'GetModuleInstallationProgress',
-    '/getModuleStatus/name/(.+)', 'GetModuleStatus',
-    '/getAllModulesStatus','GetAllModulesStatus'
+    '/modules','GetModuleList',
+    '/modules/(.+)/url/(.+)', 'InstallPuppetModule',
+    '/modules/(.+)/progress', 'GetModuleInstallationProgress',
+    '/modules/(.+)/status', 'GetModuleStatus',
+    '/modules/status','GetAllModulesStatus'
 )
 
 #allowed Users

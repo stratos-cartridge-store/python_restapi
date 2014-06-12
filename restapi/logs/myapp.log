@@ -47,3 +47,14 @@
 2014-06-11 09:59:55,644 - restapi - INFO - ['test12']
 2014-06-11 10:01:27,585 - restapi - INFO - test12
 2014-06-11 10:01:27,585 - restapi - INFO - {'inprogress': [], 'error': ['test12'], 'installed': ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'test4', 'test11', 'agent', 'nodejs', 'ruby', 'lb', 'test', 'test1', 'test3', 'test5', 'sdasdasda', 'test6', 'test10', 'wordpress', 'test9', 'php']}
+2014-06-11 10:05:30,416 - restapi - INFO - accessing /getModuleList
+2014-06-11 10:05:30,416 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'test4', 'test11', 'agent', 'nodejs', 'ruby', 'lb', 'test', 'test1', 'test3', 'test5', 'sdasdasda', 'test6', 'test10', 'wordpress', 'test9', 'php']
+2014-06-11 10:10:51,983 - restapi - INFO - User Granted..
+2014-06-11 10:10:51,996 - restapi - INFO - You are accessing /
+2014-06-11 10:11:15,859 - restapi - INFO - You are accessing /
+2014-06-12 08:49:41,417 - restapi - INFO - User Granted..
+2014-06-12 08:49:41,431 - restapi - INFO - You are accessing /
+2014-06-12 09:40:48,244 - restapi - INFO - accessing /getModuleList
+2014-06-12 09:40:48,244 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'test4', 'test11', 'agent', 'nodejs', 'ruby', 'lb', 'test13', 'test', 'test1', 'test3', 'test5', 'sdasdasda', 'test6', 'test10', 'wordpress', 'test9', 'php']
+2014-06-12 09:47:42,649 - restapi - INFO - test12
+2014-06-12 09:47:42,649 - restapi - DEBUG - {'inprogress': [], 'error': ['test12'], 'installed': ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'test4', 'test11', 'agent', 'nodejs', 'ruby', 'lb', 'test13', 'test', 'test1', 'test3', 'test5', 'sdasdasda', 'test6', 'test10', 'wordpress', 'test9', 'php']}
