@@ -5,7 +5,7 @@ urls = (
     '/','Index',
     '/login','Login',
     '/modules/puppet','GetModuleList',
-    '/modules/puppet/(.+)/url/(.+)', 'InstallPuppetModule',
+    '/modules/puppet/(.+)/url/(.+)/checksum/(.+)', 'InstallPuppetModule',
     '/modules/puppet/(.+)/progress', 'GetModuleInstallationProgress',
     '/modules/puppet/(.+)/status', 'GetModuleStatus',
     '/modules/puppet/status','GetAllModulesStatus'

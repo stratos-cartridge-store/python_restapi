@@ -105,7 +105,7 @@ class GetModuleList:
 #install/download puppet module 
 class InstallPuppetModule:
    
-    def POST(self,name,url):
+    def POST(self,name,url,checksum):
 
         if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
 
