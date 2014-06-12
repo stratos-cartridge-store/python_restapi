@@ -401,3 +401,15 @@ yes
 2014-06-12 10:23:34,993 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
 2014-06-12 10:23:34,993 - filedownloader - INFO - Removed from progresslist.xml test14
 2014-06-12 10:23:34,993 - filedownloader - INFO - writing to xml file is complete..test14
+2014-06-12 11:46:19,468 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-12 11:46:19,469 - filedownloader - DEBUG - Module Name is = test15
+2014-06-12 11:47:58,175 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-12 11:47:58,175 - filedownloader - DEBUG - Module Name is = test15
+2014-06-12 11:47:58,176 - filedownloader - INFO - writing to xml file is complete..test15
+2014-06-12 11:48:01,552 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-12 11:48:01,553 - filedownloader - DEBUG - download location/tmp/test15
+2014-06-12 11:48:01,553 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1255
+2014-06-12 11:48:01,554 - filedownloader - DEBUG -       1255  [100.00%]
+2014-06-12 11:48:02,097 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
+2014-06-12 11:48:02,097 - filedownloader - INFO - Removed from progresslist.xml test15
+2014-06-12 11:48:02,097 - filedownloader - INFO - writing to xml file is complete..test15
