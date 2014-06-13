@@ -8,7 +8,8 @@ urls = (
     '/modules/puppet/(.+)/url/(.+)/checksum/(.+)', 'InstallPuppetModule',
     '/modules/puppet/(.+)/progress', 'GetModuleInstallationProgress',
     '/modules/puppet/(.+)/status', 'GetModuleStatus',
-    '/modules/puppet/status','GetAllModulesStatus'
+    '/modules/puppet/status','GetAllModulesStatus',
+    '/modules/puppet/(.+)/json','GetDeploymentJson'
 )
 
 #allowed Users

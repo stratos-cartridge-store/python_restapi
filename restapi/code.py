@@ -35,8 +35,6 @@ fileDownLoadLogger = logging.getLogger('filedownloader')
 CherryPyWSGIServer.ssl_certificate = conf.config.ssl_certificate
 CherryPyWSGIServer.ssl_private_key = conf.config.ssl_privatekey
 
-
-
 #Home 
 class Index:
     def GET(self):
@@ -117,6 +115,16 @@ class InstallPuppetModule:
             moduleNameInLowerCase = name.lower() 
             
             web.header('Content-Type', 'application/json')
+
+            #if a module is already in progress return error
+            import xml.etree.ElementTree as ET
+            tree = ET.parse('logs/progresslist.xml')
+            root = tree.getroot()
+            for module in root.findall('module'):
+                name = module.find('name').text
+                if name==moduleNameInLowerCase:
+                    logger.info("module is already available in progress list!")  
+                    return json.dumps("Module is already available in progress list!")    
 
             if moduleNameInLowerCase in f:
                 logger.info("module is already available abort download")  
@@ -244,6 +252,15 @@ class GetAllModulesStatus:
             #logger.info('Prompting http basic auth!')
             raise web.seeother('/login')
 
+class  GetDeploymentJson:
+    def GET(self,name):
+        if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
+
+            logger.info("this is get deployment json")
+
+        else:
+            #logger.info('Prompting http basic auth!')
+            raise web.seeother('/login')
 
 
 if __name__ == "__main__":
