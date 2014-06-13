@@ -58,3 +58,15 @@
 2014-06-13 08:23:51,666 - filedownloader - INFO - nodejswithjson.tar.gz?dl=1File download finished
 2014-06-13 08:23:51,667 - filedownloader - INFO - Removed from progresslist.xml nodejs
 2014-06-13 08:23:51,668 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-13 08:34:05,352 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/5gk277nmkwhorz1/nodejswithjson.tar.gz?dl=1
+2014-06-13 08:34:05,353 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-13 08:34:05,353 - filedownloader - DEBUG - Module check sum argument value is = 87e71eec10ad7159501326d809488161
+2014-06-13 08:34:05,354 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-13 08:34:08,017 - filedownloader - DEBUG - nodejswithjson.tar.gz?dl=1File has opened
+2014-06-13 08:34:08,018 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-13 08:34:08,018 - filedownloader - DEBUG - Downloading: nodejswithjson.tar.gz?dl=1 Bytes: 1627
+2014-06-13 08:34:08,019 - filedownloader - DEBUG -       1627  [100.00%]
+2014-06-13 08:34:08,020 - filedownloader - DEBUG - Module check sum value of downloaded file = 87e71eec10ad7159501326d809488161
+2014-06-13 08:34:08,801 - filedownloader - INFO - nodejswithjson.tar.gz?dl=1File download finished
+2014-06-13 08:34:08,802 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-13 08:34:08,803 - filedownloader - INFO - writing to xml file is complete..nodejs

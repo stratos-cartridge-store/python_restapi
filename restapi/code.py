@@ -261,8 +261,8 @@ class  GetDeploymentJson:
             web.header('Content-Type', 'application/json')
             try:            
                 with open("deploymentjsons/"+name+".json") as data_file:    
-                data = json.load(data_file)
-                logger.info(data)
+                    data = json.load(data_file)
+                    logger.info(data)
                 
                 return json.dumps(data)
 
