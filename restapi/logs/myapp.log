@@ -78,3 +78,5 @@
 2014-06-12 17:26:41,129 - restapi - DEBUG - ['test14', 'java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'test4', 'test11', 'agent', 'test15', 'nodejs', 'ruby', 'lb', 'test13', 'test', 'test1', 'test3', 'test5', 'sdasdasda', 'test6', 'test10', 'wordpress', 'test9', 'php']
 2014-06-12 17:26:58,206 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['test14', 'java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'test4', 'test11', 'agent', 'test15', 'nodejs', 'ruby', 'lb', 'test13', 'test', 'test1', 'test3', 'test5', 'sdasdasda', 'test6', 'test10', 'wordpress', 'test9', 'php']}
 2014-06-12 17:27:17,978 - restapi - INFO - module is already available abort download
+2014-06-13 04:26:08,308 - restapi - INFO - module is already available abort download
+2014-06-13 04:48:41,109 - restapi - INFO - module is already available abort download

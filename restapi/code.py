@@ -123,7 +123,7 @@ class InstallPuppetModule:
                 return json.dumps("Module is already available in puppet master")
             else:
                 #start the subprocess sweet of python <3.
-                p = subprocess.Popen(['python', 'backendprocess.py' ,url,name])
+                p = subprocess.Popen(['python', 'backendprocess.py' ,url,name,checksum])
                 return json.dumps("your moudle will be installed soon!!")
 
         else:

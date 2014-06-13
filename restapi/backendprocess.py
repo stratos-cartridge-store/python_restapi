@@ -13,6 +13,7 @@ import errno
 import tarfile
 import pprint
 import conf.config
+import hashlib
 from web.wsgiserver import CherryPyWSGIServer
 #logging configs
 logging.config.fileConfig('conf/logging.conf')
@@ -31,6 +32,22 @@ fileDownLoadLogger.debug("Download URL is = "+ url)
 #module name 
 moduleName = sys.argv[2]
 fileDownLoadLogger.debug("Module Name is = "+ moduleName)
+
+#checksum
+md5checksum = sys.argv[3]
+fileDownLoadLogger.debug("Module check sum argument value is = "+ md5checksum)
+
+#return file's md5 digest
+def md5Checksum(filePath):
+    with open(filePath, 'rb') as fh:
+        m = hashlib.md5()
+        while True:
+            data = fh.read(8192)
+            if not data:
+                break
+            m.update(data)
+        return m.hexdigest()
+
 
 #This function will read module name as a xml element in to progresslist.xml
 def writeElemetToTheXML(moduleName,xmlFileName):
@@ -136,6 +153,15 @@ try:
 
     f.close()
 
+    #get file md5 value
+    downloadedFileCheckSum = md5Checksum(tmpExtractLocation+".tar.gz")
+
+    fileDownLoadLogger.debug("Module check sum value of downloaded file = "+ downloadedFileCheckSum)
+
+    if downloadedFileCheckSum != md5checksum:
+        fileDownLoadLogger.debug("check sum mismatched!")
+        raise Exception("Downloading abort checksum mismatched..")
+
     #remove folder if there is a already one
     os.system("sudo rm -rf" +" " +tmpExtractLocation)
 
@@ -175,10 +201,10 @@ try:
 
             try:            
                 removeFromInProgressList(moduleName)
-                
-                file.write("File Download complete"+ '\n')
                 #write installed modules name to a xml file
                 writeElemetToTheXML(moduleName,'logs/installedmodules.xml')
+
+                file.write("File Download complete"+ '\n')
 
             except Exception as e:
                 removeFromInProgressList(moduleName)
@@ -197,11 +223,11 @@ try:
         removeFromInProgressList(moduleName)
         fileDownLoadLogger.info('Directory not copied. Error: %s' % e)
 
-except urllib2.HTTPError, e:
+except Exception as e:
     
     writeElemetToTheXML(moduleName,'logs/errorlist.xml')
     removeFromInProgressList(moduleName)
-    fileDownLoadLogger.debug("Fail to download file")
-    fileDownLoadLogger.debug("I/O error({0}): {1}".format(e.errno, e.strerror))
+    fileDownLoadLogger.debug("Fail to download file : error is :%s" % e )
+    
 
 
