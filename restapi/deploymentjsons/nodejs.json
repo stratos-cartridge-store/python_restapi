@@ -1,0 +1,47 @@
+{
+    "type":"php",
+    "provider":"apache",
+    "host":"stratos.com",
+    "displayName":"PHP",
+ 
+    "description":"PHP Cartridge",
+    "version":"7",
+    "defaultAutoscalingPolicy":"economyPolicy",
+    "multiTenant":"false",
+    "portMapping":[
+        {
+            "protocol":"http",
+            "port":"80",
+            "proxyPort":"8280"
+        },
+        {
+            "protocol":"https",
+            "port":"443",
+            "proxyPort":"8243"
+        }
+    ],
+    "iaasProvider":[
+        {
+            "type":"openstack",
+            "imageId":"RegionOne/<image_id>",
+            "maxInstanceLimit":"4",
+            "property":[
+            {
+                "name":"instanceType",
+                "value":"RegionOne/2"
+            },
+            {
+                "name":"keyPair",
+                "value":"<key_name>"
+            }
+            ]
+        }
+    ],
+    "loadBalancer":{
+        "type":"lb",
+        "property":{
+            "name":"default.load.balancer",
+            "value":"true"
+        }
+    }
+}

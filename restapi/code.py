@@ -258,14 +258,16 @@ class  GetDeploymentJson:
 
             logger.info("this is get deployment json")
 
-            #json_data=open("/etc/puppet/modules/"+name+".json").read()
-
-            with open("logs/nodejs.json") as data_file:    
+            web.header('Content-Type', 'application/json')
+            try:            
+                with open("deploymentjsons/"+name+".json") as data_file:    
                 data = json.load(data_file)
                 logger.info(data)
-                web.header('Content-Type', 'application/json')
+                
                 return json.dumps(data)
 
+            except Exception as e:
+                return json.dumps("error while reading deployment json")
 
         else:
             #logger.info('Prompting http basic auth!')

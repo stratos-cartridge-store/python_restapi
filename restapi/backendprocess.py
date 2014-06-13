@@ -182,6 +182,12 @@ try:
 
     #destination folder 
     dest = "/etc/puppet/modules/"
+
+    jsonSrc= "/etc/puppet/modules/"+moduleName+"/"+moduleName+".json"
+
+    #deployment json destination
+    jsonDestination = "deploymentjsons"
+
     try:
         os.system("sudo mv" +" "+src+" "+dest)
         #give permission for while in order to get write permission
@@ -197,6 +203,10 @@ try:
             os.system("sudo rm "+" "+dest+"/"+moduleName+"/nodes.pp")
             #change the permission of manifest file
             os.system("sudo chmod 775 /etc/puppet/manifests/nodes.pp")
+
+            #move deployment json file to the restapi/deployment json folder
+            os.system("sudo mv" +" "+jsonSrc+" "+jsonDestination)
+
             fileDownLoadLogger.info(file_name + "File download finished")
 
             try:            
