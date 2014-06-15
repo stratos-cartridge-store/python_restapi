@@ -116,3 +116,549 @@
 2014-06-13 08:34:58,913 - restapi - INFO - this is get deployment json
 2014-06-13 08:35:43,050 - restapi - INFO - this is get deployment json
 2014-06-13 08:35:43,050 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-13 08:42:22,331 - restapi - INFO - accessing /getModuleList
+2014-06-13 08:42:22,332 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-13 08:42:22,477 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-13 08:44:27,318 - restapi - INFO - this is get deployment json
+2014-06-13 08:44:27,319 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-13 08:45:15,631 - restapi - INFO - this is get deployment json
+2014-06-14 05:44:37,975 - restapi - INFO - User Granted..
+2014-06-14 05:44:38,000 - restapi - INFO - You are accessing /
+2014-06-14 05:49:33,443 - restapi - INFO - accessing /getModuleList
+2014-06-14 05:49:33,444 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 05:55:54,455 - restapi - INFO - accessing /getModuleList
+2014-06-14 05:55:54,455 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 07:45:09,054 - restapi - INFO - accessing /getModuleList
+2014-06-14 07:45:09,054 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 08:00:30,538 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:00:30,538 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 08:06:16,674 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:06:16,674 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 08:06:58,077 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:06:58,078 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 08:10:14,121 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:10:14,121 - restapi - INFO - {"type":"puppet"}
+2014-06-14 08:10:14,121 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 08:11:33,684 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:11:33,684 - restapi - INFO - 
+2014-06-14 08:11:33,684 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 08:11:57,550 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:11:57,550 - restapi - INFO - 
+2014-06-14 08:11:57,550 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 08:13:47,514 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:13:47,514 - restapi - INFO - 
+2014-06-14 08:13:47,514 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 08:14:00,148 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:14:00,148 - restapi - INFO - {"type":"puppet"}
+2014-06-14 08:14:00,148 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 08:14:11,116 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:14:11,117 - restapi - INFO - {"type":"puppet"}
+2014-06-14 08:14:11,118 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 08:14:46,081 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:14:46,082 - restapi - INFO - {"type":"puppet"}
+2014-06-14 08:14:46,082 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 08:15:51,281 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:15:51,281 - restapi - INFO - {"type":"puppet"}
+2014-06-14 08:15:51,282 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 08:16:19,835 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:16:19,836 - restapi - INFO - 
+2014-06-14 08:16:19,836 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 08:16:58,413 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:18:37,437 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:18:41,389 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:25:43,412 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:25:43,412 - restapi - INFO - puppet
+2014-06-14 08:25:43,413 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 08:28:51,633 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:28:51,634 - restapi - INFO - puppet
+2014-06-14 08:28:51,634 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 08:29:49,981 - restapi - INFO - accessing /getModuleList
+2014-06-14 08:29:49,982 - restapi - INFO - puppet123
+2014-06-14 08:29:49,982 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-14 09:08:15,887 - restapi - INFO - accessing /getModuleList
+2014-06-14 09:08:47,588 - restapi - INFO - accessing /getModuleList
+2014-06-14 09:09:48,743 - restapi - INFO - accessing /getModuleList
+2014-06-14 09:12:10,330 - restapi - INFO - accessing /getModuleList
+2014-06-14 09:13:07,219 - restapi - INFO - accessing /getModuleList
+2014-06-14 09:25:49,416 - restapi - INFO - accessing /getModuleList
+2014-06-14 09:34:44,843 - restapi - INFO - accessing /getModuleList
+2014-06-14 16:32:06,697 - restapi - INFO - accessing /getModuleList
+2014-06-14 16:48:39,542 - restapi - INFO - accessing /getModuleList
+2014-06-14 16:51:36,253 - restapi - INFO - accessing /getModuleList
+2014-06-14 16:52:06,373 - restapi - INFO - accessing /getModuleList
+2014-06-14 16:52:20,950 - restapi - INFO - accessing /getModuleList
+2014-06-14 17:26:19,510 - restapi - INFO - accessing /getModuleList
+2014-06-14 17:26:33,669 - restapi - INFO - accessing /getModuleList
+2014-06-14 17:33:05,725 - restapi - INFO - accessing /getModuleList
+2014-06-14 17:33:05,726 - restapi - INFO - java
+2014-06-14 17:34:08,180 - restapi - INFO - accessing /InstallModuel
+2014-06-14 17:34:08,181 - restapi - INFO - java
+2014-06-14 17:37:38,090 - restapi - INFO - accessing /InstallModuel
+2014-06-14 17:37:38,091 - restapi - INFO - java
+2014-06-14 17:37:58,512 - restapi - INFO - accessing /InstallModuel
+2014-06-14 17:37:58,513 - restapi - INFO - java
+2014-06-15 04:37:21,123 - restapi - INFO - accessing /getModuleList
+2014-06-15 04:37:21,123 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-15 04:39:40,544 - restapi - INFO - accessing /getModuleList
+2014-06-15 04:39:40,544 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-15 04:41:59,574 - restapi - INFO - accessing /getModuleList
+2014-06-15 04:41:59,574 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-15 04:42:40,734 - restapi - INFO - accessing /getModuleList
+2014-06-15 04:44:09,075 - restapi - INFO - accessing /InstallModuel
+2014-06-15 04:44:30,905 - restapi - INFO - accessing /InstallModuel
+2014-06-15 04:44:30,905 - restapi - INFO - java
+2014-06-15 04:44:35,365 - restapi - INFO - accessing /InstallModuel
+2014-06-15 04:44:35,366 - restapi - INFO - java
+2014-06-15 04:45:58,634 - restapi - INFO - accessing /InstallModuel
+2014-06-15 04:45:58,635 - restapi - INFO - java
+2014-06-15 04:51:44,588 - restapi - INFO - accessing /InstallModuel
+2014-06-15 04:51:44,588 - restapi - INFO - puppet
+2014-06-15 04:51:44,588 - restapi - INFO - java
+2014-06-15 04:52:20,739 - restapi - INFO - accessing /InstallModuel
+2014-06-15 04:52:20,740 - restapi - INFO - puppesdsdt
+2014-06-15 04:55:25,891 - restapi - INFO - accessing /InstallModuel
+2014-06-15 04:55:25,892 - restapi - INFO - puppesdsdt
+2014-06-15 04:56:12,283 - restapi - INFO - accessing /InstallModuel
+2014-06-15 04:56:12,284 - restapi - INFO - puppesdsdt
+2014-06-15 04:57:38,095 - restapi - INFO - accessing /InstallModuel
+2014-06-15 04:57:57,006 - restapi - INFO - accessing /InstallModuel
+2014-06-15 04:57:57,006 - restapi - INFO - type=value1&name=value2&checksum=sdsdalskds23
+2014-06-15 05:01:30,723 - restapi - INFO - accessing /InstallModuel
+2014-06-15 05:01:30,724 - restapi - INFO - type=value1&name=value2&checksum=sdsdalskds23
+2014-06-15 05:02:31,959 - restapi - INFO - accessing /InstallModuel
+2014-06-15 05:02:31,960 - restapi - INFO - type=value1&name=value2&checksum=sdsdalskds23
+2014-06-15 05:02:31,960 - restapi - INFO - 
+2014-06-15 05:10:12,459 - restapi - INFO - accessing /getModuleList
+2014-06-15 05:10:15,315 - restapi - INFO - accessing /getModuleList
+2014-06-15 05:10:15,316 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-15 05:17:53,659 - restapi - INFO - accessing /InstallModuel
+2014-06-15 05:17:53,660 - restapi - INFO - {"packagetype":"30","type":"Tip 3","targetModule":"Target 3"}
+2014-06-15 05:17:53,660 - restapi - INFO - 
+2014-06-15 05:21:02,774 - restapi - INFO - accessing /InstallModuel
+2014-06-15 05:21:30,944 - restapi - INFO - accessing /InstallModuel
+2014-06-15 05:21:48,260 - restapi - INFO - accessing /InstallModuel
+2014-06-15 05:21:48,261 - restapi - INFO - {u'packagetype': u'30', u'type': u'Tip 3', u'targetModule': u'Target 3'}
+2014-06-15 05:21:48,261 - restapi - INFO - {"packagetype":"30","type":"Tip 3","targetModule":"Target 3"}
+2014-06-15 05:21:48,261 - restapi - INFO - 
+2014-06-15 05:23:52,579 - restapi - INFO - accessing /InstallModuel
+2014-06-15 05:24:29,560 - restapi - INFO - accessing /InstallModuel
+2014-06-15 05:24:46,419 - restapi - INFO - accessing /InstallModuel
+2014-06-15 05:25:00,271 - restapi - INFO - accessing /InstallModuel
+2014-06-15 05:25:28,180 - restapi - INFO - accessing /InstallModuel
+2014-06-15 05:32:35,079 - restapi - INFO - accessing /InstallModuel
+2014-06-15 05:32:35,079 - restapi - INFO - value1
+2014-06-15 05:33:19,954 - restapi - INFO - accessing /InstallModuel
+2014-06-15 05:33:19,955 - restapi - INFO - value1
+2014-06-15 05:33:44,439 - restapi - INFO - accessing /InstallModuel
+2014-06-15 05:33:44,440 - restapi - INFO - value1
+2014-06-15 05:34:00,220 - restapi - INFO - accessing /getModuleList
+2014-06-15 05:34:49,186 - restapi - INFO - accessing /InstallModuel
+2014-06-15 05:35:05,918 - restapi - INFO - accessing /InstallModuel
+2014-06-15 05:35:05,918 - restapi - INFO - value1
+2014-06-15 06:23:11,067 - restapi - INFO - accessing /InstallModuel
+2014-06-15 06:23:54,796 - restapi - INFO - accessing /InstallModuel
+2014-06-15 06:25:09,278 - restapi - INFO - accessing /InstallModuel
+2014-06-15 06:25:46,914 - restapi - INFO - accessing /InstallModuel
+2014-06-15 06:25:46,914 - restapi - INFO - packagetype: puppet
+2014-06-15 06:25:46,914 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/5gk277nmkwhorz1/nodejswithjson.tar.gz?dl=1
+2014-06-15 06:25:46,914 - restapi - INFO - moduleName: nodejs
+2014-06-15 06:25:46,915 - restapi - INFO - checkSum: 2b351eeecf16af87989498bdbcb7c674
+2014-06-15 06:30:30,770 - restapi - INFO - accessing /InstallModuel
+2014-06-15 06:30:30,771 - restapi - INFO - packagetype: puppet
+2014-06-15 06:30:30,771 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/5gk277nmkwhorz1/nodejswithjson.tar.gz?dl=1
+2014-06-15 06:30:30,771 - restapi - INFO - moduleName: nodejs
+2014-06-15 06:30:30,771 - restapi - INFO - checkSum: 2b351eeecf16af87989498bdbcb7c674
+2014-06-15 06:33:05,347 - restapi - INFO - accessing /InstallModuel
+2014-06-15 06:33:05,348 - restapi - INFO - packagetype: puppet
+2014-06-15 06:33:05,348 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/5gk277nmkwhorz1/nodejswithjson.tar.gz?dl=1
+2014-06-15 06:33:05,348 - restapi - INFO - moduleName: nodejs
+2014-06-15 06:33:05,348 - restapi - INFO - checkSum: 2b351eeecf16af87989498bdbcb7c674
+2014-06-15 07:09:03,152 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:10:01,708 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:11:23,199 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:12:02,522 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:13:46,199 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:13:46,199 - restapi - DEBUG - Error is :'modulename'
+2014-06-15 07:15:05,948 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:15:05,948 - restapi - INFO - <Storage {'packagetype': u'puppe2t'}>
+2014-06-15 07:15:05,948 - restapi - DEBUG - Error is :'modulename'
+2014-06-15 07:16:37,028 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:16:37,028 - restapi - INFO - puppe2t
+2014-06-15 07:16:37,028 - restapi - INFO - nodejs
+2014-06-15 07:16:37,028 - restapi - DEBUG - Error is :global name 'user_data' is not defined
+2014-06-15 07:17:18,338 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:17:18,339 - restapi - INFO - puppe2t
+2014-06-15 07:17:18,339 - restapi - INFO - nodejs
+2014-06-15 07:17:42,517 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:17:42,518 - restapi - INFO - puppet
+2014-06-15 07:17:42,518 - restapi - INFO - nodejs
+2014-06-15 07:18:59,835 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:18:59,835 - restapi - INFO - puppet
+2014-06-15 07:18:59,835 - restapi - INFO - nodejs
+2014-06-15 07:19:44,447 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:19:44,447 - restapi - INFO - puppet
+2014-06-15 07:19:44,449 - restapi - INFO - nodejs
+2014-06-15 07:21:20,957 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:21:20,957 - restapi - INFO - puppet
+2014-06-15 07:21:20,957 - restapi - INFO - nodejs
+2014-06-15 07:21:20,957 - restapi - INFO - logs/modules/nodejs.log
+2014-06-15 07:21:35,032 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:21:35,032 - restapi - INFO - puppet
+2014-06-15 07:21:35,033 - restapi - INFO - nodejs
+2014-06-15 07:21:35,033 - restapi - DEBUG - Error is :global name 'moduledName' is not defined
+2014-06-15 07:22:51,630 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:22:51,631 - restapi - INFO - puppet
+2014-06-15 07:22:51,631 - restapi - INFO - nodejs
+2014-06-15 07:22:51,631 - restapi - DEBUG - Error is :global name 'moduledName' is not defined
+2014-06-15 07:23:33,987 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:23:33,988 - restapi - INFO - puppwet
+2014-06-15 07:23:33,988 - restapi - INFO - nodejs
+2014-06-15 07:23:48,106 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:23:48,106 - restapi - INFO - puppet
+2014-06-15 07:23:48,106 - restapi - INFO - nodejs
+2014-06-15 07:23:48,106 - restapi - DEBUG - Error is :global name 'moduledName' is not defined
+2014-06-15 07:23:52,407 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:23:52,407 - restapi - INFO - puppet
+2014-06-15 07:23:52,407 - restapi - INFO - nodejs
+2014-06-15 07:23:52,408 - restapi - DEBUG - Error is :global name 'moduledName' is not defined
+2014-06-15 07:24:18,586 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:24:18,586 - restapi - INFO - puppet
+2014-06-15 07:24:18,589 - restapi - INFO - nodejs
+2014-06-15 07:24:18,589 - restapi - INFO - logs/modules/nodejs.log
+2014-06-15 07:24:41,787 - restapi - INFO - accessing /getModuleList
+2014-06-15 07:24:41,787 - restapi - DEBUG - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-15 07:25:54,539 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:25:54,540 - restapi - INFO - puppet
+2014-06-15 07:25:54,540 - restapi - INFO - nodejs
+2014-06-15 07:25:54,540 - restapi - INFO - logs/modules/nodejs.log
+2014-06-15 07:26:37,966 - restapi - INFO - User Granted..
+2014-06-15 07:26:37,981 - restapi - INFO - You are accessing /
+2014-06-15 07:26:39,899 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 07:26:39,899 - restapi - INFO - puppet
+2014-06-15 07:26:39,900 - restapi - INFO - nodejs
+2014-06-15 07:26:39,900 - restapi - INFO - logs/modules/nodejs.log
+2014-06-15 08:31:56,246 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 08:31:56,247 - restapi - INFO - puppet
+2014-06-15 08:31:56,247 - restapi - INFO - nodejs
+2014-06-15 08:36:45,615 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 08:36:45,615 - restapi - INFO - puppet
+2014-06-15 08:36:45,615 - restapi - INFO - nodejs
+2014-06-15 08:36:54,668 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 08:36:54,668 - restapi - INFO - puppet
+2014-06-15 08:36:54,669 - restapi - INFO - nodejs
+2014-06-15 08:37:51,112 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 08:37:51,113 - restapi - DEBUG - Error is :'modulename'
+2014-06-15 08:38:17,703 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 08:38:17,703 - restapi - DEBUG - Error is :'modulename'
+2014-06-15 08:38:25,935 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 08:38:25,935 - restapi - INFO - puppet
+2014-06-15 08:38:25,935 - restapi - INFO - nodejs
+2014-06-15 08:38:28,186 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 08:38:28,187 - restapi - INFO - puppet
+2014-06-15 08:38:28,187 - restapi - INFO - nodejs
+2014-06-15 08:39:13,770 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 08:39:13,770 - restapi - INFO - puppet
+2014-06-15 08:39:13,770 - restapi - INFO - nodejssd
+2014-06-15 08:39:13,770 - restapi - INFO - logs/modules/nodejssd.log
+2014-06-15 08:40:23,959 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:40:23,960 - restapi - INFO - puppet123
+2014-06-15 08:40:27,941 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:40:27,941 - restapi - INFO - puppet
+2014-06-15 08:41:03,604 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:41:03,604 - restapi - INFO - puppet
+2014-06-15 08:41:08,043 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:41:08,043 - restapi - INFO - puppet2232
+2014-06-15 08:41:17,559 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:41:17,559 - restapi - INFO - puppet2232
+2014-06-15 08:41:40,652 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:42:15,665 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:42:15,665 - restapi - INFO - puppet2232
+2014-06-15 08:42:29,120 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:43:03,697 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:43:03,697 - restapi - INFO - <Storage {'packagetype': u'puppet2232'}>
+2014-06-15 08:45:12,518 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:45:14,967 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:47:07,660 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:47:19,269 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:47:38,196 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:47:58,778 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:47:58,779 - restapi - INFO - puppet2232
+2014-06-15 08:48:03,843 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:48:03,843 - restapi - INFO - puppet2232
+2014-06-15 08:48:31,213 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:48:59,623 - restapi - INFO - accessing /getModuleList
+2014-06-15 08:48:59,623 - restapi - DEBUG - Error is :'f'
+2014-06-15 08:57:41,366 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 08:57:41,367 - restapi - INFO - puppet
+2014-06-15 08:57:41,367 - restapi - INFO - nodejs
+2014-06-15 08:57:55,930 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 08:57:55,930 - restapi - INFO - pupwpet
+2014-06-15 08:57:55,930 - restapi - INFO - nodejs
+2014-06-15 09:06:38,539 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 09:06:38,539 - restapi - DEBUG - Error is :local variable 'name' referenced before assignment
+2014-06-15 09:06:57,067 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 09:06:57,068 - restapi - DEBUG - Error is :'unicode' object has no attribute 'modulename'
+2014-06-15 09:07:32,601 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 09:07:32,602 - restapi - DEBUG - Error is :'modulename'
+2014-06-15 09:08:03,795 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 09:08:03,796 - restapi - DEBUG - Error is :'modulename'
+2014-06-15 09:09:15,579 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 09:09:15,579 - restapi - DEBUG - Error is :'modulename'
+2014-06-15 09:11:48,795 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 09:11:48,795 - restapi - DEBUG - Error is :'modulename'
+2014-06-15 09:12:26,235 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 09:19:50,551 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:20:12,653 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:20:12,654 - restapi - INFO - <Storage {'packagetype': u'pupwpet'}>
+2014-06-15 09:23:05,006 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:23:05,006 - restapi - INFO - <Storage {'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 09:23:26,119 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:23:26,119 - restapi - INFO - <Storage {'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 09:23:51,057 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:24:28,641 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:24:28,641 - restapi - INFO - <Storage {'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 09:24:37,325 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:24:37,325 - restapi - INFO - <Storage {'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 09:24:37,327 - restapi - INFO - nodejs
+2014-06-15 09:25:37,530 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:25:37,531 - restapi - INFO - <Storage {'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 09:25:37,531 - restapi - INFO - nodejs
+2014-06-15 09:25:50,603 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:25:50,603 - restapi - INFO - <Storage {'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 09:25:50,604 - restapi - INFO - nodejs
+2014-06-15 09:25:50,607 - restapi - INFO - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-15 09:25:50,607 - restapi - INFO - ['manifests', 'templates', 'files']
+2014-06-15 09:25:50,607 - restapi - INFO - []
+2014-06-15 09:25:50,607 - restapi - INFO - []
+2014-06-15 09:25:50,607 - restapi - INFO - []
+2014-06-15 09:25:50,607 - restapi - INFO - ['manifests']
+2014-06-15 09:25:50,608 - restapi - INFO - []
+2014-06-15 09:25:50,608 - restapi - INFO - ['manifests']
+2014-06-15 09:25:50,608 - restapi - INFO - []
+2014-06-15 09:25:50,608 - restapi - INFO - ['manifests', 'templates']
+2014-06-15 09:25:50,608 - restapi - INFO - []
+2014-06-15 09:25:50,608 - restapi - INFO - []
+2014-06-15 09:25:50,608 - restapi - INFO - ['manifests', 'templates']
+2014-06-15 09:25:50,608 - restapi - INFO - []
+2014-06-15 09:25:50,608 - restapi - INFO - []
+2014-06-15 09:25:50,608 - restapi - INFO - ['manifests', 'templates', 'files']
+2014-06-15 09:25:50,608 - restapi - INFO - []
+2014-06-15 09:25:50,608 - restapi - INFO - ['conf', 'extensions', 'bin']
+2014-06-15 09:25:50,608 - restapi - INFO - ['templates']
+2014-06-15 09:25:50,609 - restapi - INFO - []
+2014-06-15 09:25:50,609 - restapi - INFO - ['addons']
+2014-06-15 09:25:50,609 - restapi - INFO - []
+2014-06-15 09:25:50,609 - restapi - INFO - []
+2014-06-15 09:25:50,609 - restapi - INFO - ['activemq']
+2014-06-15 09:25:50,609 - restapi - INFO - []
+2014-06-15 09:25:50,609 - restapi - INFO - ['manifests', 'templates']
+2014-06-15 09:25:50,609 - restapi - INFO - []
+2014-06-15 09:25:50,609 - restapi - INFO - []
+2014-06-15 09:25:50,609 - restapi - INFO - ['manifests', 'templates', 'files']
+2014-06-15 09:25:50,609 - restapi - INFO - []
+2014-06-15 09:25:50,609 - restapi - INFO - ['conf']
+2014-06-15 09:25:50,609 - restapi - INFO - ['templates', 'axis2']
+2014-06-15 09:25:50,610 - restapi - INFO - []
+2014-06-15 09:25:50,610 - restapi - INFO - []
+2014-06-15 09:25:50,610 - restapi - INFO - ['configs']
+2014-06-15 09:25:50,610 - restapi - INFO - ['bin']
+2014-06-15 09:25:50,610 - restapi - INFO - []
+2014-06-15 09:25:50,610 - restapi - INFO - ['manifests']
+2014-06-15 09:25:50,610 - restapi - INFO - []
+2014-06-15 09:25:50,610 - restapi - INFO - ['manifests', 'templates']
+2014-06-15 09:25:50,610 - restapi - INFO - []
+2014-06-15 09:25:50,610 - restapi - INFO - ['httpd']
+2014-06-15 09:25:50,610 - restapi - INFO - []
+2014-06-15 09:25:50,610 - restapi - INFO - ['manifests', 'templates', 'lib', 'files']
+2014-06-15 09:25:50,610 - restapi - INFO - []
+2014-06-15 09:25:50,610 - restapi - INFO - ['httpd', 'apache2']
+2014-06-15 09:25:50,611 - restapi - INFO - []
+2014-06-15 09:25:50,611 - restapi - INFO - ['sites-available']
+2014-06-15 09:25:50,611 - restapi - INFO - []
+2014-06-15 09:25:50,611 - restapi - INFO - ['facter']
+2014-06-15 09:25:50,611 - restapi - INFO - []
+2014-06-15 09:25:50,611 - restapi - INFO - []
+2014-06-15 09:26:21,192 - restapi - INFO - accessing /InstallModuel
+2014-06-15 09:26:21,193 - restapi - INFO - packagetype: puppet
+2014-06-15 09:26:21,193 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/5gk277nmkwhorz1/nodejswithjson.tar.gz?dl=1
+2014-06-15 09:26:21,193 - restapi - INFO - moduleName: nodejs
+2014-06-15 09:26:21,193 - restapi - INFO - checkSum: 2b351eeecf16af87989498bdbcb7c674
+2014-06-15 09:27:15,992 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:27:15,993 - restapi - INFO - <Storage {'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 09:27:15,993 - restapi - INFO - nodejs
+2014-06-15 09:27:15,994 - restapi - INFO - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-15 09:27:15,995 - restapi - INFO - ['manifests', 'templates', 'files']
+2014-06-15 09:27:15,995 - restapi - INFO - []
+2014-06-15 09:27:15,996 - restapi - INFO - []
+2014-06-15 09:27:15,996 - restapi - INFO - []
+2014-06-15 09:27:15,996 - restapi - INFO - ['manifests']
+2014-06-15 09:27:15,997 - restapi - INFO - []
+2014-06-15 09:27:15,997 - restapi - INFO - ['manifests']
+2014-06-15 09:27:15,997 - restapi - INFO - []
+2014-06-15 09:27:15,998 - restapi - INFO - ['manifests', 'templates']
+2014-06-15 09:27:15,998 - restapi - INFO - []
+2014-06-15 09:27:15,998 - restapi - INFO - []
+2014-06-15 09:27:15,999 - restapi - INFO - ['manifests', 'templates']
+2014-06-15 09:27:15,999 - restapi - INFO - []
+2014-06-15 09:27:15,999 - restapi - INFO - []
+2014-06-15 09:27:15,999 - restapi - INFO - ['manifests', 'templates', 'files']
+2014-06-15 09:27:15,999 - restapi - INFO - []
+2014-06-15 09:27:15,999 - restapi - INFO - ['conf', 'extensions', 'bin']
+2014-06-15 09:27:16,000 - restapi - INFO - ['templates']
+2014-06-15 09:27:16,000 - restapi - INFO - []
+2014-06-15 09:27:16,000 - restapi - INFO - ['addons']
+2014-06-15 09:27:16,000 - restapi - INFO - []
+2014-06-15 09:27:16,000 - restapi - INFO - []
+2014-06-15 09:27:16,000 - restapi - INFO - ['activemq']
+2014-06-15 09:27:16,000 - restapi - INFO - []
+2014-06-15 09:27:16,000 - restapi - INFO - ['manifests']
+2014-06-15 09:27:16,000 - restapi - INFO - []
+2014-06-15 09:27:16,000 - restapi - INFO - ['manifests', 'templates']
+2014-06-15 09:27:16,000 - restapi - INFO - []
+2014-06-15 09:27:16,001 - restapi - INFO - []
+2014-06-15 09:27:16,001 - restapi - INFO - ['manifests', 'templates', 'files']
+2014-06-15 09:27:16,001 - restapi - INFO - []
+2014-06-15 09:27:16,001 - restapi - INFO - ['conf']
+2014-06-15 09:27:16,001 - restapi - INFO - ['templates', 'axis2']
+2014-06-15 09:27:16,001 - restapi - INFO - []
+2014-06-15 09:27:16,001 - restapi - INFO - []
+2014-06-15 09:27:16,001 - restapi - INFO - ['configs']
+2014-06-15 09:27:16,001 - restapi - INFO - ['bin']
+2014-06-15 09:27:16,001 - restapi - INFO - []
+2014-06-15 09:27:16,001 - restapi - INFO - ['manifests']
+2014-06-15 09:27:16,001 - restapi - INFO - []
+2014-06-15 09:27:16,001 - restapi - INFO - ['manifests', 'templates']
+2014-06-15 09:27:16,001 - restapi - INFO - []
+2014-06-15 09:27:16,002 - restapi - INFO - ['httpd']
+2014-06-15 09:27:16,002 - restapi - INFO - []
+2014-06-15 09:27:16,002 - restapi - INFO - ['manifests', 'templates', 'lib', 'files']
+2014-06-15 09:27:16,002 - restapi - INFO - []
+2014-06-15 09:27:16,002 - restapi - INFO - ['httpd', 'apache2']
+2014-06-15 09:27:16,002 - restapi - INFO - []
+2014-06-15 09:27:16,002 - restapi - INFO - ['sites-available']
+2014-06-15 09:27:16,002 - restapi - INFO - []
+2014-06-15 09:27:16,002 - restapi - INFO - ['facter']
+2014-06-15 09:27:16,002 - restapi - INFO - []
+2014-06-15 09:27:16,002 - restapi - INFO - []
+2014-06-15 09:29:46,221 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:29:46,221 - restapi - INFO - <Storage {'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 09:29:46,221 - restapi - INFO - nodejs
+2014-06-15 09:29:46,221 - restapi - INFO - ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']
+2014-06-15 09:29:46,222 - restapi - INFO - ['manifests', 'templates', 'files']
+2014-06-15 09:29:46,222 - restapi - INFO - []
+2014-06-15 09:29:46,222 - restapi - INFO - []
+2014-06-15 09:29:46,222 - restapi - INFO - []
+2014-06-15 09:29:46,222 - restapi - INFO - ['manifests']
+2014-06-15 09:29:46,222 - restapi - INFO - []
+2014-06-15 09:29:46,222 - restapi - INFO - ['manifests']
+2014-06-15 09:29:46,222 - restapi - INFO - []
+2014-06-15 09:29:46,223 - restapi - INFO - ['manifests', 'templates']
+2014-06-15 09:29:46,223 - restapi - INFO - []
+2014-06-15 09:29:46,223 - restapi - INFO - []
+2014-06-15 09:29:46,223 - restapi - INFO - ['manifests', 'templates']
+2014-06-15 09:29:46,223 - restapi - INFO - []
+2014-06-15 09:29:46,223 - restapi - INFO - []
+2014-06-15 09:29:46,223 - restapi - INFO - ['manifests', 'templates', 'files']
+2014-06-15 09:29:46,224 - restapi - INFO - []
+2014-06-15 09:29:46,224 - restapi - INFO - ['conf', 'extensions', 'bin']
+2014-06-15 09:29:46,224 - restapi - INFO - ['templates']
+2014-06-15 09:29:46,224 - restapi - INFO - []
+2014-06-15 09:29:46,224 - restapi - INFO - ['addons']
+2014-06-15 09:29:46,224 - restapi - INFO - []
+2014-06-15 09:29:46,224 - restapi - INFO - []
+2014-06-15 09:29:46,224 - restapi - INFO - ['activemq']
+2014-06-15 09:29:46,225 - restapi - INFO - []
+2014-06-15 09:29:46,225 - restapi - INFO - ['manifests']
+2014-06-15 09:29:46,225 - restapi - INFO - []
+2014-06-15 09:29:46,225 - restapi - INFO - ['manifests', 'templates']
+2014-06-15 09:29:46,225 - restapi - INFO - []
+2014-06-15 09:29:46,225 - restapi - INFO - []
+2014-06-15 09:29:46,225 - restapi - INFO - ['manifests', 'templates', 'files']
+2014-06-15 09:29:46,225 - restapi - INFO - []
+2014-06-15 09:29:46,226 - restapi - INFO - ['conf']
+2014-06-15 09:29:46,226 - restapi - INFO - ['templates', 'axis2']
+2014-06-15 09:29:46,226 - restapi - INFO - []
+2014-06-15 09:29:46,226 - restapi - INFO - []
+2014-06-15 09:29:46,226 - restapi - INFO - ['configs']
+2014-06-15 09:29:46,226 - restapi - INFO - ['bin']
+2014-06-15 09:29:46,226 - restapi - INFO - []
+2014-06-15 09:29:46,226 - restapi - INFO - ['manifests']
+2014-06-15 09:29:46,227 - restapi - INFO - []
+2014-06-15 09:29:46,227 - restapi - INFO - ['manifests', 'templates']
+2014-06-15 09:29:46,227 - restapi - INFO - []
+2014-06-15 09:29:46,227 - restapi - INFO - ['httpd']
+2014-06-15 09:29:46,227 - restapi - INFO - []
+2014-06-15 09:29:46,227 - restapi - INFO - ['manifests', 'templates', 'lib', 'files']
+2014-06-15 09:29:46,227 - restapi - INFO - []
+2014-06-15 09:29:46,227 - restapi - INFO - ['httpd', 'apache2']
+2014-06-15 09:29:46,228 - restapi - INFO - []
+2014-06-15 09:29:46,228 - restapi - INFO - ['sites-available']
+2014-06-15 09:29:46,228 - restapi - INFO - []
+2014-06-15 09:29:46,228 - restapi - INFO - ['facter']
+2014-06-15 09:29:46,228 - restapi - INFO - []
+2014-06-15 09:29:46,228 - restapi - INFO - []
+2014-06-15 09:32:18,379 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:32:18,379 - restapi - INFO - <Storage {'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 09:32:18,379 - restapi - INFO - nodejs
+2014-06-15 09:43:43,408 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:43:43,409 - restapi - INFO - <Storage {'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 09:43:43,409 - restapi - INFO - nodejs
+2014-06-15 09:43:43,411 - restapi - INFO - module found
+2014-06-15 09:43:52,979 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:43:52,980 - restapi - INFO - <Storage {'packagetype': u'puppet', 'modulename': u'nodejss'}>
+2014-06-15 09:43:52,980 - restapi - INFO - nodejss
+2014-06-15 09:43:52,980 - restapi - INFO - module not  found
+2014-06-15 09:44:42,684 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:44:42,684 - restapi - INFO - <Storage {'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 09:44:42,685 - restapi - INFO - nodejs
+2014-06-15 09:46:05,029 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 09:46:05,030 - restapi - INFO - puppet
+2014-06-15 09:46:05,030 - restapi - INFO - nodejs
+2014-06-15 09:46:05,030 - restapi - INFO - logs/modules/nodejs.log
+2014-06-15 09:46:08,499 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 09:46:08,500 - restapi - INFO - puppet
+2014-06-15 09:46:08,500 - restapi - INFO - nodejsd
+2014-06-15 09:46:08,500 - restapi - INFO - logs/modules/nodejsd.log
+2014-06-15 09:46:13,599 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 09:46:13,600 - restapi - INFO - puppet
+2014-06-15 09:46:13,600 - restapi - INFO - nodejs
+2014-06-15 09:46:13,600 - restapi - INFO - logs/modules/nodejs.log
+2014-06-15 09:46:43,870 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:48:30,386 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:48:43,897 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:51:56,467 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:52:05,803 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:52:34,970 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:53:36,902 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 09:53:36,903 - restapi - INFO - <Storage {'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 09:53:36,903 - restapi - INFO - nodejs
+2014-06-15 10:36:33,004 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 10:36:33,005 - restapi - INFO - puppet
+2014-06-15 10:36:33,005 - restapi - INFO - nodejs
+2014-06-15 10:36:33,005 - restapi - INFO - logs/modules/nodejs.log
+2014-06-15 10:55:05,096 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-15 10:59:09,090 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 10:59:09,091 - restapi - INFO - package type  puppet123
+2014-06-15 10:59:13,313 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 10:59:13,313 - restapi - INFO - package type  puppet
+2014-06-15 10:59:13,318 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-15 11:10:45,907 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 11:10:45,908 - restapi - INFO - package type  puppet
+2014-06-15 11:10:45,908 - restapi - INFO - module name nodejs
+2014-06-15 11:10:45,908 - restapi - INFO - this is get deployment json
+2014-06-15 11:10:45,908 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-15 11:44:47,273 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 11:44:47,273 - restapi - INFO - package type  puppet
+2014-06-15 11:44:47,278 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-15 12:19:09,659 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 12:19:09,660 - restapi - INFO - puppet
+2014-06-15 12:19:09,660 - restapi - INFO - nodejs
+2014-06-15 12:19:09,660 - restapi - INFO - logs/modules/nodejs.log
+2014-06-15 12:22:36,832 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 12:22:36,832 - restapi - INFO - package type  puppet
+2014-06-15 12:22:36,834 - restapi - INFO - module name nodejs
+2014-06-15 12:22:43,568 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 12:22:43,568 - restapi - INFO - package type  puppet
+2014-06-15 12:22:43,568 - restapi - INFO - module name nodejs
+2014-06-15 12:22:43,568 - restapi - INFO - this is get deployment json
+2014-06-15 12:22:43,568 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}

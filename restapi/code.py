@@ -35,6 +35,8 @@ fileDownLoadLogger = logging.getLogger('filedownloader')
 CherryPyWSGIServer.ssl_certificate = conf.config.ssl_certificate
 CherryPyWSGIServer.ssl_private_key = conf.config.ssl_privatekey
 
+
+
 #Home 
 class Index:
     def GET(self):
@@ -71,91 +73,118 @@ class Login:
             web.ctx.status = '401 Unauthorized'
             return
 
-#Read puppet master folders and return a xml
-class GetModuleList:
-    def GET(self):
-        if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
-                  
-            logger.info('accessing /getModuleList')
-
-            #logger.info(os.listdir("/home/roshan/"))
-            from os import walk
-
-            f = []
-            for (dirpath, dirnames, filenames) in walk(conf.config.puppetMasterLocation):
-                f.extend(dirnames)
-                break
-
-            logger.debug(f)                
-            
-            
-            web.header('Content-Type', 'application/json')
-            return json.dumps(f)
-            
-            #return [name for name in os.listdir(dir)
-            #if os.path.isdir(os.path.join(dir, name))]
-
-        else:
-            #logger.info('Prompting http basic auth!')
-            raise web.seeother('/login')
-
 
 #install/download puppet module 
 class InstallPuppetModule:
    
-    def POST(self,name,url,checksum):
+    def POST(self):
 
         if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
+            try:
+                web.header('Content-Type', 'application/json')
 
-            f = []
-            for (dirpath, dirnames, filenames) in walk(conf.config.puppetMasterLocation):
-                f.extend(dirnames)
-                break
+                logger.info('accessing /InstallModuel')
 
-            moduleNameInLowerCase = name.lower() 
-            
-            web.header('Content-Type', 'application/json')
+                user_data = web.input()
 
-            #if a module is already in progress return error
-            import xml.etree.ElementTree as ET
-            tree = ET.parse('logs/progresslist.xml')
-            root = tree.getroot()
-            for module in root.findall('module'):
-                name = module.find('name').text
-                if name==moduleNameInLowerCase:
-                    logger.info("module is already available in progress list!")  
-                    return json.dumps("Module is already available in progress list!")    
+                packageType = user_data.packagetype
+                moduleName = user_data.modulename
+                checkSum = user_data.checksum
+                downloadUrl = user_data.downloadUrl
 
-            if moduleNameInLowerCase in f:
-                logger.info("module is already available abort download")  
-                return json.dumps("Module is already available in puppet master")
-            else:
-                #start the subprocess sweet of python <3.
-                p = subprocess.Popen(['python', 'backendprocess.py' ,url,name,checksum])
-                return json.dumps("your moudle will be installed soon!!")
+                logger.info("packagetype: "+ packageType)
+                logger.info("downloadUrl: "+ downloadUrl)
+                logger.info("moduleName: "+ moduleName)
+                logger.info("checkSum: "+ checkSum)
+
+                #we currently support only puppet
+                if user_data.packagetype!="puppet":
+                    web.ctx.status = '404 Not Found'
+                    return json.dumps('Package type not found')
+
+
+                f = []
+                for (dirpath, dirnames, filenames) in walk(conf.config.puppetMasterLocation):
+                    f.extend(dirnames)
+                    break
+
+                moduleNameInLowerCase = moduleName.lower() 
+                
+                #if a module is already in progress return error
+                import xml.etree.ElementTree as ET
+                tree = ET.parse('logs/progresslist.xml')
+                root = tree.getroot()
+                for module in root.findall('module'):
+                    name = module.find('name').text
+                    if name==moduleNameInLowerCase:
+                        web.ctx.status = '409 Conflict'
+                        logger.info("module is already available in progress list!")  
+                        return json.dumps("requested module is currently installing..")    
+
+                if moduleNameInLowerCase in f:
+                    web.ctx.status = '409 Conflict'
+                    logger.info("module is already available abort download")  
+                    return json.dumps("Module is already available in puppet master")
+                else:
+                    #start the subprocess sweet of python <3.
+                    p = subprocess.Popen(['python', 'backendprocess.py' ,downloadUrl,moduleNameInLowerCase,checkSum])
+                    web.ctx.status = '202 Accepted'
+                    return json.dumps("we have accepted your request,moudle will be installed soon!!")
+
+            except Exception as e:
+                web.ctx.status = '500 Internal Server Error'
+                return json.dumps("Internal Server Error")
 
         else:
             #logger.info('Prompting http basic auth!')
             raise web.seeother('/login')
 
 
-class GetModuleInstallationProgress:
+class GetModuleInstallationLog:
     #parameters module name
-    def GET(self,name):
+    def GET(self):
 
         if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
 
-            #a=open('/home/roshan/workspace/webpy/restapi/logs/filedownload.log','rb')
+            try:
+                web.header('Content-Type', 'application/json')
 
-            f = open("logs/modules/"+name+".log",'r')
-            myList = []
-            for line in f:
-                myList.append(line)
-           
+                logger.info('accessing /GetModuleInstallationLog')
 
-            web.header('Content-Type', 'application/json')
-            return json.dumps(myList)
-            #return myList
+                packageType = web.input(packagetype="puppetsd")
+                moduleName = web.input(modulename="nodejssd")
+
+                packageType = packageType.packagetype
+                moduleName = moduleName.modulename
+
+                logger.info(packageType)
+                logger.info(moduleName)
+
+                #we are currently support only puppet packages
+                if packageType!="puppet":
+                    web.ctx.status = '404 Not Found'
+                    return json.dumps('Package type not found')
+
+                path = "logs/modules/"+moduleName+".log"
+
+                logger.info(path)
+                if os.path.isfile(path):
+                    f = open(path,'r')
+                    myList = []
+                    for line in f:
+                        myList.append(line)
+                       
+
+                    return json.dumps(myList)
+                    
+                else:
+                    web.ctx.status = '404 Not Found'
+                    return json.dumps('log file is not found')
+            except Exception as e:
+                logger.debug("Error is :%s" % e )
+                web.ctx.status = '500 Internal Server Error'
+                return json.dumps("Internal Server Error")
+
         else:
             #logger.info('Prompting http basic auth!')
             raise web.seeother('/login')
@@ -164,110 +193,181 @@ class GetModuleInstallationProgress:
 
 class GetModuleStatus:
     #parameter module name
-    def GET(self,name):
+    def GET(self):
         if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
 
-            web.header('Content-Type', 'application/json')
+            try:
+                web.header('Content-Type', 'application/json')
 
-            import xml.etree.ElementTree as ET
-            tree = ET.parse('logs/errorlist.xml')
-            root = tree.getroot()
-            for module in root.findall('module'):
-                moduleName = module.find('name').text
-                if name==moduleName:
-                    return json.dumps("error")
+                logger.info('accessing /GetModuleStatus')
+
+                webInputObj = web.input()
+            
+                packageType = webInputObj.packagetype
+                name = webInputObj.modulename
+
+                logger.info("package type  "+packageType)
+                logger.info("module name "+ name)
+
+                #we are currently support only puppet packages
+                if packageType!="puppet":
+                    web.ctx.status = '404 Not Found'
+                    return json.dumps('Package type not found')
 
 
-            import xml.etree.ElementTree as ET
-            tree = ET.parse('logs/installedmodules.xml')
-            root = tree.getroot()
-            for module in root.findall('module'):
-                moduleName = module.find('name').text
-                if name==moduleName:
+                import xml.etree.ElementTree as ET
+                tree = ET.parse('logs/errorlist.xml')
+                root = tree.getroot()
+                for module in root.findall('module'):
+                    moduleName = module.find('name').text
+                    if name==moduleName:
+                        return json.dumps("error")
+
+
+                #logger.info(os.listdir("/home/roshan/"))
+                from os import walk
+                f = []
+                for (dirpath, dirnames, filenames) in walk(conf.config.puppetMasterLocation):
+                    f.extend(dirnames)
+                    break
+
+                if name in f:
                     return json.dumps("installed")
+                          
+                import xml.etree.ElementTree as ET
+                tree = ET.parse('logs/progresslist.xml')
+                root = tree.getroot()
+                for module in root.findall('module'):
+                    moduleName = module.find('name').text
+                    if name==moduleName:
+                        return json.dumps("inprogress")
 
-            import xml.etree.ElementTree as ET
-            tree = ET.parse('logs/progresslist.xml')
-            root = tree.getroot()
-            for module in root.findall('module'):
-                moduleName = module.find('name').text
-                if name==moduleName:
-                    return json.dumps("inprogress")
 
+                #return 404 moduel not found at last
+                web.ctx.status = '404 Not Found'
+                    return json.dumps('Module not found')
+
+
+            except Exception as e:
+                logger.debug("Error is :%s" % e )
+                web.ctx.status = '500 Internal Server Error'
+                return json.dumps("Internal Server Error")
         else:
             #logger.info('Prompting http basic auth!')
             raise web.seeother('/login')
 
 
-class GetAllModulesStatus:
+class GetAllModulesList:
     #parameter module name
     def GET(self):
         if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
 
             #python dictionary should return with list of installed modules and on progress modules
+            try:
 
-            #installed module list
-            installedModuleList = []
-            for (dirpath, dirnames, filenames) in walk(conf.config.puppetMasterLocation):
-                installedModuleList.extend(dirnames)
-                break
+                web.header('Content-Type', 'application/json')
 
-            #inprogress module lists
-            inProgressModuleList = []
+                logger.info('accessing /GetModuleStatus')
 
-            import xml.etree.ElementTree as ET
-            tree = ET.parse('logs/progresslist.xml')
-            root = tree.getroot()
-            for module in root.findall('module'):
-                name = module.find('name').text
-                logger.info(name)
-                inProgressModuleList.append(name)
+                webInputObj = web.input()
+            
+                packageType = webInputObj.packagetype
+                
 
-           
+                logger.info("package type  "+packageType)
 
-            #error module lists
-            errorModuleList = []
-            import xml.etree.ElementTree as ET
-            tree = ET.parse('logs/errorlist.xml')
-            root = tree.getroot()
-            for module in root.findall('module'):
-                name = module.find('name').text
-                logger.info(name)
-                errorModuleList.append(name)
+                #we are currently support only puppet packages
+                if packageType!="puppet":
+                    web.ctx.status = '404 Not Found'
+                    return json.dumps('Package type not found')
 
-    
-            #merge tow lists and make a python dictionary]
-            rec = {
-                  'installed': installedModuleList,
-                  'inprogress': inProgressModuleList,
-                  'error': errorModuleList
-                  }
+                #installed module list
+                installedModuleList = []
+                for (dirpath, dirnames, filenames) in walk(conf.config.puppetMasterLocation):
+                    installedModuleList.extend(dirnames)
+                    break
 
-            logger.debug(rec)
+                #inprogress module lists
+                inProgressModuleList = []
 
-            web.header('Content-Type', 'application/json')
-            return json.dumps(rec)
+                import xml.etree.ElementTree as ET
+                tree = ET.parse('logs/progresslist.xml')
+                root = tree.getroot()
+                for module in root.findall('module'):
+                    name = module.find('name').text
+                    logger.info(name)
+                    inProgressModuleList.append(name)
+
+               
+
+                #error module lists
+                errorModuleList = []
+                import xml.etree.ElementTree as ET
+                tree = ET.parse('logs/errorlist.xml')
+                root = tree.getroot()
+                for module in root.findall('module'):
+                    name = module.find('name').text
+                    logger.info(name)
+                    errorModuleList.append(name)
+
+        
+                #merge tow lists and make a python dictionary]
+                rec = {
+                      'installed': installedModuleList,
+                      'inprogress': inProgressModuleList,
+                      'error': errorModuleList
+                      }
+
+                logger.debug(rec)
+
+                return json.dumps(rec)
+
+            except Exception as e:
+                logger.debug("Error is :%s" % e )
+                web.ctx.status = '500 Internal Server Error'
+                return json.dumps("Internal Server Error")
 
         else:
             #logger.info('Prompting http basic auth!')
             raise web.seeother('/login')
 
 class  GetDeploymentJson:
-    def GET(self,name):
+    def GET(self):
         if web.ctx.env.get('HTTP_AUTHORIZATION') is not None:
+            try:
+                web.header('Content-Type', 'application/json')
 
-            logger.info("this is get deployment json")
+                logger.info('accessing /GetModuleStatus')
 
-            web.header('Content-Type', 'application/json')
-            try:            
-                with open("deploymentjsons/"+name+".json") as data_file:    
-                    data = json.load(data_file)
-                    logger.info(data)
-                
-                return json.dumps(data)
+                webInputObj = web.input()
+            
+                packageType = webInputObj.packagetype
+                name = webInputObj.modulename
 
-            except Exception as e:
-                return json.dumps("error while reading deployment json")
+                logger.info("package type  "+packageType)
+                logger.info("module name "+ name)
+
+                #we are currently support only puppet packages
+                if packageType!="puppet":
+                    web.ctx.status = '404 Not Found'
+                    return json.dumps('Package type not found')
+
+                logger.info("this is get deployment json")
+
+                web.header('Content-Type', 'application/json')
+                try:            
+                    with open("deploymentjsons/"+name+".json") as data_file:    
+                        data = json.load(data_file)
+                        logger.info(data)
+                    
+                    return json.dumps(data)
+
+                except Exception as e:
+                    return json.dumps("error while reading deployment json")
+            except:
+                logger.debug("Error is :%s" % e )
+                web.ctx.status = '500 Internal Server Error'
+                return json.dumps("Internal Server Error")
 
         else:
             #logger.info('Prompting http basic auth!')
