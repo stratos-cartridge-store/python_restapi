@@ -87,6 +87,8 @@ class InstallPuppetModule:
 
                 user_data = web.input()
 
+                logger.info(user_data)
+
                 packageType = user_data.packagetype
                 moduleName = user_data.modulename
                 checkSum = user_data.checksum
@@ -132,6 +134,7 @@ class InstallPuppetModule:
                     return json.dumps("we have accepted your request,moudle will be installed soon!!")
 
             except Exception as e:
+                logger.debug("Error is :%s" % e )
                 web.ctx.status = '500 Internal Server Error'
                 return json.dumps("Internal Server Error")
 
@@ -245,7 +248,7 @@ class GetModuleStatus:
 
                 #return 404 moduel not found at last
                 web.ctx.status = '404 Not Found'
-                    return json.dumps('Module not found')
+                return json.dumps('Module not found')
 
 
             except Exception as e:
@@ -328,8 +331,8 @@ class GetAllModulesList:
                 return json.dumps("Internal Server Error")
 
         else:
-            #logger.info('Prompting http basic auth!')
-            raise web.seeother('/login')
+             #logger.info('Prompting http basic auth!')
+             raise web.seeother('/login')
 
 class  GetDeploymentJson:
     def GET(self):

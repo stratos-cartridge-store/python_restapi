@@ -662,3 +662,96 @@
 2014-06-15 12:22:43,568 - restapi - INFO - module name nodejs
 2014-06-15 12:22:43,568 - restapi - INFO - this is get deployment json
 2014-06-15 12:22:43,568 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-15 13:47:42,754 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 13:47:42,754 - restapi - INFO - package type  puppet
+2014-06-15 13:47:42,756 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-15 13:49:09,759 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 13:49:09,759 - restapi - INFO - package type  puppet?json
+2014-06-15 13:50:14,267 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 13:50:14,267 - restapi - INFO - package type  puppet
+2014-06-15 13:50:14,267 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-15 13:50:49,403 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 13:50:49,403 - restapi - INFO - package type  pupspet
+2014-06-15 13:59:28,312 - restapi - INFO - accessing /InstallModuel
+2014-06-15 14:01:17,626 - restapi - INFO - accessing /InstallModuel
+2014-06-15 14:01:31,770 - restapi - INFO - accessing /InstallModuel
+2014-06-15 14:01:31,770 - restapi - DEBUG - Error is :'packagetype'
+2014-06-15 14:02:15,146 - restapi - INFO - accessing /InstallModuel
+2014-06-15 14:02:15,146 - restapi - INFO - <Storage {'Jaggery HTTP POST': u''}>
+2014-06-15 14:02:15,146 - restapi - DEBUG - Error is :'packagetype'
+2014-06-15 14:02:59,113 - restapi - INFO - accessing /InstallModuel
+2014-06-15 14:02:59,114 - restapi - INFO - <Storage {'downloadUrl': u'https%3A%2F%2Fwww.dropbox.com%2Fs%2F5gk277nmkwhorz1%2Fnodejswithjson.tar.gz%3Fdl%3D1', 'checksum': u'2b351eeecf16af87989498bdbcb7c674', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 14:02:59,114 - restapi - INFO - packagetype: puppet
+2014-06-15 14:02:59,114 - restapi - INFO - downloadUrl: https%3A%2F%2Fwww.dropbox.com%2Fs%2F5gk277nmkwhorz1%2Fnodejswithjson.tar.gz%3Fdl%3D1
+2014-06-15 14:02:59,114 - restapi - INFO - moduleName: nodejs
+2014-06-15 14:02:59,114 - restapi - INFO - checkSum: 2b351eeecf16af87989498bdbcb7c674
+2014-06-15 14:05:12,382 - restapi - INFO - accessing /InstallModuel
+2014-06-15 14:05:12,382 - restapi - INFO - <Storage {'downloadUrl': u'https%3A%2F%2Fwww.dropbox.com%2Fs%2F5gk277nmkwhorz1%2Fnodejswithjson.tar.gz%3Fdl%3D1', 'checksum': u'2b351eeecf16af87989498bdbcb7c674', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 14:05:12,382 - restapi - INFO - packagetype: puppet
+2014-06-15 14:05:12,382 - restapi - INFO - downloadUrl: https%3A%2F%2Fwww.dropbox.com%2Fs%2F5gk277nmkwhorz1%2Fnodejswithjson.tar.gz%3Fdl%3D1
+2014-06-15 14:05:12,382 - restapi - INFO - moduleName: nodejs
+2014-06-15 14:05:12,383 - restapi - INFO - checkSum: 2b351eeecf16af87989498bdbcb7c674
+2014-06-15 14:05:12,383 - restapi - INFO - module is already available abort download
+2014-06-15 14:07:27,750 - restapi - INFO - accessing /InstallModuel
+2014-06-15 14:07:27,751 - restapi - INFO - <Storage {'downloadUrl': u'https%3A%2F%2Fwww.dropbox.com%2Fs%2F5gk277nmkwhorz1%2Fnodejswithjson.tar.gz%3Fdl%3D1', 'checksum': u'2b351eeecf16af87989498bdbcb7c674', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 14:07:27,751 - restapi - INFO - packagetype: puppet
+2014-06-15 14:07:27,751 - restapi - INFO - downloadUrl: https%3A%2F%2Fwww.dropbox.com%2Fs%2F5gk277nmkwhorz1%2Fnodejswithjson.tar.gz%3Fdl%3D1
+2014-06-15 14:07:27,751 - restapi - INFO - moduleName: nodejs
+2014-06-15 14:07:27,751 - restapi - INFO - checkSum: 2b351eeecf16af87989498bdbcb7c674
+2014-06-15 14:07:27,751 - restapi - INFO - module is already available abort download
+2014-06-15 14:11:00,395 - restapi - INFO - accessing /InstallModuel
+2014-06-15 14:11:00,396 - restapi - INFO - <Storage {'downloadUrl': u'https%3A%2F%2Fwww.dropbox.com%2Fs%2F5gk277nmkwhorz1%2Fnodejswithjson.tar.gz%3Fdl%3D1', 'checksum': u'2b351eeecf16af87989498bdbcb7c674', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 14:11:00,396 - restapi - INFO - packagetype: puppet
+2014-06-15 14:11:00,396 - restapi - INFO - downloadUrl: https%3A%2F%2Fwww.dropbox.com%2Fs%2F5gk277nmkwhorz1%2Fnodejswithjson.tar.gz%3Fdl%3D1
+2014-06-15 14:11:00,396 - restapi - INFO - moduleName: nodejs
+2014-06-15 14:11:00,396 - restapi - INFO - checkSum: 2b351eeecf16af87989498bdbcb7c674
+2014-06-15 14:11:00,396 - restapi - INFO - module is already available abort download
+2014-06-15 14:11:12,278 - restapi - INFO - accessing /InstallModuel
+2014-06-15 14:11:12,278 - restapi - INFO - <Storage {'downloadUrl': u'https%3A%2F%2Fwww.dropbox.com%2Fs%2F5gk277nmkwhorz1%2Fnodejswithjson.tar.gz%3Fdl%3D1', 'checksum': u'2b351eeecf16af87989498bdbcb7c674', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 14:11:12,278 - restapi - INFO - packagetype: puppet
+2014-06-15 14:11:12,278 - restapi - INFO - downloadUrl: https%3A%2F%2Fwww.dropbox.com%2Fs%2F5gk277nmkwhorz1%2Fnodejswithjson.tar.gz%3Fdl%3D1
+2014-06-15 14:11:12,278 - restapi - INFO - moduleName: nodejs
+2014-06-15 14:11:12,279 - restapi - INFO - checkSum: 2b351eeecf16af87989498bdbcb7c674
+2014-06-15 14:11:12,279 - restapi - INFO - module is already available abort download
+2014-06-15 14:12:09,190 - restapi - INFO - accessing /InstallModuel
+2014-06-15 14:12:09,190 - restapi - INFO - <Storage {'downloadUrl': u'https%3A%2F%2Fwww.dropbox.com%2Fs%2F5gk277nmkwhorz1%2Fnodejswithjson.tar.gz%3Fdl%3D1', 'checksum': u'2b351eeecf16af87989498bdbcb7c674', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 14:12:09,190 - restapi - INFO - packagetype: puppet
+2014-06-15 14:12:09,190 - restapi - INFO - downloadUrl: https%3A%2F%2Fwww.dropbox.com%2Fs%2F5gk277nmkwhorz1%2Fnodejswithjson.tar.gz%3Fdl%3D1
+2014-06-15 14:12:09,190 - restapi - INFO - moduleName: nodejs
+2014-06-15 14:12:09,191 - restapi - INFO - checkSum: 2b351eeecf16af87989498bdbcb7c674
+2014-06-15 14:12:09,192 - restapi - INFO - module is already available abort download
+2014-06-15 14:13:01,959 - restapi - INFO - accessing /InstallModuel
+2014-06-15 14:13:01,960 - restapi - INFO - <Storage {'downloadUrl': u'https%3A%2F%2Fwww.dropbox.com%2Fs%2F5gk277nmkwhorz1%2Fnodejswithjson.tar.gz%3Fdl%3D1', 'checksum': u'2b351eeecf16af87989498bdbcb7c674', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 14:13:01,960 - restapi - INFO - packagetype: puppet
+2014-06-15 14:13:01,960 - restapi - INFO - downloadUrl: https%3A%2F%2Fwww.dropbox.com%2Fs%2F5gk277nmkwhorz1%2Fnodejswithjson.tar.gz%3Fdl%3D1
+2014-06-15 14:13:01,960 - restapi - INFO - moduleName: nodejs
+2014-06-15 14:13:01,960 - restapi - INFO - checkSum: 2b351eeecf16af87989498bdbcb7c674
+2014-06-15 14:13:01,962 - restapi - INFO - module is already available abort download
+2014-06-15 14:17:06,342 - restapi - INFO - accessing /InstallModuel
+2014-06-15 14:17:06,342 - restapi - INFO - <Storage {'downloadUrl': u'https%3A%2F%2Fwww.dropbox.com%2Fs%2F5gk277nmkwhorz1%2Fnodejswithjson.tar.gz%3Fdl%3D1', 'checksum': u'2b351eeecf16af87989498bdbcb7c674', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 14:17:06,342 - restapi - INFO - packagetype: puppet
+2014-06-15 14:17:06,343 - restapi - INFO - downloadUrl: https%3A%2F%2Fwww.dropbox.com%2Fs%2F5gk277nmkwhorz1%2Fnodejswithjson.tar.gz%3Fdl%3D1
+2014-06-15 14:17:06,343 - restapi - INFO - moduleName: nodejs
+2014-06-15 14:17:06,343 - restapi - INFO - checkSum: 2b351eeecf16af87989498bdbcb7c674
+2014-06-15 14:17:06,343 - restapi - INFO - module is already available abort download
+2014-06-15 14:30:15,699 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 14:30:15,699 - restapi - INFO - package type  puppet
+2014-06-15 14:30:15,701 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-15 14:30:24,378 - restapi - INFO - accessing /InstallModuel
+2014-06-15 14:30:24,379 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/5gk277nmkwhorz1/nodejswithjson.tar.gz?dl=1', 'checksum': u'2b351eeecf16af87989498bdbcb7c674', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-15 14:30:24,380 - restapi - INFO - packagetype: puppet
+2014-06-15 14:30:24,380 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/5gk277nmkwhorz1/nodejswithjson.tar.gz?dl=1
+2014-06-15 14:30:24,380 - restapi - INFO - moduleName: nodejs
+2014-06-15 14:30:24,380 - restapi - INFO - checkSum: 2b351eeecf16af87989498bdbcb7c674
+2014-06-15 14:30:46,539 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-15 14:30:46,540 - restapi - INFO - puppet
+2014-06-15 14:30:46,540 - restapi - INFO - nodejs
+2014-06-15 14:30:46,540 - restapi - INFO - logs/modules/nodejs.log
+2014-06-15 14:30:52,358 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 14:30:52,358 - restapi - INFO - package type  puppet
+2014-06-15 14:30:52,358 - restapi - INFO - module name nodejs
+2014-06-15 14:30:57,630 - restapi - INFO - accessing /GetModuleStatus
+2014-06-15 14:30:57,630 - restapi - INFO - package type  puppet
+2014-06-15 14:30:57,630 - restapi - INFO - module name nodejs
+2014-06-15 14:30:57,630 - restapi - INFO - this is get deployment json
+2014-06-15 14:30:57,631 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
