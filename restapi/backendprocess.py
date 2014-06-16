@@ -232,6 +232,7 @@ try:
         writeElemetToTheXML(moduleName,'logs/errorlist.xml')
         removeFromInProgressList(moduleName)
         fileDownLoadLogger.info('Directory not copied. Error: %s' % e)
+        os.system("sudo rm -rf "+" "+dest+"/"+moduleName)
 
 except Exception as e:
     
