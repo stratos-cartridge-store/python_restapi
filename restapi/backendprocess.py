@@ -162,13 +162,24 @@ try:
         fileDownLoadLogger.debug("check sum mismatched!")
         raise Exception("Downloading abort checksum mismatched..")
 
+
+    logging.debug("Temp Location" + tmpExtractLocation)
+
     #remove folder if there is a already one
     os.system("sudo rm -rf" +" " +tmpExtractLocation)
 
+    logging.debug("Opening Tar" + tmpExtractLocation+".tar.gz")
+
+
     tar = tarfile.open(tmpExtractLocation+".tar.gz", "r:gz")
+
+    logging.debug("tar opened")
+
     
     #we create our own folder to put extract things..becasue we don't no what is the foldername of targz yet
     tar.extractall(tmpExtractLocation)
+
+    logging.debug("tar extracted")
 
     # renaming directory extracted directory to module name
     from os.path import join
@@ -180,10 +191,16 @@ try:
     #source folder
     src = tmpExtractLocation+"/"+moduleName
 
+    logging.debug("Source folder " + src)
+
     #destination folder 
     dest = "/etc/puppet/modules/"
 
+    logging.debug("Destination Folder" + dest)
+
     jsonSrc= "/etc/puppet/modules/"+moduleName+"/"+moduleName+".json"
+
+    logging.debug("Json Src" + jsonSrc)
 
     #deployment json destination
     jsonDestination = "deploymentjsons"
