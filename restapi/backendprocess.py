@@ -170,26 +170,27 @@ try:
 
     logging.debug("Opening Tar" + tmpExtractLocation+".tar.gz")
 
-
-    tar = tarfile.open(tmpExtractLocation+".tar.gz", "r:gz")
+    tar = tarfile.open(tmpExtractLocation+".tar.gz", "r")
 
     logging.debug("tar opened")
 
-    
     #we create our own folder to put extract things..becasue we don't no what is the foldername of targz yet
     tar.extractall(tmpExtractLocation)
 
     logging.debug("tar extracted")
 
     # renaming directory extracted directory to module name
-    from os.path import join
+    # from os.path import join
 
-    for root, dirs, files in os.walk(tmpExtractLocation):
-        for name in dirs:
-            newname = moduleName
-            os.rename(join(root,name),join(root,newname))
+    # for root, dirs, files in os.walk(tmpExtractLocation):
+    #     for name in dirs:
+    #         newname = moduleName
+    #         logging.debug("tar extracted")
+    #         os.rename(join(root,name),join(root,newname))
     #source folder
-    src = tmpExtractLocation+"/"+moduleName
+    #src = tmpExtractLocation+"/"+moduleName
+
+    src = tmpExtractLocation
 
     logging.debug("Source folder " + src)
 
@@ -207,6 +208,8 @@ try:
 
     try:
         os.system("sudo mv" +" "+src+" "+dest)
+
+        logger.info("sudo mv" +" "+src+" "+dest);
         #give permission for while in order to get write permission
         os.system("sudo chmod 777 /etc/puppet/manifests/nodes.pp")
         try:
