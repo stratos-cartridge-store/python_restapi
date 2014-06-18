@@ -205,3 +205,41 @@
 2014-06-15 14:30:27,909 - filedownloader - INFO - nodejswithjson.tar.gz?dl=1File download finished
 2014-06-15 14:30:27,910 - filedownloader - INFO - Removed from progresslist.xml nodejs
 2014-06-15 14:30:27,911 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-18 07:50:00,633 - filedownloader - DEBUG - Download URL is = http://10.100.5.104:9773/store/storage/cartridge/b8f2ce39-2da2-4c52-9b19-ec21fd40eb20/ad729f87-1916-425d-afd5-57fca221266d/mysql_new.tar.gz
+2014-06-18 07:50:00,633 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-18 07:50:00,633 - filedownloader - DEBUG - Module check sum argument value is = b263a1ceabc9c713fbacfe9c86f57134
+2014-06-18 07:50:00,635 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-18 07:50:03,636 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-18 07:50:03,638 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-18 07:50:03,638 - filedownloader - DEBUG - Fail to download file : error is :<urlopen error [Errno 113] No route to host>
+2014-06-18 07:50:17,288 - filedownloader - DEBUG - Download URL is = http://10.100.5.104:9773/store/storage/cartridge/b8f2ce39-2da2-4c52-9b19-ec21fd40eb20/ad729f87-1916-425d-afd5-57fca221266d/mysql_new.tar.gz
+2014-06-18 07:50:17,288 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-18 07:50:17,288 - filedownloader - DEBUG - Module check sum argument value is = b263a1ceabc9c713fbacfe9c86f57134
+2014-06-18 07:50:17,290 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-18 07:50:17,290 - filedownloader - INFO - Removed from errorlist.xml nodejs
+2014-06-18 07:50:20,288 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-18 07:50:20,289 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-18 07:50:20,290 - filedownloader - DEBUG - Fail to download file : error is :<urlopen error [Errno 113] No route to host>
+2014-06-18 07:51:17,089 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-18 07:51:17,089 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-18 07:51:17,089 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-18 07:51:17,090 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-18 07:51:17,091 - filedownloader - INFO - Removed from errorlist.xml nodejs
+2014-06-18 07:51:19,864 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-18 07:51:19,865 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-18 07:51:19,865 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-18 07:51:19,867 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-18 07:51:19,867 - filedownloader - DEBUG - Fail to download file : error is :[Errno 2] No such file or directory: 'logs/modules/nodejs.log'
+2014-06-18 07:52:11,148 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-18 07:52:11,148 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-18 07:52:11,148 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-18 07:52:11,150 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-18 07:52:11,150 - filedownloader - INFO - Removed from errorlist.xml nodejs
+2014-06-18 07:52:13,770 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-18 07:52:13,770 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-18 07:52:13,771 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-18 07:52:13,772 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-18 07:52:13,772 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-18 07:52:14,881 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
+2014-06-18 07:52:14,881 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-18 07:52:14,882 - filedownloader - INFO - writing to xml file is complete..nodejs

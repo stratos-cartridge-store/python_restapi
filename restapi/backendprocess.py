@@ -179,16 +179,7 @@ try:
 
     logging.debug("tar extracted")
 
-    # renaming directory extracted directory to module name
-    # from os.path import join
-
-    # for root, dirs, files in os.walk(tmpExtractLocation):
-    #     for name in dirs:
-    #         newname = moduleName
-    #         logging.debug("tar extracted")
-    #         os.rename(join(root,name),join(root,newname))
-    #source folder
-    #src = tmpExtractLocation+"/"+moduleName
+ 
 
     src = tmpExtractLocation
 

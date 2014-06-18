@@ -755,3 +755,31 @@
 2014-06-15 14:30:57,630 - restapi - INFO - module name nodejs
 2014-06-15 14:30:57,630 - restapi - INFO - this is get deployment json
 2014-06-15 14:30:57,631 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-18 07:49:09,145 - restapi - INFO - accessing /GetModuleStatus
+2014-06-18 07:49:09,146 - restapi - INFO - package type  puppet
+2014-06-18 07:49:09,148 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-18 07:50:00,552 - restapi - INFO - accessing /InstallModuel
+2014-06-18 07:50:00,552 - restapi - INFO - <Storage {'downloadUrl': u'http://10.100.5.104:9773/store/storage/cartridge/b8f2ce39-2da2-4c52-9b19-ec21fd40eb20/ad729f87-1916-425d-afd5-57fca221266d/mysql_new.tar.gz', 'checksum': u'b263a1ceabc9c713fbacfe9c86f57134', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-18 07:50:00,552 - restapi - INFO - packagetype: puppet
+2014-06-18 07:50:00,552 - restapi - INFO - downloadUrl: http://10.100.5.104:9773/store/storage/cartridge/b8f2ce39-2da2-4c52-9b19-ec21fd40eb20/ad729f87-1916-425d-afd5-57fca221266d/mysql_new.tar.gz
+2014-06-18 07:50:00,552 - restapi - INFO - moduleName: nodejs
+2014-06-18 07:50:00,552 - restapi - INFO - checkSum: b263a1ceabc9c713fbacfe9c86f57134
+2014-06-18 07:50:17,207 - restapi - INFO - accessing /InstallModuel
+2014-06-18 07:50:17,208 - restapi - INFO - <Storage {'downloadUrl': u'http://10.100.5.104:9773/store/storage/cartridge/b8f2ce39-2da2-4c52-9b19-ec21fd40eb20/ad729f87-1916-425d-afd5-57fca221266d/mysql_new.tar.gz', 'checksum': u'b263a1ceabc9c713fbacfe9c86f57134', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-18 07:50:17,208 - restapi - INFO - packagetype: puppet
+2014-06-18 07:50:17,208 - restapi - INFO - downloadUrl: http://10.100.5.104:9773/store/storage/cartridge/b8f2ce39-2da2-4c52-9b19-ec21fd40eb20/ad729f87-1916-425d-afd5-57fca221266d/mysql_new.tar.gz
+2014-06-18 07:50:17,208 - restapi - INFO - moduleName: nodejs
+2014-06-18 07:50:17,208 - restapi - INFO - checkSum: b263a1ceabc9c713fbacfe9c86f57134
+2014-06-18 07:51:17,006 - restapi - INFO - accessing /InstallModuel
+2014-06-18 07:51:17,006 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-18 07:51:17,006 - restapi - INFO - packagetype: puppet
+2014-06-18 07:51:17,006 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-18 07:51:17,006 - restapi - INFO - moduleName: nodejs
+2014-06-18 07:51:17,007 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-18 07:52:11,059 - restapi - INFO - accessing /InstallModuel
+2014-06-18 07:52:11,060 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-18 07:52:11,060 - restapi - INFO - packagetype: puppet
+2014-06-18 07:52:11,060 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-18 07:52:11,060 - restapi - INFO - moduleName: nodejs
+2014-06-18 07:52:11,061 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-18 07:52:14,607 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/
