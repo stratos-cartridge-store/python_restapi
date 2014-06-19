@@ -57,3 +57,178 @@
 2014-06-19 07:07:22,647 - restapi - INFO - moduleName: nodejs
 2014-06-19 07:07:22,647 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
 2014-06-19 07:07:22,648 - restapi - INFO - module is already available abort download
+2014-06-19 08:40:37,462 - restapi - INFO - accessing /InstallModuel
+2014-06-19 08:40:37,463 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 08:40:37,463 - restapi - INFO - packagetype: puppet
+2014-06-19 08:40:37,463 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 08:40:37,463 - restapi - INFO - moduleName: nodejs
+2014-06-19 08:40:37,463 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:40:37,467 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-19 08:40:40,424 - restapi - INFO - []
+2014-06-19 08:40:40,473 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/
+2014-06-19 08:41:53,426 - restapi - INFO - accessing /InstallModuel
+2014-06-19 08:41:53,427 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 08:41:53,427 - restapi - INFO - packagetype: puppet
+2014-06-19 08:41:53,427 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 08:41:53,427 - restapi - INFO - moduleName: nodejs
+2014-06-19 08:41:53,427 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:41:53,430 - restapi - INFO - module is already available abort download
+2014-06-19 08:41:59,240 - restapi - INFO - accessing /InstallModuel
+2014-06-19 08:41:59,241 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 08:41:59,241 - restapi - INFO - packagetype: puppet
+2014-06-19 08:41:59,241 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 08:41:59,242 - restapi - INFO - moduleName: nodejs
+2014-06-19 08:41:59,242 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:41:59,250 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-19 08:42:02,291 - restapi - INFO - []
+2014-06-19 08:42:02,332 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/
+2014-06-19 08:44:29,373 - restapi - INFO - accessing /InstallModuel
+2014-06-19 08:44:29,373 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 08:44:29,373 - restapi - INFO - packagetype: puppet
+2014-06-19 08:44:29,373 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 08:44:29,374 - restapi - INFO - moduleName: nodejs
+2014-06-19 08:44:29,374 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:44:29,375 - restapi - INFO - module is already available abort download
+2014-06-19 08:44:44,741 - restapi - INFO - accessing /InstallModuel
+2014-06-19 08:44:44,742 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 08:44:44,742 - restapi - INFO - packagetype: puppet
+2014-06-19 08:44:44,742 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 08:44:44,743 - restapi - INFO - moduleName: nodejs
+2014-06-19 08:44:44,743 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:44:44,745 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-19 08:44:47,553 - restapi - INFO - ['/tmp/nodejs/nodejs.json']
+2014-06-19 08:44:47,591 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/
+2014-06-19 08:53:47,293 - restapi - INFO - accessing /InstallModuel
+2014-06-19 08:53:47,294 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 08:53:47,296 - restapi - INFO - packagetype: puppet
+2014-06-19 08:53:47,296 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 08:53:47,296 - restapi - INFO - moduleName: nodejs
+2014-06-19 08:53:47,296 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:53:47,298 - restapi - INFO - module is already available abort download
+2014-06-19 08:53:53,900 - restapi - INFO - accessing /InstallModuel
+2014-06-19 08:53:53,900 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 08:53:53,900 - restapi - INFO - packagetype: puppet
+2014-06-19 08:53:53,900 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 08:53:53,900 - restapi - INFO - moduleName: nodejs
+2014-06-19 08:53:53,900 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:53:53,903 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-19 08:54:33,888 - restapi - INFO - accessing /InstallModuel
+2014-06-19 08:54:33,888 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 08:54:33,888 - restapi - INFO - packagetype: puppet
+2014-06-19 08:54:33,888 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 08:54:33,888 - restapi - INFO - moduleName: nodejs
+2014-06-19 08:54:33,888 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:54:33,892 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-19 08:55:10,435 - restapi - INFO - accessing /InstallModuel
+2014-06-19 08:55:10,436 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 08:55:10,436 - restapi - INFO - packagetype: puppet
+2014-06-19 08:55:10,436 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 08:55:10,436 - restapi - INFO - moduleName: nodejs
+2014-06-19 08:55:10,436 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:55:10,440 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-19 08:55:14,855 - restapi - INFO - ['/tmp/nodejs/nodejs.json']
+2014-06-19 08:55:14,856 - restapi - INFO - 1
+2014-06-19 08:55:14,894 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/
+2014-06-19 09:01:33,923 - restapi - INFO - accessing /InstallModuel
+2014-06-19 09:01:33,924 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 09:01:33,924 - restapi - INFO - packagetype: puppet
+2014-06-19 09:01:33,924 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:01:33,924 - restapi - INFO - moduleName: nodejs
+2014-06-19 09:01:33,924 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:01:33,928 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-19 09:02:39,537 - restapi - INFO - accessing /InstallModuel
+2014-06-19 09:02:39,538 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 09:02:39,538 - restapi - INFO - packagetype: puppet
+2014-06-19 09:02:39,538 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:02:39,538 - restapi - INFO - moduleName: nodejs
+2014-06-19 09:02:39,539 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:02:39,543 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-19 09:02:43,582 - restapi - INFO - ['/tmp/nodejs/nodejs.json']
+2014-06-19 09:03:23,816 - restapi - INFO - accessing /InstallModuel
+2014-06-19 09:03:23,817 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 09:03:23,817 - restapi - INFO - packagetype: puppet
+2014-06-19 09:03:23,817 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:03:23,817 - restapi - INFO - moduleName: nodejs
+2014-06-19 09:03:23,817 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:03:23,821 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-19 09:03:26,543 - restapi - INFO - ['/tmp/nodejs/nodejs.json']
+2014-06-19 09:03:26,543 - restapi - INFO - 1
+2014-06-19 09:03:26,584 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/
+2014-06-19 09:03:54,353 - restapi - INFO - accessing /InstallModuel
+2014-06-19 09:03:54,354 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 09:03:54,354 - restapi - INFO - packagetype: puppet
+2014-06-19 09:03:54,354 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:03:54,355 - restapi - INFO - moduleName: nodejs
+2014-06-19 09:03:54,355 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:03:54,357 - restapi - INFO - module is already available abort download
+2014-06-19 09:03:58,928 - restapi - INFO - accessing /InstallModuel
+2014-06-19 09:03:58,928 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 09:03:58,930 - restapi - INFO - packagetype: puppet
+2014-06-19 09:03:58,930 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:03:58,930 - restapi - INFO - moduleName: nodejs
+2014-06-19 09:03:58,930 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:03:58,933 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-19 09:04:01,655 - restapi - INFO - ['/tmp/nodejs/nodejs.json']
+2014-06-19 09:04:01,655 - restapi - INFO - 1
+2014-06-19 09:12:15,320 - restapi - INFO - accessing /InstallModuel
+2014-06-19 09:12:15,320 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 09:12:15,320 - restapi - INFO - packagetype: puppet
+2014-06-19 09:12:15,320 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:12:15,320 - restapi - INFO - moduleName: nodejs
+2014-06-19 09:12:15,320 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:12:15,324 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-19 09:12:18,121 - restapi - INFO - ['/tmp/nodejs/nodejs.json']
+2014-06-19 09:12:18,121 - restapi - INFO - 1
+2014-06-19 09:12:18,157 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/
+2014-06-19 09:16:27,469 - restapi - INFO - accessing /InstallModuel
+2014-06-19 09:16:27,470 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 09:16:27,470 - restapi - INFO - packagetype: puppet
+2014-06-19 09:16:27,470 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:16:27,470 - restapi - INFO - moduleName: nodejs
+2014-06-19 09:16:27,470 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:16:27,474 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-19 09:16:30,877 - restapi - INFO - ['/tmp/nodejs/nodejs.json']
+2014-06-19 09:16:30,877 - restapi - INFO - 1
+2014-06-19 09:16:30,907 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/
+2014-06-19 09:24:34,375 - restapi - INFO - accessing /InstallModuel
+2014-06-19 09:24:34,375 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 09:24:34,376 - restapi - INFO - packagetype: puppet
+2014-06-19 09:24:34,376 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:24:34,376 - restapi - INFO - moduleName: nodejs
+2014-06-19 09:24:34,376 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:24:34,380 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-19 09:24:37,137 - restapi - INFO - ['/tmp/nodejs/nodejs.json']
+2014-06-19 09:24:37,137 - restapi - INFO - 1
+2014-06-19 09:24:37,234 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/
+2014-06-19 09:28:02,323 - restapi - INFO - accessing /InstallModuel
+2014-06-19 09:28:02,323 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 09:28:02,324 - restapi - INFO - packagetype: puppet
+2014-06-19 09:28:02,324 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:28:02,324 - restapi - INFO - moduleName: nodejs
+2014-06-19 09:28:02,324 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:28:02,328 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-19 09:28:06,021 - restapi - INFO - ['/tmp/nodejs/nodejs.json']
+2014-06-19 09:28:06,022 - restapi - INFO - 1
+2014-06-19 09:28:06,180 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/
+2014-06-19 09:30:34,594 - restapi - INFO - accessing /InstallModuel
+2014-06-19 09:30:34,595 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 09:30:34,595 - restapi - INFO - packagetype: puppet
+2014-06-19 09:30:34,595 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:30:34,595 - restapi - INFO - moduleName: nodejs
+2014-06-19 09:30:34,595 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:30:34,600 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-19 09:30:38,963 - restapi - INFO - ['/tmp/nodejs/nodejs.json']
+2014-06-19 09:30:38,963 - restapi - INFO - 1
+2014-06-19 09:30:38,964 - restapi - INFO - json destination deploymentjsonsnodejs.json
+2014-06-19 09:30:39,043 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/
+2014-06-19 09:34:16,569 - restapi - INFO - accessing /InstallModuel
+2014-06-19 09:34:16,569 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-19 09:34:16,569 - restapi - INFO - packagetype: puppet
+2014-06-19 09:34:16,569 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:34:16,570 - restapi - INFO - moduleName: nodejs
+2014-06-19 09:34:16,570 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:34:16,574 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-19 09:34:20,101 - restapi - INFO - ['/tmp/nodejs/nodejs.json']
+2014-06-19 09:34:20,101 - restapi - INFO - 1
+2014-06-19 09:34:20,102 - restapi - INFO - json destination deploymentjsons/nodejs.json
+2014-06-19 09:34:20,253 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/

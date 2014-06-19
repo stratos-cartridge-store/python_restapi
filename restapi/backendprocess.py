@@ -180,24 +180,44 @@ try:
     logging.debug("tar extracted")
 
  
-
     src = tmpExtractLocation
 
     logging.debug("Source folder " + src)
+
+    import glob
+    
+    jsonFileList = glob.glob(src+"/*.json")
+
+    logger.info(jsonFileList)
+
+    listLength = len(jsonFileList)
+
+    logger.info(listLength)
+
+    if listLength!= 1:
+        raise Exception("you should have only one json file in your package!")
 
     #destination folder 
     dest = "/etc/puppet/modules/"
 
     logging.debug("Destination Folder" + dest)
 
-    jsonSrc= "/etc/puppet/modules/"+moduleName+"/"+moduleName+".json"
+    #jsonSrc= "/etc/puppet/modules/"+moduleName+"/"+moduleName+".json"
+
+    jsonSrc = jsonFileList[0]
 
     logging.debug("Json Src" + jsonSrc)
 
     #deployment json destination
-    jsonDestination = "deploymentjsons"
+    jsonDestination = "deploymentjsons/"+moduleName+".json"
+
+    logger.info("json destination " + jsonDestination)
 
     try:
+
+        #move deployment json file to the restapi/deployment json folder
+        os.system("sudo mv" +" "+jsonSrc+" "+jsonDestination)
+
         os.system("sudo mv" +" "+src+" "+dest)
 
         logger.info("sudo mv" +" "+src+" "+dest);
@@ -215,8 +235,7 @@ try:
             #change the permission of manifest file
             os.system("sudo chmod 775 /etc/puppet/manifests/nodes.pp")
 
-            #move deployment json file to the restapi/deployment json folder
-            os.system("sudo mv" +" "+jsonSrc+" "+jsonDestination)
+            
 
             fileDownLoadLogger.info(file_name + "File download finished")
 

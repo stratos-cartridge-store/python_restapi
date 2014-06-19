@@ -10,3 +10,195 @@
 2014-06-19 06:56:29,712 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
 2014-06-19 06:56:29,713 - filedownloader - INFO - Removed from progresslist.xml nodejs
 2014-06-19 06:56:29,714 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 08:40:37,547 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 08:40:37,547 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-19 08:40:37,547 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:40:37,549 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 08:40:40,302 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-19 08:40:40,302 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-19 08:40:40,302 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-19 08:40:40,303 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-19 08:40:40,304 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:40:41,037 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
+2014-06-19 08:40:41,038 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-19 08:40:41,038 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 08:41:59,337 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 08:41:59,337 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-19 08:41:59,337 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:41:59,338 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 08:42:02,153 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-19 08:42:02,153 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-19 08:42:02,154 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-19 08:42:02,155 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-19 08:42:02,155 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:42:02,662 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
+2014-06-19 08:42:02,663 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-19 08:42:02,664 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 08:44:44,822 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 08:44:44,822 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-19 08:44:44,822 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:44:44,824 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 08:44:47,433 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-19 08:44:47,433 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-19 08:44:47,434 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-19 08:44:47,435 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-19 08:44:47,435 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:44:47,795 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
+2014-06-19 08:44:47,796 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-19 08:44:47,797 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 08:53:53,979 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 08:53:53,979 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-19 08:53:53,979 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:53:53,981 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 08:53:56,778 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-19 08:53:56,779 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-19 08:53:56,779 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-19 08:53:56,779 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-19 08:53:56,779 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:53:56,876 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 08:53:56,877 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-19 08:53:56,877 - filedownloader - DEBUG - Fail to download file : error is :cannot concatenate 'str' and 'list' objects
+2014-06-19 08:54:33,975 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 08:54:33,975 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-19 08:54:33,976 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:54:33,977 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 08:54:33,977 - filedownloader - INFO - Removed from errorlist.xml nodejs
+2014-06-19 08:54:38,200 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-19 08:54:38,200 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-19 08:54:38,201 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-19 08:54:38,202 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-19 08:54:38,202 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:54:38,235 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 08:54:38,236 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-19 08:54:38,236 - filedownloader - DEBUG - Fail to download file : error is :cannot concatenate 'str' and 'list' objects
+2014-06-19 08:55:10,519 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 08:55:10,519 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-19 08:55:10,519 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:55:10,521 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 08:55:10,521 - filedownloader - INFO - Removed from errorlist.xml nodejs
+2014-06-19 08:55:14,413 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-19 08:55:14,414 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-19 08:55:14,414 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-19 08:55:14,415 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-19 08:55:14,415 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 08:55:15,165 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
+2014-06-19 08:55:15,165 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-19 08:55:15,166 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:01:34,013 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:01:34,013 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-19 09:01:34,013 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:01:34,014 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:01:36,720 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:01:36,721 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-19 09:01:36,722 - filedownloader - DEBUG - Fail to download file : error is :HTTP Error 502: Bad Gateway
+2014-06-19 09:02:39,625 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:02:39,625 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-19 09:02:39,625 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:02:39,627 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:02:39,627 - filedownloader - INFO - Removed from errorlist.xml nodejs
+2014-06-19 09:02:43,459 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-19 09:02:43,460 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-19 09:02:43,460 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-19 09:02:43,461 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-19 09:02:43,462 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:02:43,582 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:02:43,583 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-19 09:02:43,583 - filedownloader - DEBUG - Fail to download file : error is :cannot concatenate 'str' and 'int' objects
+2014-06-19 09:03:23,899 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:03:23,899 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-19 09:03:23,899 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:03:23,900 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:03:23,901 - filedownloader - INFO - Removed from errorlist.xml nodejs
+2014-06-19 09:03:26,424 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-19 09:03:26,425 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-19 09:03:26,425 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-19 09:03:26,426 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-19 09:03:26,426 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:03:26,792 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
+2014-06-19 09:03:26,793 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-19 09:03:26,794 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:03:59,010 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:03:59,010 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-19 09:03:59,010 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:03:59,011 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:04:01,610 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-19 09:04:01,610 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-19 09:04:01,611 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-19 09:04:01,612 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-19 09:04:01,612 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:04:01,656 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:04:01,656 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-19 09:04:01,656 - filedownloader - DEBUG - Fail to download file : error is :you can not have more than one json file in module folder
+2014-06-19 09:12:15,402 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:12:15,402 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-19 09:12:15,403 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:12:15,404 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:12:15,404 - filedownloader - INFO - Removed from errorlist.xml nodejs
+2014-06-19 09:12:18,008 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-19 09:12:18,009 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-19 09:12:18,009 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-19 09:12:18,010 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-19 09:12:18,010 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:12:18,361 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
+2014-06-19 09:12:18,362 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-19 09:12:18,363 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:16:27,561 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:16:27,561 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-19 09:16:27,561 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:16:27,562 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:16:30,140 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-19 09:16:30,140 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-19 09:16:30,141 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-19 09:16:30,141 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-19 09:16:30,141 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:16:31,104 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
+2014-06-19 09:16:31,104 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-19 09:16:31,105 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:24:34,461 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:24:34,461 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-19 09:24:34,461 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:24:34,462 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:24:37,014 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-19 09:24:37,014 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-19 09:24:37,015 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-19 09:24:37,015 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-19 09:24:37,016 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:24:37,405 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
+2014-06-19 09:24:37,407 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-19 09:24:37,408 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:28:02,410 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:28:02,411 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-19 09:28:02,411 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:28:02,412 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:28:05,582 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-19 09:28:05,583 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-19 09:28:05,584 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-19 09:28:05,584 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-19 09:28:05,585 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:28:07,215 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
+2014-06-19 09:28:07,216 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-19 09:28:07,216 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:30:34,685 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:30:34,685 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-19 09:30:34,685 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:30:34,686 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:30:38,838 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-19 09:30:38,838 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-19 09:30:38,839 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-19 09:30:38,840 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-19 09:30:38,840 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:30:39,201 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
+2014-06-19 09:30:39,202 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-19 09:30:39,203 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:34:16,653 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-19 09:34:16,653 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-19 09:34:16,654 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:34:16,655 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-19 09:34:19,983 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-19 09:34:19,983 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-19 09:34:19,984 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-19 09:34:19,985 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-19 09:34:19,985 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-19 09:34:20,402 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
+2014-06-19 09:34:20,403 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-19 09:34:20,403 - filedownloader - INFO - writing to xml file is complete..nodejs
