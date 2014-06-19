@@ -1,29 +1,15 @@
 import web
 
-#Routing
+# #Routing
 # urls = (
 #     '/','Index',
 #     '/login','Login',
-#     '/modules/puppet','GetModuleList',
-#     '/modules/puppet/(.+)/url/(.+)/checksum/(.+)', 'InstallPuppetModule',
-#     '/modules/puppet/(.+)/progress', 'GetModuleInstallationProgress',
-#     '/modules/puppet/(.+)/status', 'GetModuleStatus',
-#     '/modules/puppet/status','GetAllModulesStatus',
-#     '/modules/puppet/(.+)/json','GetDeploymentJson'
+#     '/modules/list','GetAllModulesList',
+#     '/modules/install', 'InstallPuppetModule',
+#     '/modules/logs', 'GetModuleInstallationLog',
+#     '/modules/status', 'GetModuleStatus',
+#     '/modules/deploy','GetDeploymentJson'
 # )
-
-urls = (
-    '/','Index',
-    '/login','Login',
-    '/modules/list','GetAllModulesList',
-    '/modules/install', 'InstallPuppetModule',
-    '/modules/logs', 'GetModuleInstallationLog',
-    '/modules/status', 'GetModuleStatus',
-    '/modules/deploy','GetDeploymentJson'
-)
-
-
-
 
 #allowed Users
 

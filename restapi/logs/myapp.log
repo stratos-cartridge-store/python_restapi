@@ -232,3 +232,13 @@
 2014-06-19 09:34:20,101 - restapi - INFO - 1
 2014-06-19 09:34:20,102 - restapi - INFO - json destination deploymentjsons/nodejs.json
 2014-06-19 09:34:20,253 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/
+2014-06-19 09:36:53,460 - restapi - INFO - accessing /GetModuleStatus
+2014-06-19 09:36:53,460 - restapi - INFO - package type  puppet
+2014-06-19 09:36:53,460 - restapi - INFO - module name nodejs
+2014-06-19 09:36:53,460 - restapi - INFO - this is get deployment json
+2014-06-19 09:36:53,460 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-19 09:53:57,187 - restapi - INFO - accessing /GetModuleStatus
+2014-06-19 09:53:57,187 - restapi - INFO - package type  puppet
+2014-06-19 09:53:57,187 - restapi - INFO - module name nodejs
+2014-06-19 09:53:57,188 - restapi - INFO - this is get deployment json
+2014-06-19 09:53:57,188 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}

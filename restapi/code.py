@@ -11,13 +11,13 @@ import urllib2
 import subprocess
 from os import walk
 
-
-
 #dump printing
 import pprint
 
-#import config.py ;)
+#import config.py,route.py ;)
 import conf.config
+import conf.route
+
 
 #load cherryPyserver
 from web.wsgiserver import CherryPyWSGIServer
@@ -387,6 +387,6 @@ class  GetDeploymentJson:
 
 
 if __name__ == "__main__":
-    app = web.application(conf.config.urls, globals())
+    app = web.application(conf.route.urls, globals())
     app.run() 
 
