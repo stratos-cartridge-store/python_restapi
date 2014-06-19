@@ -35,7 +35,12 @@ fileDownLoadLogger = logging.getLogger('filedownloader')
 CherryPyWSGIServer.ssl_certificate = conf.config.ssl_certificate
 CherryPyWSGIServer.ssl_private_key = conf.config.ssl_privatekey
 
-
+def createJsonErrorMessage(Code,Message):
+    jsonMessage =   {
+                      'Code': Code,
+                      'Message': Message                      
+                    }
+    return jsonMessage
 
 #Home 
 class Index:
@@ -102,8 +107,7 @@ class InstallPuppetModule:
                 #we currently support only puppet
                 if user_data.packagetype!="puppet":
                     web.ctx.status = '404 Not Found'
-                    return json.dumps('Package type not found')
-
+                    return json.dumps(createJsonErrorMessage("404","Package type not found"))
 
                 f = []
                 for (dirpath, dirnames, filenames) in walk(conf.config.puppetMasterLocation):
@@ -120,24 +124,26 @@ class InstallPuppetModule:
                     name = module.find('name').text
                     if name==moduleNameInLowerCase:
                         web.ctx.status = '409 Conflict'
-                        logger.info("module is already available in progress list!")  
-                        return json.dumps("requested module is currently installing..")    
-
+                        logger.info("module is already available in progress list!")
+                        return json.dumps(createJsonErrorMessage("409","requested module is currently installing..")) 
+                        
                 if moduleNameInLowerCase in f:
                     web.ctx.status = '409 Conflict'
-                    logger.info("module is already available abort download")  
-                    return json.dumps("Module is already available in puppet master")
+                    logger.info("module is already available abort download")
+                    return json.dumps(createJsonErrorMessage("409","Module is already available in puppet master.."))  
+                    
                 else:
                     #start the subprocess sweet of python <3.
                     p = subprocess.Popen(['python', 'backendprocess.py' ,downloadUrl,moduleNameInLowerCase,checkSum])
                     web.ctx.status = '202 Accepted'
-                    return json.dumps("we have accepted your request,moudle will be installed soon!!")
+                    logger.info("we have accepted your request,moudle will be installed soon!!")
+                    return json.dumps(createJsonErrorMessage("202","we have accepted your request,moudle will be installed soon!!"))
 
             except Exception as e:
                 logger.debug("Error is :%s" % e )
                 web.ctx.status = '500 Internal Server Error'
-                return json.dumps("Internal Server Error")
-
+                return json.dumps(createJsonErrorMessage("500","Internal Server Error"))
+                
         else:
             #logger.info('Prompting http basic auth!')
             raise web.seeother('/login')
@@ -166,7 +172,7 @@ class GetModuleInstallationLog:
                 #we are currently support only puppet packages
                 if packageType!="puppet":
                     web.ctx.status = '404 Not Found'
-                    return json.dumps('Package type not found')
+                    return json.dumps(createJsonErrorMessage("404","Package type not found"))
 
                 path = "logs/modules/"+moduleName+".log"
 
@@ -182,11 +188,12 @@ class GetModuleInstallationLog:
                     
                 else:
                     web.ctx.status = '404 Not Found'
-                    return json.dumps('log file is not found')
+                    return json.dumps(createJsonErrorMessage("404","log file is not found"))
+                    
             except Exception as e:
                 logger.debug("Error is :%s" % e )
                 web.ctx.status = '500 Internal Server Error'
-                return json.dumps("Internal Server Error")
+                return json.dumps(createJsonErrorMessage("500","Internal Server Error"))
 
         else:
             #logger.info('Prompting http basic auth!')
@@ -215,7 +222,7 @@ class GetModuleStatus:
                 #we are currently support only puppet packages
                 if packageType!="puppet":
                     web.ctx.status = '404 Not Found'
-                    return json.dumps('Package type not found')
+                    return json.dumps(createJsonErrorMessage("404","Package type not found"))
 
 
                 import xml.etree.ElementTree as ET
@@ -224,7 +231,7 @@ class GetModuleStatus:
                 for module in root.findall('module'):
                     moduleName = module.find('name').text
                     if name==moduleName:
-                        return json.dumps("error")
+                        return json.dumps(createJsonErrorMessage("10","Module is in error list"))
 
 
                 #logger.info(os.listdir("/home/roshan/"))
@@ -235,7 +242,7 @@ class GetModuleStatus:
                     break
 
                 if name in f:
-                    return json.dumps("installed")
+                    return json.dumps(createJsonErrorMessage("11","Module is installed"))
                           
                 import xml.etree.ElementTree as ET
                 tree = ET.parse('logs/progresslist.xml')
@@ -243,18 +250,17 @@ class GetModuleStatus:
                 for module in root.findall('module'):
                     moduleName = module.find('name').text
                     if name==moduleName:
-                        return json.dumps("inprogress")
+                        return json.dumps(createJsonErrorMessage("12","Module installation is in progress"))
 
 
                 #return 404 moduel not found at last
                 web.ctx.status = '404 Not Found'
-                return json.dumps('Module not found')
-
-
+                return json.dumps(createJsonErrorMessage("404","Module is not found"))
+                
             except Exception as e:
                 logger.debug("Error is :%s" % e )
                 web.ctx.status = '500 Internal Server Error'
-                return json.dumps("Internal Server Error")
+                return json.dumps(createJsonErrorMessage("500","Internal Server Error"))
         else:
             #logger.info('Prompting http basic auth!')
             raise web.seeother('/login')
@@ -282,7 +288,7 @@ class GetAllModulesList:
                 #we are currently support only puppet packages
                 if packageType!="puppet":
                     web.ctx.status = '404 Not Found'
-                    return json.dumps('Package type not found')
+                    return json.dumps(createJsonErrorMessage("404","Package type not found"))
 
                 #installed module list
                 installedModuleList = []
@@ -328,7 +334,7 @@ class GetAllModulesList:
             except Exception as e:
                 logger.debug("Error is :%s" % e )
                 web.ctx.status = '500 Internal Server Error'
-                return json.dumps("Internal Server Error")
+                return json.dumps(createJsonErrorMessage("500","Internal Server Error"))
 
         else:
              #logger.info('Prompting http basic auth!')
@@ -353,7 +359,7 @@ class  GetDeploymentJson:
                 #we are currently support only puppet packages
                 if packageType!="puppet":
                     web.ctx.status = '404 Not Found'
-                    return json.dumps('Package type not found')
+                    return json.dumps(createJsonErrorMessage("404","Package type not found"))
 
                 logger.info("this is get deployment json")
 
@@ -365,12 +371,15 @@ class  GetDeploymentJson:
                     
                     return json.dumps(data)
 
-                except Exception as e:
-                    return json.dumps("error while reading deployment json")
+                except Exception as e:                    
+                    logger.debug("error while reading deployment json :%s" % e )
+                    web.ctx.status = '500 Internal Server Error'
+                    return json.dumps(createJsonErrorMessage("500","Internal Server Error"))
+
             except:
                 logger.debug("Error is :%s" % e )
                 web.ctx.status = '500 Internal Server Error'
-                return json.dumps("Internal Server Error")
+                return json.dumps(createJsonErrorMessage("500","Internal Server Error"))
 
         else:
             #logger.info('Prompting http basic auth!')
