@@ -19,3 +19,5 @@ REST calls
 4. /modules/puppet/{moduleName}/progress : GetModuleInstallationProgress
 5. /modules/puppet/{moduleName}/status : GetModuleStatus
 6. /modules/puppet/status : GetAllModulesStatus
+
+testing patch

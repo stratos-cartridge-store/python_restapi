@@ -364,7 +364,12 @@ class  GetDeploymentJson:
                 logger.info("this is get deployment json")
 
                 web.header('Content-Type', 'application/json')
-                try:            
+                try:
+                    import os.path
+                    if not os.path.isfile("deploymentjsons/"+name+".json"):
+                        web.ctx.status = '404 Not Found'
+                        return json.dumps(createJsonMessage("404","Json file is not found"))
+
                     with open("deploymentjsons/"+name+".json") as data_file:    
                         data = json.load(data_file)
                         logger.info(data)
