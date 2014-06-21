@@ -264,3 +264,22 @@
 2014-06-21 06:27:29,145 - restapi - INFO - accessing /GetModuleStatus
 2014-06-21 06:27:29,146 - restapi - INFO - package type  puppet
 2014-06-21 06:27:29,146 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['media', 'java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-21 06:47:36,173 - restapi - INFO - You are accessing /
+2014-06-21 06:47:38,984 - restapi - INFO - You are accessing /
+2014-06-21 06:48:40,505 - restapi - INFO - You are accessing /
+2014-06-21 06:58:52,024 - restapi - INFO - User Granted..
+2014-06-21 06:58:56,676 - restapi - INFO - You are accessing /
+2014-06-21 06:59:04,739 - restapi - INFO - accessing /GetModuleStatus
+2014-06-21 06:59:04,740 - restapi - INFO - package type  puppet
+2014-06-21 06:59:04,744 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['media', 'java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-21 06:59:35,335 - restapi - INFO - accessing /GetModuleStatus
+2014-06-21 06:59:35,335 - restapi - INFO - package type  puppet
+2014-06-21 06:59:35,338 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['media', 'java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-21 07:04:17,325 - restapi - INFO - accessing /GetModuleStatus
+2014-06-21 07:04:17,325 - restapi - INFO - package type  puppet
+2014-06-21 07:04:17,327 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['media', 'java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-21 07:05:43,382 - restapi - INFO - password hell1o
+2014-06-21 07:05:43,382 - restapi - INFO - username jon
+2014-06-21 07:05:43,382 - restapi - INFO - accessing /GetModuleStatus
+2014-06-21 07:05:43,382 - restapi - INFO - package type  puppet
+2014-06-21 07:05:43,387 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['media', 'java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
