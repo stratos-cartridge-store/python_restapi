@@ -283,3 +283,51 @@
 2014-06-21 07:05:43,382 - restapi - INFO - accessing /GetModuleStatus
 2014-06-21 07:05:43,382 - restapi - INFO - package type  puppet
 2014-06-21 07:05:43,387 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['media', 'java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-21 07:12:54,971 - restapi - INFO - password hell1o
+2014-06-21 07:12:54,971 - restapi - INFO - username jon
+2014-06-21 07:13:03,643 - restapi - INFO - password pass1
+2014-06-21 07:13:03,644 - restapi - INFO - username jon
+2014-06-21 07:14:36,431 - restapi - INFO - password pass1
+2014-06-21 07:14:36,432 - restapi - INFO - username jon
+2014-06-21 07:15:19,403 - restapi - INFO - password pass1
+2014-06-21 07:15:19,403 - restapi - INFO - username jon
+2014-06-21 07:15:19,404 - restapi - INFO - accessing /GetModuleStatus
+2014-06-21 07:15:19,404 - restapi - INFO - package type  puppet
+2014-06-21 07:15:19,406 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['media', 'java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-21 07:15:28,555 - restapi - INFO - password sspass1
+2014-06-21 07:15:28,556 - restapi - INFO - username jon
+2014-06-21 07:15:34,148 - restapi - INFO - password pass1
+2014-06-21 07:15:34,149 - restapi - INFO - username jon
+2014-06-21 07:15:34,149 - restapi - INFO - accessing /GetModuleStatus
+2014-06-21 07:15:34,149 - restapi - INFO - package type  puppet
+2014-06-21 07:15:34,149 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['media', 'java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-21 07:16:22,139 - restapi - INFO - accessing /GetModuleStatus
+2014-06-21 07:16:22,140 - restapi - INFO - package type  puppet
+2014-06-21 07:16:22,141 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['media', 'java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-21 07:17:41,442 - restapi - INFO - accessing /InstallModuel
+2014-06-21 07:17:41,443 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-21 07:17:41,443 - restapi - INFO - packagetype: puppet
+2014-06-21 07:17:41,443 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-21 07:17:41,444 - restapi - INFO - moduleName: nodejs
+2014-06-21 07:17:41,444 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-21 07:17:41,446 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-21 07:17:46,402 - restapi - INFO - ['/tmp/nodejs/nodejs.json']
+2014-06-21 07:17:46,402 - restapi - INFO - 1
+2014-06-21 07:17:46,402 - restapi - INFO - json destination deploymentjsons/nodejs.json
+2014-06-21 07:17:46,564 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/
+2014-06-21 07:17:56,971 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-21 07:17:56,972 - restapi - INFO - puppet
+2014-06-21 07:17:56,972 - restapi - INFO - nodejs
+2014-06-21 07:17:56,972 - restapi - INFO - logs/modules/nodejs.log
+2014-06-21 07:18:42,473 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-21 07:18:42,474 - restapi - INFO - puppet
+2014-06-21 07:18:42,474 - restapi - INFO - nodejs
+2014-06-21 07:18:42,474 - restapi - INFO - logs/modules/nodejs.log
+2014-06-21 07:18:50,170 - restapi - INFO - accessing /GetModuleStatus
+2014-06-21 07:18:50,171 - restapi - INFO - package type  puppet
+2014-06-21 07:18:50,171 - restapi - INFO - module name nodejs
+2014-06-21 07:19:04,623 - restapi - INFO - accessing /GetModuleStatus
+2014-06-21 07:19:04,623 - restapi - INFO - package type  puppet
+2014-06-21 07:19:04,623 - restapi - INFO - module name nodejs
+2014-06-21 07:19:04,623 - restapi - INFO - this is get deployment json
+2014-06-21 07:19:04,624 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}

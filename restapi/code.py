@@ -41,11 +41,12 @@ CherryPyWSGIServer.ssl_private_key = conf.config.ssl_privatekey
 ############################################################################### 
  
 def check_auth(username, password): 
-    logger.info("password "+ password)
-    logger.info("username "+ username)
-    return username == username and password == password
- 
-  
+    if (username,password) in conf.config.allowed:
+        return True
+    else:
+        return False 
+    
+    
 def requires_auth(f):
     @wraps(f)     
     def decorated(*args, **kwargs):        
