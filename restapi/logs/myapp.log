@@ -331,3 +331,34 @@
 2014-06-21 07:19:04,623 - restapi - INFO - module name nodejs
 2014-06-21 07:19:04,623 - restapi - INFO - this is get deployment json
 2014-06-21 07:19:04,624 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-21 07:21:40,879 - restapi - INFO - You are accessing /
+2014-06-21 07:22:03,158 - restapi - INFO - You are accessing /
+2014-06-21 07:22:09,738 - restapi - INFO - accessing /GetModuleStatus
+2014-06-21 07:22:09,738 - restapi - INFO - package type  puppet
+2014-06-21 07:22:09,741 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['media', 'java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-21 07:22:42,726 - restapi - INFO - accessing /InstallModuel
+2014-06-21 07:22:42,726 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-21 07:22:42,727 - restapi - INFO - packagetype: puppet
+2014-06-21 07:22:42,727 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-21 07:22:42,727 - restapi - INFO - moduleName: nodejs
+2014-06-21 07:22:42,727 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-21 07:22:42,730 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-21 07:22:45,995 - restapi - INFO - ['/tmp/nodejs/nodejs.json']
+2014-06-21 07:22:45,995 - restapi - INFO - 1
+2014-06-21 07:22:45,995 - restapi - INFO - json destination deploymentjsons/nodejs.json
+2014-06-21 07:22:46,143 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/
+2014-06-21 07:23:14,099 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-21 07:23:14,099 - restapi - INFO - puppet
+2014-06-21 07:23:14,099 - restapi - INFO - nodejs
+2014-06-21 07:23:14,100 - restapi - INFO - logs/modules/nodejs.log
+2014-06-21 07:23:33,497 - restapi - INFO - accessing /GetModuleStatus
+2014-06-21 07:23:33,498 - restapi - INFO - package type  puppet
+2014-06-21 07:23:33,498 - restapi - INFO - module name nodejs
+2014-06-21 07:23:59,862 - restapi - INFO - accessing /GetModuleStatus
+2014-06-21 07:23:59,862 - restapi - INFO - package type  puppet
+2014-06-21 07:23:59,862 - restapi - INFO - module name nodejs
+2014-06-21 07:23:59,862 - restapi - INFO - this is get deployment json
+2014-06-21 07:23:59,862 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-21 07:33:38,830 - restapi - INFO - You are accessing /
+2014-06-21 07:33:49,923 - restapi - INFO - You are accessing /
+2014-06-21 07:37:22,399 - restapi - INFO - You are accessing /
