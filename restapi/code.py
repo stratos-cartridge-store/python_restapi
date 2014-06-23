@@ -358,12 +358,13 @@ class  GetDeploymentJson:
             web.header('Content-Type', 'application/json')
             try:
                 import os.path
+                from collections import OrderedDict
                 if not os.path.isfile("deploymentjsons/"+name+".json"):
                     web.ctx.status = '404 Not Found'
                     return json.dumps(createJsonMessage("404","Json file is not found"))
 
                 with open("deploymentjsons/"+name+".json") as data_file:    
-                    data = json.load(data_file)
+                    data = json.load(data_file, object_pairs_hook=OrderedDict)
                     logger.info(data)
                 
                 return json.dumps(data)
