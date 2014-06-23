@@ -372,7 +372,7 @@ class  GetDeploymentJson:
             except Exception as e:                    
                 logger.debug("error while reading deployment json :%s" % e )
                 web.ctx.status = '500 Internal Server Error'
-                return json.dumps(createJsonMessage("500","Internal Server Error"))
+                return json.dumps(createJsonMessage("500","Internal Server Error. Error while reading json file"))
 
         except:
             logger.debug("Error is :%s" % e )

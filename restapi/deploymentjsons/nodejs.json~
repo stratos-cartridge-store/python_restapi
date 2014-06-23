@@ -3,7 +3,6 @@
     "provider":"apache",
     "host":"stratos.com",
     "displayName":"PHP",
- 
     "description":"PHP Cartridge",
     "version":"7",
     "defaultAutoscalingPolicy":"economyPolicy",
@@ -43,5 +42,5 @@
             "name":"default.load.balancer",
             "value":"true"
         }
-    },
+    }
 }

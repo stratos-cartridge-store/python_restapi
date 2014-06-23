@@ -362,3 +362,345 @@
 2014-06-21 07:33:38,830 - restapi - INFO - You are accessing /
 2014-06-21 07:33:49,923 - restapi - INFO - You are accessing /
 2014-06-21 07:37:22,399 - restapi - INFO - You are accessing /
+2014-06-22 10:13:19,720 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 10:13:19,720 - restapi - INFO - package type  puppet
+2014-06-22 10:13:19,723 - restapi - DEBUG - {'inprogress': [], 'error': [], 'installed': ['media', 'java', 'nodejs123', 'helleeedsdsdse', 'mysql', 'tomcat', 'agent', 'nodejs', 'ruby', 'lb', 'sdasdasda', 'wordpress', 'php']}
+2014-06-22 10:21:29,658 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 10:21:29,659 - restapi - INFO - package type  puppetd
+2014-06-22 11:32:51,343 - restapi - INFO - accessing /InstallModuel
+2014-06-22 11:32:51,344 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-22 11:32:51,344 - restapi - INFO - packagetype: puppet
+2014-06-22 11:32:51,344 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-22 11:32:51,344 - restapi - INFO - moduleName: nodejs
+2014-06-22 11:32:51,344 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-22 11:32:51,347 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-22 11:32:55,352 - restapi - INFO - ['/tmp/nodejs/nodejs.json']
+2014-06-22 11:32:55,353 - restapi - INFO - 1
+2014-06-22 11:32:55,353 - restapi - INFO - json destination deploymentjsons/nodejs.json
+2014-06-22 11:32:55,470 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/
+2014-06-22 11:36:42,690 - restapi - INFO - accessing /InstallModuel
+2014-06-22 11:36:42,690 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-22 11:36:42,690 - restapi - INFO - packagetype: puppet
+2014-06-22 11:36:42,691 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-22 11:36:42,691 - restapi - INFO - moduleName: nodejs
+2014-06-22 11:36:42,691 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-22 11:36:42,691 - restapi - INFO - module is already available abort download
+2014-06-22 11:41:34,209 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 11:41:34,209 - restapi - INFO - package type  puppet
+2014-06-22 11:41:34,209 - restapi - INFO - module name nodejs
+2014-06-22 11:58:54,187 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 11:58:54,188 - restapi - INFO - package type  pupdpet
+2014-06-22 11:58:54,188 - restapi - INFO - module name nodejs
+2014-06-22 11:59:31,996 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 11:59:31,997 - restapi - INFO - package type  pupdpet
+2014-06-22 11:59:31,997 - restapi - INFO - module name nodedjs
+2014-06-22 11:59:52,913 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 11:59:52,913 - restapi - INFO - package type  puppet
+2014-06-22 11:59:52,913 - restapi - INFO - module name nodedjs
+2014-06-22 12:19:56,459 - restapi - INFO - accessing /GetModuleInstallationLog
+2014-06-22 12:19:56,459 - restapi - INFO - puppet
+2014-06-22 12:19:56,459 - restapi - INFO - nodejs
+2014-06-22 12:19:56,459 - restapi - INFO - logs/modules/nodejs.log
+2014-06-22 12:20:08,117 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 12:20:08,117 - restapi - INFO - package type  puppet
+2014-06-22 12:20:08,117 - restapi - INFO - module name nodejs
+2014-06-22 12:20:08,117 - restapi - INFO - this is get deployment json
+2014-06-22 12:20:08,117 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 14:13:25,817 - restapi - INFO - accessing /InstallModuel
+2014-06-22 14:13:25,817 - restapi - INFO - <Storage {'downloadUrl': u'https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1', 'checksum': u'f6b1e4ce34219c981aebbe035aa5036f', 'packagetype': u'puppet', 'modulename': u'nodejs'}>
+2014-06-22 14:13:25,817 - restapi - INFO - packagetype: puppet
+2014-06-22 14:13:25,817 - restapi - INFO - downloadUrl: https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-22 14:13:25,817 - restapi - INFO - moduleName: nodejs
+2014-06-22 14:13:25,817 - restapi - INFO - checkSum: f6b1e4ce34219c981aebbe035aa5036f
+2014-06-22 14:13:25,821 - restapi - INFO - we have accepted your request,moudle will be installed soon!!
+2014-06-22 14:13:29,496 - restapi - INFO - ['/tmp/nodejs/nodejs.json']
+2014-06-22 14:13:29,496 - restapi - INFO - 1
+2014-06-22 14:13:29,496 - restapi - INFO - json destination deploymentjsons/nodejs.json
+2014-06-22 14:13:29,634 - restapi - INFO - sudo mv /tmp/nodejs /etc/puppet/modules/
+2014-06-22 14:42:09,217 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 14:42:09,218 - restapi - INFO - package type  puppet
+2014-06-22 14:42:09,219 - restapi - INFO - module name nodejs
+2014-06-22 14:42:09,219 - restapi - INFO - this is get deployment json
+2014-06-22 14:42:09,219 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 14:52:47,462 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 14:52:47,462 - restapi - INFO - package type  puppet
+2014-06-22 14:52:47,463 - restapi - INFO - module name nodejs
+2014-06-22 14:52:47,463 - restapi - INFO - this is get deployment json
+2014-06-22 14:52:47,463 - restapi - DEBUG - error while reading deployment json :global name 'data_file' is not defined
+2014-06-22 14:53:12,808 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 14:53:12,808 - restapi - INFO - package type  puppet
+2014-06-22 14:53:12,809 - restapi - INFO - module name nodejs
+2014-06-22 14:53:12,809 - restapi - INFO - this is get deployment json
+2014-06-22 14:53:12,809 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 14:55:32,534 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 14:55:32,535 - restapi - INFO - package type  puppet
+2014-06-22 14:55:32,535 - restapi - INFO - module name nodejs
+2014-06-22 14:55:32,535 - restapi - INFO - this is get deployment json
+2014-06-22 14:55:32,536 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'pdsdsdhp', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 14:56:08,311 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 14:56:08,311 - restapi - INFO - package type  puppet
+2014-06-22 14:56:08,311 - restapi - INFO - module name nodejs
+2014-06-22 14:56:08,311 - restapi - INFO - this is get deployment json
+2014-06-22 14:56:08,311 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 14:58:48,032 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 14:58:48,033 - restapi - INFO - package type  puppet
+2014-06-22 14:58:48,033 - restapi - INFO - module name nodejs
+2014-06-22 14:58:48,033 - restapi - INFO - this is get deployment json
+2014-06-22 14:58:48,033 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 15:02:50,588 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:02:50,589 - restapi - INFO - package type  puppet
+2014-06-22 15:02:50,589 - restapi - INFO - module name nodejs
+2014-06-22 15:02:50,589 - restapi - INFO - this is get deployment json
+2014-06-22 15:02:50,589 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 15:05:00,377 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:05:00,377 - restapi - INFO - package type  puppet
+2014-06-22 15:05:00,377 - restapi - INFO - module name nodejs
+2014-06-22 15:05:00,377 - restapi - INFO - this is get deployment json
+2014-06-22 15:05:00,377 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 15:05:00,377 - restapi - DEBUG - error while reading deployment json :global name 'jdefault' is not defined
+2014-06-22 15:06:27,571 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:06:27,571 - restapi - INFO - package type  puppet
+2014-06-22 15:06:27,571 - restapi - INFO - module name nodejs
+2014-06-22 15:06:27,571 - restapi - INFO - this is get deployment json
+2014-06-22 15:06:27,571 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 15:06:41,177 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:06:41,177 - restapi - INFO - package type  puppet
+2014-06-22 15:06:41,177 - restapi - INFO - module name nodejs
+2014-06-22 15:06:41,177 - restapi - INFO - this is get deployment json
+2014-06-22 15:06:41,178 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 15:09:01,468 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:09:01,469 - restapi - INFO - package type  puppet
+2014-06-22 15:09:01,469 - restapi - INFO - module name nodejs
+2014-06-22 15:09:01,469 - restapi - INFO - this is get deployment json
+2014-06-22 15:09:01,469 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 15:11:26,717 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:11:26,718 - restapi - INFO - package type  puppet
+2014-06-22 15:11:26,718 - restapi - INFO - module name nodejs
+2014-06-22 15:11:26,718 - restapi - INFO - this is get deployment json
+2014-06-22 15:11:26,718 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 15:11:52,145 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:11:52,145 - restapi - INFO - package type  puppet
+2014-06-22 15:11:52,145 - restapi - INFO - module name nodejs
+2014-06-22 15:11:52,145 - restapi - INFO - this is get deployment json
+2014-06-22 15:11:52,145 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 15:19:11,044 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:19:11,045 - restapi - INFO - package type  puppet
+2014-06-22 15:19:11,045 - restapi - INFO - module name nodejs
+2014-06-22 15:19:11,045 - restapi - INFO - this is get deployment json
+2014-06-22 15:19:11,045 - restapi - DEBUG - error while reading deployment json :[Errno 2] No such file or directory: 'file'
+2014-06-22 15:19:30,462 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:19:30,462 - restapi - INFO - package type  puppet
+2014-06-22 15:19:30,462 - restapi - INFO - module name nodejs
+2014-06-22 15:19:30,462 - restapi - INFO - this is get deployment json
+2014-06-22 15:19:30,462 - restapi - DEBUG - error while reading deployment json :Expecting object: line 1 column 2 (char 1)
+2014-06-22 15:20:11,021 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:20:11,021 - restapi - INFO - package type  puppet
+2014-06-22 15:20:11,021 - restapi - INFO - module name nodejs
+2014-06-22 15:20:11,021 - restapi - INFO - this is get deployment json
+2014-06-22 15:20:11,022 - restapi - DEBUG - error while reading deployment json :Expecting object: line 1 column 2 (char 1)
+2014-06-22 15:26:29,573 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:26:29,573 - restapi - INFO - package type  puppet
+2014-06-22 15:26:29,573 - restapi - INFO - module name nodejs
+2014-06-22 15:26:29,573 - restapi - INFO - this is get deployment json
+2014-06-22 15:28:41,097 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:28:41,098 - restapi - INFO - package type  puppet
+2014-06-22 15:28:41,098 - restapi - INFO - module name nodejs
+2014-06-22 15:28:41,098 - restapi - INFO - this is get deployment json
+2014-06-22 15:28:41,098 - restapi - DEBUG - error while reading deployment json :global name 'array' is not defined
+2014-06-22 15:28:52,820 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:28:52,820 - restapi - INFO - package type  puppet
+2014-06-22 15:28:52,820 - restapi - INFO - module name nodejs
+2014-06-22 15:28:52,821 - restapi - INFO - this is get deployment json
+2014-06-22 15:40:46,461 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:40:46,462 - restapi - INFO - package type  puppet
+2014-06-22 15:40:46,462 - restapi - INFO - module name nodejs
+2014-06-22 15:40:46,462 - restapi - INFO - this is get deployment json
+2014-06-22 15:43:40,416 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:43:40,417 - restapi - INFO - package type  puppet
+2014-06-22 15:43:40,417 - restapi - INFO - module name nodejs
+2014-06-22 15:43:40,417 - restapi - INFO - this is get deployment json
+2014-06-22 15:44:13,158 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:44:13,158 - restapi - INFO - package type  puppet
+2014-06-22 15:44:13,158 - restapi - INFO - module name nodejs
+2014-06-22 15:44:13,158 - restapi - INFO - this is get deployment json
+2014-06-22 15:50:09,304 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:50:09,305 - restapi - INFO - package type  puppet
+2014-06-22 15:50:09,305 - restapi - INFO - module name nodejs
+2014-06-22 15:50:09,305 - restapi - INFO - this is get deployment json
+2014-06-22 15:50:09,305 - restapi - DEBUG - error while reading deployment json :global name 'obj' is not defined
+2014-06-22 15:50:39,282 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:50:39,283 - restapi - INFO - package type  puppet
+2014-06-22 15:50:39,283 - restapi - INFO - module name nodejs
+2014-06-22 15:50:39,283 - restapi - INFO - this is get deployment json
+2014-06-22 15:50:39,283 - restapi - DEBUG - error while reading deployment json :<open file u'deploymentjsons/nodejs.json', mode 'wt' at 0x7f335c7705d0> is not JSON serializable
+2014-06-22 15:51:06,392 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:51:06,392 - restapi - INFO - package type  puppet
+2014-06-22 15:51:06,393 - restapi - INFO - module name nodejs
+2014-06-22 15:51:06,393 - restapi - INFO - this is get deployment json
+2014-06-22 15:51:06,393 - restapi - DEBUG - error while reading deployment json :<open file u'deploymentjsons/nodejs.json', mode 'w' at 0x7f10702da5d0> is not JSON serializable
+2014-06-22 15:51:14,597 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:51:14,597 - restapi - INFO - package type  puppet
+2014-06-22 15:51:14,597 - restapi - INFO - module name nodejs
+2014-06-22 15:51:14,597 - restapi - INFO - this is get deployment json
+2014-06-22 15:51:14,598 - restapi - DEBUG - error while reading deployment json :<open file u'deploymentjsons/nodejs.json', mode 'r' at 0x7f20a03d85d0> is not JSON serializable
+2014-06-22 15:57:48,488 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:57:48,489 - restapi - INFO - package type  puppet
+2014-06-22 15:57:48,489 - restapi - INFO - module name nodejs
+2014-06-22 15:57:48,489 - restapi - INFO - this is get deployment json
+2014-06-22 15:57:48,489 - restapi - DEBUG - error while reading deployment json :No JSON object could be decoded
+2014-06-22 15:58:13,673 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:58:13,673 - restapi - INFO - package type  puppet
+2014-06-22 15:58:13,673 - restapi - INFO - module name nodejs
+2014-06-22 15:58:13,673 - restapi - INFO - this is get deployment json
+2014-06-22 15:58:13,673 - restapi - DEBUG - error while reading deployment json :No JSON object could be decoded
+2014-06-22 15:58:30,261 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 15:58:30,262 - restapi - INFO - package type  puppet
+2014-06-22 15:58:30,262 - restapi - INFO - module name nodejs
+2014-06-22 15:58:30,262 - restapi - INFO - this is get deployment json
+2014-06-22 15:58:30,262 - restapi - DEBUG - error while reading deployment json :No JSON object could be decoded
+2014-06-22 16:02:53,597 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:02:53,598 - restapi - INFO - package type  puppet
+2014-06-22 16:02:53,598 - restapi - INFO - module name nodejs
+2014-06-22 16:02:53,598 - restapi - INFO - this is get deployment json
+2014-06-22 16:02:53,598 - restapi - DEBUG - error while reading deployment json :No JSON object could be decoded
+2014-06-22 16:03:20,146 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:03:20,146 - restapi - INFO - package type  puppet
+2014-06-22 16:03:20,146 - restapi - INFO - module name nodejs
+2014-06-22 16:03:20,146 - restapi - INFO - this is get deployment json
+2014-06-22 16:03:20,147 - restapi - DEBUG - error while reading deployment json :No JSON object could be decoded
+2014-06-22 16:03:50,685 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:03:50,686 - restapi - INFO - package type  puppet
+2014-06-22 16:03:50,686 - restapi - INFO - module name nodejs
+2014-06-22 16:03:50,686 - restapi - INFO - this is get deployment json
+2014-06-22 16:03:50,686 - restapi - DEBUG - error while reading deployment json :No JSON object could be decoded
+2014-06-22 16:04:40,276 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:04:40,276 - restapi - INFO - package type  puppet
+2014-06-22 16:04:40,276 - restapi - INFO - module name nodejs
+2014-06-22 16:04:40,276 - restapi - INFO - this is get deployment json
+2014-06-22 16:04:40,276 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 16:04:53,081 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:04:53,081 - restapi - INFO - package type  puppet
+2014-06-22 16:04:53,081 - restapi - INFO - module name nodejs
+2014-06-22 16:04:53,081 - restapi - INFO - this is get deployment json
+2014-06-22 16:04:53,082 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 16:05:36,638 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:05:36,639 - restapi - INFO - package type  puppet
+2014-06-22 16:05:36,639 - restapi - INFO - module name nodejs
+2014-06-22 16:05:36,639 - restapi - INFO - this is get deployment json
+2014-06-22 16:05:36,639 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 16:08:42,789 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:08:42,789 - restapi - INFO - package type  puppet
+2014-06-22 16:08:42,790 - restapi - INFO - module name nodejs
+2014-06-22 16:08:42,790 - restapi - INFO - this is get deployment json
+2014-06-22 16:08:42,790 - restapi - DEBUG - error while reading deployment json :global name 'collections' is not defined
+2014-06-22 16:13:13,131 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:13:13,131 - restapi - INFO - package type  puppet
+2014-06-22 16:13:13,131 - restapi - INFO - module name nodejs
+2014-06-22 16:13:13,131 - restapi - INFO - this is get deployment json
+2014-06-22 16:13:13,132 - restapi - DEBUG - error while reading deployment json :Expecting object: line 1 column 2 (char 1)
+2014-06-22 16:33:00,226 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:33:00,226 - restapi - INFO - package type  puppet
+2014-06-22 16:33:00,226 - restapi - INFO - module name nodejs
+2014-06-22 16:33:00,226 - restapi - INFO - this is get deployment json
+2014-06-22 16:33:00,226 - restapi - DEBUG - error while reading deployment json :global name 'codecs' is not defined
+2014-06-22 16:33:51,681 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:33:51,681 - restapi - INFO - package type  puppet
+2014-06-22 16:33:51,681 - restapi - INFO - module name nodejs
+2014-06-22 16:33:51,681 - restapi - INFO - this is get deployment json
+2014-06-22 16:33:51,681 - restapi - DEBUG - error while reading deployment json :an integer is required
+2014-06-22 16:38:43,565 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:38:43,566 - restapi - INFO - package type  puppet
+2014-06-22 16:38:43,566 - restapi - INFO - module name nodejs
+2014-06-22 16:38:43,566 - restapi - INFO - this is get deployment json
+2014-06-22 16:38:43,566 - restapi - DEBUG - error while reading deployment json :global name 'filename' is not defined
+2014-06-22 16:38:56,621 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:38:56,621 - restapi - INFO - package type  puppet
+2014-06-22 16:38:56,621 - restapi - INFO - module name nodejs
+2014-06-22 16:38:56,621 - restapi - INFO - this is get deployment json
+2014-06-22 16:38:56,621 - restapi - DEBUG - error while reading deployment json :'tuple' object has no attribute 'read'
+2014-06-22 16:39:55,611 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:39:55,611 - restapi - INFO - package type  puppet
+2014-06-22 16:39:55,611 - restapi - INFO - module name nodejs
+2014-06-22 16:39:55,611 - restapi - INFO - this is get deployment json
+2014-06-22 16:39:55,611 - restapi - DEBUG - error while reading deployment json :[Errno 2] No such file or directory: 'file.txt'
+2014-06-22 16:40:17,631 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:40:17,632 - restapi - INFO - package type  puppet
+2014-06-22 16:40:17,632 - restapi - INFO - module name nodejs
+2014-06-22 16:40:17,632 - restapi - INFO - this is get deployment json
+2014-06-22 16:41:13,657 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:41:13,658 - restapi - INFO - package type  puppet
+2014-06-22 16:41:13,658 - restapi - INFO - module name nodejs
+2014-06-22 16:41:13,658 - restapi - INFO - this is get deployment json
+2014-06-22 16:41:13,658 - restapi - DEBUG - error while reading deployment json :'list' object has no attribute 'read'
+2014-06-22 16:43:03,054 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:43:03,054 - restapi - INFO - package type  puppet
+2014-06-22 16:43:03,054 - restapi - INFO - module name nodejs
+2014-06-22 16:43:03,054 - restapi - INFO - this is get deployment json
+2014-06-22 16:43:03,055 - restapi - DEBUG - error while reading deployment json :'list' object has no attribute 'read'
+2014-06-22 16:43:22,341 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:43:22,342 - restapi - INFO - package type  puppet
+2014-06-22 16:43:22,342 - restapi - INFO - module name nodejs
+2014-06-22 16:43:22,342 - restapi - INFO - this is get deployment json
+2014-06-22 16:43:27,816 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:43:27,816 - restapi - INFO - package type  puppet
+2014-06-22 16:43:27,816 - restapi - INFO - module name nodejs
+2014-06-22 16:43:27,816 - restapi - INFO - this is get deployment json
+2014-06-22 16:43:37,321 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:43:37,321 - restapi - INFO - package type  puppet
+2014-06-22 16:43:37,322 - restapi - INFO - module name nodejs
+2014-06-22 16:43:37,322 - restapi - INFO - this is get deployment json
+2014-06-22 16:48:16,893 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:48:16,893 - restapi - INFO - package type  puppet
+2014-06-22 16:48:16,893 - restapi - INFO - module name nodejs
+2014-06-22 16:48:16,893 - restapi - INFO - this is get deployment json
+2014-06-22 16:48:16,893 - restapi - DEBUG - error while reading deployment json :Invalid control character at: line 8 column 6 (char 138)
+2014-06-22 16:48:36,469 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:48:36,469 - restapi - INFO - package type  puppet
+2014-06-22 16:48:36,470 - restapi - INFO - module name nodejs
+2014-06-22 16:48:36,470 - restapi - INFO - this is get deployment json
+2014-06-22 16:48:36,470 - restapi - INFO - {u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'defaultAutoscalingPolicy': u'economyPolicy', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 16:48:53,309 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:48:53,309 - restapi - INFO - package type  puppet
+2014-06-22 16:48:53,309 - restapi - INFO - module name nodejs
+2014-06-22 16:48:53,309 - restapi - INFO - this is get deployment json
+2014-06-22 16:48:53,310 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 16:49:20,849 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:49:20,849 - restapi - INFO - package type  puppet
+2014-06-22 16:49:20,849 - restapi - INFO - module name nodejs
+2014-06-22 16:49:20,849 - restapi - INFO - this is get deployment json
+2014-06-22 16:49:20,849 - restapi - INFO - {u'defaultAutoscalingPolicy': u'economyPolicy', u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'version': u'7', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 16:50:34,002 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:50:34,003 - restapi - INFO - package type  puppet
+2014-06-22 16:50:34,003 - restapi - INFO - module name nodejs
+2014-06-22 16:50:34,003 - restapi - INFO - this is get deployment json
+2014-06-22 16:50:34,003 - restapi - INFO - {u'displayName': u'PHP', u'description': u'PHP Cartridge', u'multiTenant': u'false', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'defaultAutoscalingPolicy': u'economyPolicy', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-22 16:51:04,661 - restapi - INFO - accessing /GetModuleStatus
+2014-06-22 16:51:04,661 - restapi - INFO - package type  puppet
+2014-06-22 16:51:04,661 - restapi - INFO - module name nodejs
+2014-06-22 16:51:04,661 - restapi - INFO - this is get deployment json
+2014-06-22 16:51:04,661 - restapi - INFO - {u'displayName': u'PHP', u'description': u'PHP Cartridge', u'portMapping': [{u'proxyPort': u'8280', u'protocol': u'http', u'port': u'80'}, {u'proxyPort': u'8243', u'protocol': u'https', u'port': u'443'}], u'iaasProvider': [{u'maxInstanceLimit': u'4', u'property': [{u'name': u'instanceType', u'value': u'RegionOne/2'}, {u'name': u'keyPair', u'value': u'<key_name>'}], u'type': u'openstack', u'imageId': u'RegionOne/<image_id>'}], u'host': u'stratos.com', u'provider': u'apache', u'type': u'php', u'loadBalancer': {u'property': {u'name': u'default.load.balancer', u'value': u'true'}, u'type': u'lb'}}
+2014-06-23 04:00:56,657 - restapi - INFO - accessing /GetModuleStatus
+2014-06-23 04:00:56,657 - restapi - INFO - package type  puppet
+2014-06-23 04:00:56,657 - restapi - INFO - module name nodejs
+2014-06-23 04:00:56,657 - restapi - INFO - this is get deployment json
+2014-06-23 04:00:56,657 - restapi - INFO - OrderedDict([(u'type', u'php'), (u'provider', u'apache'), (u'host', u'stratos.com'), (u'displayName', u'PHP'), (u'description', u'PHP Cartridge'), (u'version', u'7'), (u'defaultAutoscalingPolicy', u'economyPolicy'), (u'multiTenant', u'false'), (u'portMapping', [OrderedDict([(u'protocol', u'http'), (u'port', u'80'), (u'proxyPort', u'8280')]), OrderedDict([(u'protocol', u'https'), (u'port', u'443'), (u'proxyPort', u'8243')])]), (u'iaasProvider', [OrderedDict([(u'type', u'openstack'), (u'imageId', u'RegionOne/<image_id>'), (u'maxInstanceLimit', u'4'), (u'property', [OrderedDict([(u'name', u'instanceType'), (u'value', u'RegionOne/2')]), OrderedDict([(u'name', u'keyPair'), (u'value', u'<key_name>')])])])]), (u'loadBalancer', OrderedDict([(u'type', u'lb'), (u'property', OrderedDict([(u'name', u'default.load.balancer'), (u'value', u'true')]))]))])
+2014-06-23 04:01:27,495 - restapi - INFO - accessing /GetModuleStatus
+2014-06-23 04:01:27,495 - restapi - INFO - package type  puppet
+2014-06-23 04:01:27,495 - restapi - INFO - module name nodejs
+2014-06-23 04:01:27,495 - restapi - INFO - this is get deployment json
+2014-06-23 04:01:27,495 - restapi - DEBUG - error while reading deployment json :__init__() got an unexpected keyword argument 'indent'
+2014-06-23 04:02:29,362 - restapi - INFO - accessing /GetModuleStatus
+2014-06-23 04:02:29,363 - restapi - INFO - package type  puppet
+2014-06-23 04:02:29,363 - restapi - INFO - module name nodejs
+2014-06-23 04:02:29,363 - restapi - INFO - this is get deployment json
+2014-06-23 04:02:29,363 - restapi - DEBUG - error while reading deployment json :__init__() got an unexpected keyword argument 'indent'
+2014-06-23 04:02:37,705 - restapi - INFO - accessing /GetModuleStatus
+2014-06-23 04:02:37,705 - restapi - INFO - package type  puppet
+2014-06-23 04:02:37,705 - restapi - INFO - module name nodejs
+2014-06-23 04:02:37,706 - restapi - INFO - this is get deployment json
+2014-06-23 04:02:37,706 - restapi - DEBUG - error while reading deployment json :__init__() got an unexpected keyword argument 'indent'
+2014-06-23 04:02:46,535 - restapi - INFO - accessing /GetModuleStatus
+2014-06-23 04:02:46,535 - restapi - INFO - package type  puppet
+2014-06-23 04:02:46,535 - restapi - INFO - module name nodejs
+2014-06-23 04:02:46,535 - restapi - INFO - this is get deployment json
+2014-06-23 04:02:46,536 - restapi - INFO - OrderedDict([(u'type', u'php'), (u'provider', u'apache'), (u'host', u'stratos.com'), (u'displayName', u'PHP'), (u'description', u'PHP Cartridge'), (u'version', u'7'), (u'defaultAutoscalingPolicy', u'economyPolicy'), (u'multiTenant', u'false'), (u'portMapping', [OrderedDict([(u'protocol', u'http'), (u'port', u'80'), (u'proxyPort', u'8280')]), OrderedDict([(u'protocol', u'https'), (u'port', u'443'), (u'proxyPort', u'8243')])]), (u'iaasProvider', [OrderedDict([(u'type', u'openstack'), (u'imageId', u'RegionOne/<image_id>'), (u'maxInstanceLimit', u'4'), (u'property', [OrderedDict([(u'name', u'instanceType'), (u'value', u'RegionOne/2')]), OrderedDict([(u'name', u'keyPair'), (u'value', u'<key_name>')])])])]), (u'loadBalancer', OrderedDict([(u'type', u'lb'), (u'property', OrderedDict([(u'name', u'default.load.balancer'), (u'value', u'true')]))]))])
