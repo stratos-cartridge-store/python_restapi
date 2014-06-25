@@ -22,6 +22,8 @@ from functools import wraps
 #load cherryPyserver
 from web.wsgiserver import CherryPyWSGIServer
 
+app = web.application(conf.route.urls, globals())
+
 #logging configs
 logging.config.fileConfig('conf/logging.conf')
 
@@ -39,6 +41,10 @@ CherryPyWSGIServer.ssl_private_key = conf.config.ssl_privatekey
 ###############################################################################
 # BASIC AUTH     
 ############################################################################### 
+
+def is_test():
+   if 'WEBPY_ENV' in os.environ:
+       return os.environ['WEBPY_ENV'] == 'test'
  
 def check_auth(username, password): 
     if (username,password) in conf.config.allowed:
@@ -47,22 +53,21 @@ def check_auth(username, password):
         return False 
     
     
-def requires_auth(f):
-    @wraps(f)     
-    def decorated(*args, **kwargs):        
-        auth = web.ctx.env['HTTP_AUTHORIZATION'] if 'HTTP_AUTHORIZATION' in  web.ctx.env else None
-        if auth:
-            auth = re.sub('^Basic ', '', auth)
-            username, password = base64.decodestring(auth).split(':')
-        if not auth or not check_auth(username, password):
-            web.header('WWW-Authenticate', 'Basic realm="admin"')
-            web.ctx.status = '401 Unauthorized'
-            return Unauthorized()
-         
-        return f(*args, **kwargs)
-    
-    return decorated
-
+def requires_auth(f):    
+        @wraps(f)
+        def decorated(*args, **kwargs):        
+            auth = web.ctx.env['HTTP_AUTHORIZATION'] if 'HTTP_AUTHORIZATION' in  web.ctx.env else None
+            if auth:
+                auth = re.sub('^Basic ', '', auth)
+                username, password = base64.decodestring(auth).split(':')
+            if not auth or not check_auth(username, password):
+                web.header('WWW-Authenticate', 'Basic realm="admin"')
+                web.ctx.status = '401 Unauthorized'
+                return Unauthorized()
+             
+            return f(*args, **kwargs)
+        
+        return decorated
 
 
 class Unauthorized():
@@ -80,10 +85,11 @@ def createJsonMessage(Code,Message):
     return jsonMessage
 
 #Home 
+
 @requires_auth
 class Index:
     def GET(self):
-                  
+        web.header('Content-type', 'text/html')
         logger.info('You are accessing /')
         #return
         return "Logged in!"
@@ -380,7 +386,9 @@ class  GetDeploymentJson:
             return json.dumps(createJsonMessage("500","Internal Server Error"))
 
         
-if __name__ == "__main__":
-    app = web.application(conf.route.urls, globals())
-    app.run() 
+# if __name__ == "__main__":
+#     app = web.application(conf.route.urls, globals())
+#     app.run() 
 
+if (not is_test()) and __name__ == "__main__":
+    app.run()

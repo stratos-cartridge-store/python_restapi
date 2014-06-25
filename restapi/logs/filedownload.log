@@ -250,3 +250,75 @@
 2014-06-22 14:13:29,884 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
 2014-06-22 14:13:29,885 - filedownloader - INFO - Removed from progresslist.xml nodejs
 2014-06-22 14:13:29,886 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-23 13:01:48,847 - filedownloader - DEBUG - Download URL is = http://10.100.5.104:9773/store/storage/cartridge/2928c99f-34f0-4376-a798-18371be7395b/0c478b59-027a-404a-8e38-334aa52195cd/mysql.tar.gz
+2014-06-23 13:01:48,847 - filedownloader - DEBUG - Module Name is = mysql
+2014-06-23 13:01:48,847 - filedownloader - DEBUG - Module check sum argument value is = 7e7afc4f10261683ac47a65cbca6bcf5
+2014-06-23 13:01:48,848 - filedownloader - INFO - writing to xml file is complete..mysql
+2014-06-23 13:01:49,036 - filedownloader - DEBUG - mysql.tar.gzFile has opened
+2014-06-23 13:01:49,036 - filedownloader - DEBUG - download location/tmp/mysql
+2014-06-23 13:01:49,039 - filedownloader - DEBUG - Downloading: mysql.tar.gz Bytes: 4262
+2014-06-23 13:01:49,039 - filedownloader - DEBUG -       4262  [100.00%]
+2014-06-23 13:01:49,040 - filedownloader - DEBUG - Module check sum value of downloaded file = 7e7afc4f10261683ac47a65cbca6bcf5
+2014-06-23 13:01:51,545 - filedownloader - INFO - mysql.tar.gzFile download finished
+2014-06-23 13:01:51,546 - filedownloader - INFO - Removed from progresslist.xml mysql
+2014-06-23 13:01:51,546 - filedownloader - INFO - writing to xml file is complete..mysql
+2014-06-24 07:31:55,913 - filedownloader - DEBUG - Download URL is = http://10.100.5.82:9763/store/storage/cartridge/2928c99f-34f0-4376-a798-18371be7395b/0c478b59-027a-404a-8e38-334aa52195cd/mysql.tar.gz
+2014-06-24 07:31:55,914 - filedownloader - DEBUG - Module Name is = mysql
+2014-06-24 07:31:55,914 - filedownloader - DEBUG - Module check sum argument value is = 7e7afc4f10261683ac47a65cbca6bcf5
+2014-06-24 07:31:55,915 - filedownloader - INFO - writing to xml file is complete..mysql
+2014-06-24 07:31:55,933 - filedownloader - DEBUG - mysql.tar.gzFile has opened
+2014-06-24 07:31:55,933 - filedownloader - DEBUG - download location/tmp/mysql
+2014-06-24 07:31:55,934 - filedownloader - DEBUG - Downloading: mysql.tar.gz Bytes: 4262
+2014-06-24 07:31:55,934 - filedownloader - DEBUG -       4262  [100.00%]
+2014-06-24 07:31:55,935 - filedownloader - DEBUG - Module check sum value of downloaded file = 7e7afc4f10261683ac47a65cbca6bcf5
+2014-06-24 07:31:56,021 - filedownloader - INFO - mysql.tar.gzFile download finished
+2014-06-24 07:31:56,021 - filedownloader - INFO - Removed from progresslist.xml mysql
+2014-06-24 07:31:56,022 - filedownloader - INFO - writing to xml file is complete..mysql
+2014-06-24 07:47:50,305 - filedownloader - DEBUG - Download URL is = http://10.100.5.82:9763/store/storage/cartridge/72f36524-641d-4c86-bc17-6a0cbf2e13d8/7b79b33a-0ca6-4cc1-809b-237f455f3560/php.tar.gz
+2014-06-24 07:47:50,305 - filedownloader - DEBUG - Module Name is = php
+2014-06-24 07:47:50,305 - filedownloader - DEBUG - Module check sum argument value is = d3331c37229bcd29995c98b9bf1d421b
+2014-06-24 07:47:50,307 - filedownloader - INFO - writing to xml file is complete..php
+2014-06-24 07:47:50,331 - filedownloader - DEBUG - php.tar.gzFile has opened
+2014-06-24 07:47:50,331 - filedownloader - DEBUG - download location/tmp/php
+2014-06-24 07:47:50,332 - filedownloader - DEBUG - Downloading: php.tar.gz Bytes: 21746
+2014-06-24 07:47:50,337 - filedownloader - DEBUG -       8192  [37.67%]
+2014-06-24 07:47:50,347 - filedownloader - DEBUG - Module check sum value of downloaded file = d3331c37229bcd29995c98b9bf1d421b
+2014-06-24 07:47:50,438 - filedownloader - INFO - php.tar.gzFile download finished
+2014-06-24 07:47:50,439 - filedownloader - INFO - Removed from progresslist.xml php
+2014-06-24 07:47:50,439 - filedownloader - INFO - writing to xml file is complete..php
+2014-06-24 08:22:22,555 - filedownloader - DEBUG - Download URL is = http://10.100.5.82:9763/store/storage/cartridge/9a7b3111-3067-4f98-bd79-83951193b6ec/c0d64c65-4c83-4413-9829-f771beb3048b/php.tar.gz
+2014-06-24 08:22:22,555 - filedownloader - DEBUG - Module Name is = php
+2014-06-24 08:22:22,555 - filedownloader - DEBUG - Module check sum argument value is = d3331c37229bcd29995c98b9bf1d421b
+2014-06-24 08:22:22,557 - filedownloader - INFO - writing to xml file is complete..php
+2014-06-24 08:22:22,580 - filedownloader - DEBUG - php.tar.gzFile has opened
+2014-06-24 08:22:22,581 - filedownloader - DEBUG - download location/tmp/php
+2014-06-24 08:22:22,581 - filedownloader - DEBUG - Downloading: php.tar.gz Bytes: 21746
+2014-06-24 08:22:22,587 - filedownloader - DEBUG -       8192  [37.67%]
+2014-06-24 08:22:22,597 - filedownloader - DEBUG - Module check sum value of downloaded file = d3331c37229bcd29995c98b9bf1d421b
+2014-06-24 08:22:22,937 - filedownloader - INFO - php.tar.gzFile download finished
+2014-06-24 08:22:22,938 - filedownloader - INFO - Removed from progresslist.xml php
+2014-06-24 08:22:22,939 - filedownloader - INFO - writing to xml file is complete..php
+2014-06-24 08:25:50,170 - filedownloader - DEBUG - Download URL is = http://10.100.5.82:9763/store/storage/cartridge/e61b3ba0-9458-4877-a9ba-816c0595bb92/e04ac049-a7df-4379-8070-1c5ad26827ab/mysql.tar.gz
+2014-06-24 08:25:50,170 - filedownloader - DEBUG - Module Name is = mysql
+2014-06-24 08:25:50,170 - filedownloader - DEBUG - Module check sum argument value is = 379479b02b556ae7b239e508b645ae8e
+2014-06-24 08:25:50,172 - filedownloader - INFO - writing to xml file is complete..mysql
+2014-06-24 08:25:50,195 - filedownloader - DEBUG - mysql.tar.gzFile has opened
+2014-06-24 08:25:50,196 - filedownloader - DEBUG - download location/tmp/mysql
+2014-06-24 08:25:50,196 - filedownloader - DEBUG - Downloading: mysql.tar.gz Bytes: 4234
+2014-06-24 08:25:50,197 - filedownloader - DEBUG -       4234  [100.00%]
+2014-06-24 08:25:50,198 - filedownloader - DEBUG - Module check sum value of downloaded file = 379479b02b556ae7b239e508b645ae8e
+2014-06-24 08:25:50,538 - filedownloader - INFO - mysql.tar.gzFile download finished
+2014-06-24 08:25:50,539 - filedownloader - INFO - Removed from progresslist.xml mysql
+2014-06-24 08:25:50,539 - filedownloader - INFO - writing to xml file is complete..mysql
+2014-06-25 09:27:22,609 - filedownloader - DEBUG - Download URL is = https://www.dropbox.com/s/9yc65p7b2hkw9t3/nodejs.tar.gz?dl=1
+2014-06-25 09:27:22,609 - filedownloader - DEBUG - Module Name is = nodejs
+2014-06-25 09:27:22,609 - filedownloader - DEBUG - Module check sum argument value is = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-25 09:27:22,610 - filedownloader - INFO - writing to xml file is complete..nodejs
+2014-06-25 09:27:26,597 - filedownloader - DEBUG - nodejs.tar.gz?dl=1File has opened
+2014-06-25 09:27:26,598 - filedownloader - DEBUG - download location/tmp/nodejs
+2014-06-25 09:27:26,600 - filedownloader - DEBUG - Downloading: nodejs.tar.gz?dl=1 Bytes: 1650
+2014-06-25 09:27:26,600 - filedownloader - DEBUG -       1650  [100.00%]
+2014-06-25 09:27:26,600 - filedownloader - DEBUG - Module check sum value of downloaded file = f6b1e4ce34219c981aebbe035aa5036f
+2014-06-25 09:27:26,680 - filedownloader - INFO - nodejs.tar.gz?dl=1File download finished
+2014-06-25 09:27:26,680 - filedownloader - INFO - Removed from progresslist.xml nodejs
+2014-06-25 09:27:26,681 - filedownloader - INFO - writing to xml file is complete..nodejs
